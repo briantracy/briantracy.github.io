@@ -1,11 +1,15 @@
 #!/bin/bash
 
 # Update the "last updated" part of homepage
-# It is always the last line of index.html
+# Insert the date into the third to last line
 
-sed -i '' '$d' index.html
+gsed -i '$d' index.html
+gsed -i '$d' index.html
+gsed -i '$d' index.html
+
 echo "Last updated on `date`" >> index.html
-
+echo "    </body>" >> index.html
+echo "</html>" >> index.html
 
 
 # Add, commit, and push all files
