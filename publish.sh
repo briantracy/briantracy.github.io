@@ -7,6 +7,7 @@ gsed -i '$d' index.html
 gsed -i '$d' index.html
 gsed -i '$d' index.html
 
+echo "<br>" >> index.html
 echo "Last updated on `date`" >> index.html
 echo "    </body>" >> index.html
 echo "</html>" >> index.html
