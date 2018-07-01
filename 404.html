@@ -6,20 +6,23 @@
             document.addEventListener('DOMContentLoaded', function() {
                 var anim = document.getElementById('anim');
                 var spaces = 39;
-                var position = Math.floor(spaces / 2); 
+                var position = 0; //Math.floor(spaces / 2); 
                 var velocity = 1;
-                var marker = '~>';
+                var marker = '~&gt;';
                 var interval = 100; // update every n milliseconds
+                var left = '[client(you)]';
+                var right = '[server]';
                 function mkstring(char, n) { var str = ""; for (var i = 1; i <= n; i++) { str += char } return str; }
                 function update() {
-                    anim.innerHTML = '[' + mkstring('&nbsp', position) + marker + 
-                                        mkstring('&nbsp', spaces - (position)) + ']'
-                    if (position == spaces) { velocity = -1; marker = '<~'; }
-                    if (position == 0)      { velocity =  1; marker = '~>'; }
+                    anim.innerHTML = left + mkstring('&nbsp', position) + marker + 
+                                        mkstring('&nbsp', spaces - (position)) + right
+                    if (position == spaces) { velocity = -1; marker = '??'; }
+                    if (position == 0)      { velocity =  1; marker = '~&gt;'; }
                     position += velocity;
                 }
                 update()
-                setInterval(update, interval);
+                var int = setInterval(update, interval);
+                anim.addEventListener('click', function() { clearInterval(int); })
             });
         </script>
     </head>
@@ -33,5 +36,8 @@
             <br>
             <div id="anim"></div>
         </tt>
+        <br>
+        <br>
+        <i>click animation to stop it</i>
     </body>
 </html>
