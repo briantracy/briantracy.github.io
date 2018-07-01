@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>404 Not Found</title>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var anim = document.getElementById('anim');
-                var spaces = 30, position = 0, velocity = 1, interval = 100;
-                var marker = '~&gt;', left = '[client(you)]', right = '[server]';
-                function rptstr(char, n) { var str = ""; for (var i = 1; i <= n; i++, str += char); return str; }
-                function update() {
-                    anim.innerHTML = left + rptstr('&nbsp', position) + marker + 
-                                        rptstr('&nbsp', spaces - (position)) + right
-                    if (position == spaces) { velocity = -1; marker = '??'; }
-                    if (position == 0) { velocity =  1; marker = '~&gt;'; }
-                    position += velocity;
-                }
-                update()
-                var int = setInterval(update, interval);
-                anim.addEventListener('click', function() { clearInterval(int); })
-            });
-        </script>
-    </head>
-    
-    <body>
-        <tt>
-            404 Not Found
-            <br>
-            The page you have requested does not exist.
-            <br>
-            <br>
-            <div id="anim"></div>
-        </tt>
-        <br>
-        <br>
-        <i>click animation to stop it</i>
-    </body>
+  <head>
+    <title>404 Not Found</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var anim = document.getElementById('anim');
+        var spaces = 30, position = 0, velocity = 1, interval = 100;
+        var marker = '~&gt;', left = '[client(you)]', right = '[server]';
+        function rptstr(char, n) { var str = ""; for (var i = 1; i <= n; i++, str += char); return str; }
+        function update() {
+          anim.innerHTML = left + rptstr('&nbsp', position) + marker + rptstr('&nbsp', spaces - (position)) + right
+          if (position == spaces) { velocity = -1; marker = '??'; }
+          if (position == 0) { velocity =  1; marker = '~&gt;'; }
+          position += velocity;
+        }
+        update()
+        var int = setInterval(update, interval);
+        anim.addEventListener('click', function() { clearInterval(int); })
+      });
+    </script>
+  </head>
+  
+  <body>
+    <tt>
+      404 Not Found
+      <br>
+      The page you have requested does not exist.
+      <br>
+      <br>
+      <div id="anim"></div>
+    </tt>
+    <br>
+    <br>
+    <i>click animation to stop it</i>
+  </body>
 </html>
