@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update the "last updated" part of homepage
-# Insert the date into the third to last line
+# Remove last three lines, then update them
 
 gsed -i '$d' index.html
 gsed -i '$d' index.html
