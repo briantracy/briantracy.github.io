@@ -18,7 +18,7 @@ for img in images/*.{jpg,png}; do
     convert -resize 33% "$img" "compressed/`basename $img`"
 done
 
-# Add, commit, and push all files
+# publish 
 
 git add . 
 git commit -m "`date`"
