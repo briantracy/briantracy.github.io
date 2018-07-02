@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (position == 0) { velocity =  1; marker = '~&gt;'; }
       position += velocity;
     }
-    update()
-    var int = setInterval(update, interval);
-    anim.addEventListener('click', function() { clearInterval(int); })
+  update();
+  var int = setInterval(update, interval);
+  anim.addEventListener('click', function() { clearInterval(int); })
 });
 </script>
 </head>

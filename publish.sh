@@ -11,6 +11,11 @@ echo "<i>Last updated on `date`</i>" >> index.html
 echo "</body>" >> index.html
 echo "</html>" >> index.html
 
+# Compress all images in the images folder into the compressed folder
+for img in images/*.{jpg,png}; do
+    echo "Compressing $img"
+    convert -resize 33% "$img" "compressed/`basename $img`"
+done
 
 # Add, commit, and push all files
 
