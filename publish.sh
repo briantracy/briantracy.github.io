@@ -13,6 +13,7 @@ echo "</html>" >> index.html
 
 # Compress all images in the images folder into the compressed folder
 for img in images/*.{jpg,png}; do
+    [ -e "$img" ] || continue
     echo "Compressing $img"
     convert -resize 33% "$img" "compressed/`basename $img`"
 done
