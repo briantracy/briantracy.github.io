@@ -2,7 +2,6 @@
 
 # Update the "last updated" part of homepage
 # Remove last three lines, then update them
-#
 
 gsed -i '$d' index.html
 gsed -i '$d' index.html
@@ -13,6 +12,7 @@ echo "</body>" >> index.html
 echo "</html>" >> index.html
 
 # Compress all images in the images folder into the compressed folder
+# This is expensive, so only compress new images or ones that have been modified
 for img in $(git ls-files -mo | grep -E 'jpg|png'); do
     [ -e "$img" ] || continue
     echo "Compressing $img"
