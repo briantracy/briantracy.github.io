@@ -16,7 +16,7 @@ echo "</html>" >> index.html
 for img in $(git ls-files -mo | grep -E 'jpg|png'); do
     [ -e "$img" ] || continue
     echo "Compressing $img"
-    convert -resize 33% "$img" "compressed/`basename $img`"
+    convert -resize 33% "$img" "images/`basename $img`"
 done
 
 # publish 
