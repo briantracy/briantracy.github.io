@@ -19,6 +19,11 @@ for img in $(git ls-files -mo | grep -E 'jpg|png'); do
     convert -resize 33% "$img" "images/`basename $img`"
 done
 
+if [ "$?" -ne 0 ]; then
+    echo "something went wrong with image compression"
+    exit 1
+fi
+
 # publish 
 
 git add . 
