@@ -7,8 +7,8 @@ gsed -i '$d' index.html
 gsed -i '$d' index.html
 gsed -i '$d' index.html
 
-echo "<i>Last updated on `date`</i>" >> index.html
-echo "</body>" >> index.html
+echo "        <i>Last updated on `date`</i>" >> index.html
+echo "    </body>" >> index.html
 echo "</html>" >> index.html
 
 # Compress all images in the images folder into the compressed folder
