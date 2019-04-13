@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>404 Not Found</title>
-<script>
+  <head>
+    <title>404 Not Found</title>
+    <script>
 document.addEventListener('DOMContentLoaded', function() {
   var anim = document.getElementById('anim');
   var spaces = 30, position = 0, velocity = 1, interval = 100;
@@ -13,19 +13,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (position == spaces) { velocity = -1; marker = '??'; }
     if (position == 0) { velocity =  1; marker = '~&gt;'; }
       position += velocity;
-    }
+  }
   update();
   var int = setInterval(update, interval);
   anim.addEventListener('click', function() { clearInterval(int); })
 });
-</script>
-</head>
-<body>
-<pre>
+    </script>
+  </head>
+
+  <body>
+    <pre>
 404 Not Found
 The page you have requested does not exist.
 
 <div id="anim"></div>
-</pre>
-</body>
+    </pre>
+  </body>
 </html>
