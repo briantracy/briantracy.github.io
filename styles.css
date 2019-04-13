@@ -1,17 +1,5 @@
 /* styles.css */
 
-body {
-
-}
-
-h1 {
-
-}
-
-#email {
-    font-style: italic;
-}
-
-#update {
-    font-style: oblique;
+.zebra tr:nth-child(even) {
+    background-color: lightgray;
 }
