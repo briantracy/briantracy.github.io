@@ -6,8 +6,6 @@
 all: render compress publish
 
 publish:
-	echo "publishing"
-	exit 0
 	git add .
 	git commit -m "automated website commit: `date`"
 	git push
