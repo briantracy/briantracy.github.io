@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 
 
-echo $SITE_ROOT
-exit 0
 
 gsed ':a;N;$!ba;s/\n//g;s/: /:/g;s/ {  /{/g;s/;  /;/g;s/;}/}/g' \
-         ../templates/styles.css > ../templates/styles.min.css
+         $SITE_ROOT/templates/styles.css > $SITE_ROOT/templates/styles.min.css
 
-for file in $(git ls-files -m ../markdown/); do
+for file in $(git ls-files -m $SITE_ROOT/markdown/); do
     printf "rendering $file\n"
-    read -n 1
     base=$(basename $file)
     title=${base%%.md}
 
