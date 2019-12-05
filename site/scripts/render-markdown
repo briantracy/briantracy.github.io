@@ -2,11 +2,11 @@
 
 
 gsed ':a;N;$!ba;s/\n//g;s/: /:/g;s/ {  /{/g;s/;  /;/g;s/;}/}/g' \
-         ./templates/styles.css > ./templates/styles.min.css
+         ../templates/styles.css > ../templates/styles.min.css
 
-for file in $(git ls-files -m markdown); do
+for file in $(git ls-files -m ../markdown/); do
     printf "rendering $file\n"
-
+    read -n 1
     base=$(basename $file)
     title=${base%%.md}
 
@@ -17,6 +17,6 @@ for file in $(git ls-files -m markdown); do
            --metadata date="$(date)" \
            "$file" |
            gsed ':a;N;$!ba;s|>\s*<|><|g' \
-           > "../${title}.html"
+           > "../../${title}.html"
 done
 

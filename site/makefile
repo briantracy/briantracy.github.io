@@ -2,6 +2,7 @@
 
 .PHONY: all render compress publish
 
+export SITE_ROOT = $(shell pwd)
 
 all: render compress publish
 
@@ -11,7 +12,7 @@ publish:
 	git push
 
 render:
-	bash render.sh
+	./scripts/render-markdown
 
 compress:
 	echo "compressing images"
