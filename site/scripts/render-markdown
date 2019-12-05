@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 
+echo $SITE_ROOT
+exit 0
+
 gsed ':a;N;$!ba;s/\n//g;s/: /:/g;s/ {  /{/g;s/;  /;/g;s/;}/}/g' \
          ../templates/styles.css > ../templates/styles.min.css
 
