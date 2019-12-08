@@ -1,22 +1,23 @@
 #!/usr/bin/env bash
 
 
-
+# Minify the CSS
 gsed ':a;N;$!ba;s/\n//g;s/: /:/g;s/ {  /{/g;s/;  /;/g;s/;}/}/g' \
-         $SITE_ROOT/templates/styles.css > $SITE_ROOT/templates/styles.min.css
+         "${SITE_ROOT}/templates/styles.css" > "${SITE_ROOT}/templates/styles.min.css"
 
-for file in $(git ls-files -m $SITE_ROOT/markdown/); do
-    printf "rendering $file\n"
+for file in $(find "${SITE_ROOT}/markdown" -name '*.md'); do
+    echo "... rendering file $file"
+
     base=$(basename $file)
     title=${base%%.md}
 
     pandoc -t html5 \
-           --template=./templates/template.html \
-           --include-in-header=./templates/styles.min.css \
+           --template="${SITE_ROOT}/templates/template.html" \
+           --include-in-header="${SITE_ROOT}/templates/styles.min.css" \
            --metadata title="Brian Tracy - $title" \
            --metadata date="$(date)" \
            "$file" |
            gsed ':a;N;$!ba;s|>\s*<|><|g' \
-           > "../../${title}.html"
+           > "${SITE_ROOT}/../${title}.html"
 done
 
