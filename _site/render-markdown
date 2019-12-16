@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+
+REPO_ROOT='/Users/briantracy/Desktop/projects/website'
+CSS_FILE=$(mktemp)
+
+# Minify the CSS
+gsed ':a;N;$!ba;s/\n//g;s/: /:/g;s/ {  /{/g;s/;  /;/g;s/;}/}/g' \
+    "${REPO_ROOT}/_site/styles.css" \
+    > ${CSS_FILE}
+
+
+# OSX differs from linux, of course
+modification_date() {
+    stat -f "%Sm" "$1"
+}
+
+for mdfile in $(find ${REPO_ROOT} -name '*.md'); do
+    base_name="${mdfile%.*}"
+    html_file="${base_name}.html"
+    mod_date=$(modification_date $mdfile)
+    echo "$mdfile -> $html_file ($mod_date)"
+    
+    pandoc -t html5 \
+        --template="${REPO_ROOT}/_site/template.html" \
+        --include-in-header="${CSS_FILE}" \
+        --metadata title="Brian Tracy - $(basename $base_name)" \
+        --metadata date="${mod_date}" \
+        "${mdfile}" \
+        | gsed ':a;N;$!ba;s|>\s*<|><|g' \
+        > "${html_file}"
+done
+
+
+render_from_into() {
+    local src="$1"
+    local dst="$2"
+    local dry="$3"
+
+    echo "rendering from $src to $dst ; dry run? = $dry"
+
+    for file in $(git ls-files -m $src | grep '\.md$'); do
+
+        base=$(basename $file)
+        title=${base%%.md}
+        
+        echo "... rendering $file -> ${dst}/${title}.html"
+        
+        [ "$dry" == "dry" ] && continue
+        pandoc -t html5 \
+            --template="${REPO_ROOT}/templates/template.html" \
+            --include-in-header="${REPO_ROOT}/templates/styles.min.css" \
+            --metadata title="Brian Tracy - $title" \
+            --metadata date="$(date)" \
+            "$file" |
+            gsed ':a;N;$!ba;s|>\s*<|><|g' \
+            > "${dst}/${title}.html"
+    done
+}
