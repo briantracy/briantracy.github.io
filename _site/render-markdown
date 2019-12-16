@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-REPO_ROOT='/Users/briantracy/Desktop/projects/website'
+[ -z ${REPO_ROOT} ] && \
+    { echo "REPO_ROOT must be defined to execute this script" ; exit 1 ; }
+
 CSS_FILE=$(mktemp)
 
 # Minify the CSS

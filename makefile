@@ -2,7 +2,7 @@
 
 .PHONY: all render compress publish
 
-export SITE_ROOT = $(shell pwd)
+export REPO_ROOT = $(shell pwd)
 
 all: render publish
 
