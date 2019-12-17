@@ -5,6 +5,8 @@ I like discussing books with people, but I always forget which ones I have
 read. Below is a list of all the books I can remember reading with the most
 recent appearing first. &#8224; = in progress, \* = favorite
 
+I mostly read well known books, so the author is omitted if it is obvious.
+
 | Title | Comments |
 |-------|----------|
 | Brave New World&#8224; | |
