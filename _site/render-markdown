@@ -27,7 +27,7 @@ for mdfile in $(find ${REPO_ROOT} -name '*.md'); do
         --metadata date="${mod_date}" \
         --ascii \
         "${mdfile}" \
-        | gsed ':a;N;$!ba;s|>\s*<|><|g' \
+        | html-minifier --no-html5 --collapse-whitespace --remove-comments \
         > "${html_file}"
 done
 
