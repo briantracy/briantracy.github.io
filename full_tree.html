@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v1.7.0 (c) 1996 - 2014 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  <!-- 
+  BODY { font-family : ariel, monospace, sans-serif; }
+  P { font-weight: normal; font-family : ariel, monospace, sans-serif; color: black; background-color: transparent;}
+  B { font-weight: normal; color: black; background-color: transparent;}
+  A:visited { font-weight : normal; text-decoration : none; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:link    { font-weight : normal; text-decoration : none; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:hover   { color : #000000; font-weight : normal; text-decoration : underline; background-color : yellow; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  A:active  { color : #000000; font-weight: normal; background-color : transparent; margin : 0px 0px 0px 0px; padding : 0px 0px 0px 0px; display: inline; }
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  background-color: transparent;}
+  .FIFO  { color: purple; background-color: transparent;}
+  .CHAR  { color: yellow; background-color: transparent;}
+  .DIR   { color: blue;   background-color: transparent;}
+  .BLOCK { color: yellow; background-color: transparent;}
+  .LINK  { color: aqua;   background-color: transparent;}
+  .SOCK  { color: fuchsia;background-color: transparent;}
+  .EXEC  { color: green;  background-color: transparent;}
+  -->
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="/">/</a><br>
+	├── <a href="//404.html">404.html</a><br>
+	├── <a href="//CNAME">CNAME</a><br>
+	├── <a href="//_site/">_site</a><br>
+	│   ├── <a href="//_site/colorschemes.txt">colorschemes.txt</a><br>
+	│   ├── <a href="//_site/oldhtml/">oldhtml</a><br>
+	│   │   ├── <a href="//_site/oldhtml/about.html">about.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/books.html">books.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/conway.html">conway.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/creations.html">creations.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/education.html">education.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/employment.html">employment.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/index.html">index.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/photography.html">photography.html</a><br>
+	│   │   ├── <a href="//_site/oldhtml/software.html">software.html</a><br>
+	│   │   └── <a href="//_site/oldhtml/web.html">web.html</a><br>
+	│   ├── <a href="//_site/publish.sh">publish.sh</a><br>
+	│   ├── <a href="//_site/render-markdown">render-markdown</a><br>
+	│   ├── <a href="//_site/styles.css">styles.css</a><br>
+	│   ├── <a href="//_site/styles.scss">styles.scss</a><br>
+	│   └── <a href="//_site/template.html">template.html</a><br>
+	├── <a href="//about.html">about.html</a><br>
+	├── <a href="//about.md">about.md</a><br>
+	├── <a href="//books.html">books.html</a><br>
+	├── <a href="//books.md">books.md</a><br>
+	├── <a href="//full_tree.html">full_tree.html</a><br>
+	├── <a href="//images/">images</a><br>
+	│   ├── <a href="//images/about_me.jpg">about_me.jpg</a><br>
+	│   ├── <a href="//images/about_traveling.jpg">about_traveling.jpg</a><br>
+	│   ├── <a href="//images/all_flags.jpg">all_flags.jpg</a><br>
+	│   ├── <a href="//images/berkshire.jpg">berkshire.jpg</a><br>
+	│   ├── <a href="//images/blocks_glue.jpg">blocks_glue.jpg</a><br>
+	│   ├── <a href="//images/blocks_stacked.jpg">blocks_stacked.jpg</a><br>
+	│   ├── <a href="//images/bluejeans_freshman.jpg">bluejeans_freshman.jpg</a><br>
+	│   ├── <a href="//images/box1_block.jpg">box1_block.jpg</a><br>
+	│   ├── <a href="//images/box1_closed.jpg">box1_closed.jpg</a><br>
+	│   ├── <a href="//images/box1_forstner.jpg">box1_forstner.jpg</a><br>
+	│   ├── <a href="//images/box1_scooped.jpg">box1_scooped.jpg</a><br>
+	│   ├── <a href="//images/cuttingboard1.jpg">cuttingboard1.jpg</a><br>
+	│   ├── <a href="//images/desk_maps.jpg">desk_maps.jpg</a><br>
+	│   ├── <a href="//images/doorstop.jpg">doorstop.jpg</a><br>
+	│   ├── <a href="//images/flowerpot_done.jpg">flowerpot_done.jpg</a><br>
+	│   ├── <a href="//images/flowerpot_drillpress.jpg">flowerpot_drillpress.jpg</a><br>
+	│   ├── <a href="//images/flowerpot_oct.jpg">flowerpot_oct.jpg</a><br>
+	│   ├── <a href="//images/flowerpot_raw.jpg">flowerpot_raw.jpg</a><br>
+	│   ├── <a href="//images/flowerpot_rough.jpg">flowerpot_rough.jpg</a><br>
+	│   ├── <a href="//images/guitar.jpg">guitar.jpg</a><br>
+	│   ├── <a href="//images/nytimes.jpg">nytimes.jpg</a><br>
+	│   ├── <a href="//images/patio.jpg">patio.jpg</a><br>
+	│   ├── <a href="//images/pencil_holder_finished.jpg">pencil_holder_finished.jpg</a><br>
+	│   ├── <a href="//images/pencil_holder_rough.jpg">pencil_holder_rough.jpg</a><br>
+	│   ├── <a href="//images/pencil_holder_sanded.jpg">pencil_holder_sanded.jpg</a><br>
+	│   ├── <a href="//images/pictureframe_miters.jpg">pictureframe_miters.jpg</a><br>
+	│   ├── <a href="//images/samoset.jpg">samoset.jpg</a><br>
+	│   ├── <a href="//images/screensaver.gif">screensaver.gif</a><br>
+	│   ├── <a href="//images/screw_checker.jpg">screw_checker.jpg</a><br>
+	│   ├── <a href="//images/stamp_3dmodel.jpg">stamp_3dmodel.jpg</a><br>
+	│   ├── <a href="//images/stamp_final.jpg">stamp_final.jpg</a><br>
+	│   ├── <a href="//images/stamp_wax.jpg">stamp_wax.jpg</a><br>
+	│   ├── <a href="//images/stamp_whittle.jpg">stamp_whittle.jpg</a><br>
+	│   ├── <a href="//images/uncompressed/">uncompressed</a><br>
+	│   │   ├── <a href="//images/uncompressed/about_traveling.jpg">about_traveling.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/all_flags.jpg">all_flags.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/blocks_glue.jpg">blocks_glue.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/blocks_stacked.jpg">blocks_stacked.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/bluejeans_freshman.jpg">bluejeans_freshman.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/box1_block.jpg">box1_block.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/box1_closed.jpg">box1_closed.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/box1_forstner.jpg">box1_forstner.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/box1_scooped.jpg">box1_scooped.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/cuttingboard1.jpg">cuttingboard1.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/desk_maps.jpg">desk_maps.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/doorstop.jpg">doorstop.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/flowerpot_done.jpg">flowerpot_done.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/flowerpot_drillpress.jpg">flowerpot_drillpress.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/flowerpot_oct.jpg">flowerpot_oct.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/flowerpot_raw.jpg">flowerpot_raw.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/flowerpot_rough.jpg">flowerpot_rough.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/patio.jpg">patio.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/pencil_holder_finished.jpg">pencil_holder_finished.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/pencil_holder_rough.jpg">pencil_holder_rough.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/pencil_holder_sanded.jpg">pencil_holder_sanded.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/samoset.jpg">samoset.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/screw_checker.jpg">screw_checker.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/stamp_3dmodel.jpg">stamp_3dmodel.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/stamp_final.jpg">stamp_final.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/stamp_wax.jpg">stamp_wax.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/stamp_whittle.jpg">stamp_whittle.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/usa_flag.jpg">usa_flag.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/whittle1.jpg">whittle1.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/whittle1_shavings.jpg">whittle1_shavings.jpg</a><br>
+	│   │   ├── <a href="//images/uncompressed/winter_haley.jpg">winter_haley.jpg</a><br>
+	│   │   └── <a href="//images/uncompressed/winter_haley2.jpg">winter_haley2.jpg</a><br>
+	│   ├── <a href="//images/usa_flag.jpg">usa_flag.jpg</a><br>
+	│   ├── <a href="//images/whittle1.jpg">whittle1.jpg</a><br>
+	│   ├── <a href="//images/whittle1_shavings.jpg">whittle1_shavings.jpg</a><br>
+	│   ├── <a href="//images/winter_haley.jpg">winter_haley.jpg</a><br>
+	│   └── <a href="//images/winter_haley2.jpg">winter_haley2.jpg</a><br>
+	├── <a href="//index.html">index.html</a><br>
+	├── <a href="//index.md">index.md</a><br>
+	├── <a href="//internet-adventures/">internet-adventures</a><br>
+	│   ├── <a href="//internet-adventures/linguistic-power.html">linguistic-power.html</a><br>
+	│   └── <a href="//internet-adventures/linguistic-power.md">linguistic-power.md</a><br>
+	├── <a href="//internet-adventures.html">internet-adventures.html</a><br>
+	├── <a href="//internet-adventures.md">internet-adventures.md</a><br>
+	├── <a href="//makefile">makefile</a><br>
+	└── <a href="//resources/">resources</a><br>
+	&nbsp;&nbsp;&nbsp; ├── <a href="//resources/resume.pdf">resume.pdf</a><br>
+	&nbsp;&nbsp;&nbsp; └── <a href="//resources/this_is_water.pdf">this_is_water.pdf</a><br>
+	<br><br>
+	</p>
+	<p>
+
+6 directories, 102 files
+	<br><br>
+	</p>
+	<hr>
+	<p class="VERSION">
+		 tree v1.7.0 © 1996 - 2014 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>
