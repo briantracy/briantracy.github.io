@@ -24,7 +24,7 @@ Keep in mind that the comments might contain spoilers.
 | The Slow Regard of Silent Things | I did not like this one as much as the two KingKiller books, but it served as a good read during the unbearable hiatus that we are currently experiencing before the final book in the series. |
 | Mistborn Series \* | I really love how well these books are structured, both in terms of pacing and worldbuilding. The magic is so internally consistent and it provides a refreshing, almost "realistic" power. |
 | ~~Shop Class as Soulcraft~~ | Stopped reading this one because I didn't like the attitude of author towards the current generation's work ethic. I will reread and hopefully make a more concrete assessment. |
-| The Old Man and the Sea | |
+| The Old Man and the Sea | Enjoyed it |
 | A Little Life \*| |
 | The Death of Ivan Ilych | |
 | The Catcher in the Rye | |
