@@ -35,7 +35,7 @@ school as a systems administrator in the computer lab.
 | Numerical Constant | *e* |
 | SI Unit | Ampere |
 | Phenomenon | Magnetism |
-| Date Format | Tue Feb 5 23:01:16 EST 2019 (standard UNIX date format) |
+| Date Format | Tue Feb 5 23:01:16 EST 2019 |
 | Essay | [This is Water](/resources/this_is_water.pdf)
 | Band | Tedeschi Trucks Band |
 | Metal | Copper |
