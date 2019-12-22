@@ -6,4 +6,4 @@
 2. [Books](books.html)
 3. [Internet Adventures](internet-adventures.html)
 4. [Software](software.html)
-5. [Full Tree](full-tree.html)
+

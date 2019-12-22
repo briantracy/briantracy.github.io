@@ -7,8 +7,11 @@ recent appearing first. &#8224; = in progress, \* = favorite
 I mostly read well known books, so the author is omitted if it is obvious.
 Keep in mind that the comments might contain spoilers.
 
+---
+
 | Title | Comments |
 |-------|----------|
+| Sam's Teach Yourself TCP/IP &#8224; | |
 | Brave New World | I recently read an [an essay by Keynes](/resources/keynes_future.pdf) about the future of economics once mass automation has ended the need for everyone to work. Brave New World seems to be a pessimistic prediction of the world Keynes imagined, and I think that it is really well conceived. My favorite character is Mustapha Mond.  |
 | Jane Eyre \*| Absolutely loved it. My reading list is very dude heavy, so it was nice to get a female perspective, both from a main character and author. I never doubted Mr. Rochester for a second, I love that guy. |
 | Gentlemen Bankers: The World of J.P. Morgan | Assigned reading in my History of Capitalism course. While it is interesting to see how magnates come to power, I think it is more interesting how they retain that power and transform it into a dynasty for their children. This book reminds me a lot of HBO's *Succession*, about a media magnate and his family. |
@@ -30,12 +33,12 @@ Keep in mind that the comments might contain spoilers.
 | The Catcher in the Rye | Holden is my least favorite character in any book. He acts like he is smarter than everyone and has no self awareness. |
 | The Tsar of Love and Techno | Required reading for my first summer before college. I liked the stories spanned several decades and all joined together at the end. |
 | The Kite Runner | |
-| The Communist Manifesto | |
-| 1984 | |
-| The Name of the Wind, The Wise Man's Fear \* | Pat Rothfuss really needs to release the third book! |
-| The Art of War | |
+| The Communist Manifesto | I read this because I became interested in the Cold War and what exactly all the hype was about. Growing up in America, it is easy for me to think that Economics == Capitalism, and that our current system is the best system. This book didn't challenge that belief, but it made me think more about it. |
+| 1984 | As a staunch supporter of civil liberties and restricted government power, this book is a classic! |
+| The Name of the Wind, The Wise Man's Fear \* | Pat Rothfuss really needs to release the third book!  The magic system in this series is unique amongst the fantasy I have read because it has its basis in chemistry and physics. Reminds me of the magic in Mistborn. |
+| The Art of War | Not very applicable to my life as a student! |
 | The Puritan Dilemma | One of the most boring books I've read. |
-| The Hobbit | |
+| The Hobbit | The last 40 pages of this book spawned a 3 hour movie. |
 | The Martian | |
 | Night (Wiesel) | |
 | With the Old Breed: At Peleliu and Okinawa | |
