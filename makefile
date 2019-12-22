@@ -10,7 +10,7 @@ render:
 	./_site/render-markdown
 
 site_map:
-	tree -H / > full_tree.html
+	tree -H https://briantracy.xyz > full-tree.html
 
 publish:
 	gitpub
