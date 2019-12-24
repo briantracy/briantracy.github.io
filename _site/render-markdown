@@ -20,7 +20,7 @@ for mdfile in $(find ${REPO_ROOT} -name '*.md'); do
     mod_date=$(modification_date $mdfile)
     echo "$mdfile -> $html_file ($mod_date)"
     
-    pandoc -t html5 \
+    pandoc -t html5-auto_identifiers \
         --template="${REPO_ROOT}/_site/template.html" \
         --include-in-header="${CSS_FILE}" \
         --metadata title="Brian Tracy - $(basename $base_name)" \

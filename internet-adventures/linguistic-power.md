@@ -11,9 +11,15 @@ This stack exchange page is interesting because it makes the claim that not only
 [\[LINK 1\]](http://web.archive.org/web/20191217021849/https://linguistics.stackexchange.com/questions/34578/were-ancient-languages-as-sophisticated-as-modern-languages)
 
 ### ELF Radiation
-Extremely Low Frequency EM Radiation 
+Extremely Low Frequency EM Radiation
 
 
 ### Clipper Chip
+The *Clipper Chip* was a proposed computer chipset developed by the NSA for use by telecommunications companies. The idea was that the chip allowed encrypted communication, but that the government could listen in any time it wanted. This absurd (a backdoor for the government is a backdoor for everyone) proposal marked a major defeat for the government in what was known as the *Crypto Wars* when it was swiftly shown to be technically flawed.
 
-If you want more information about government/encryption relationships, take a look at the [final paper I wrote](/resources/crypto_paper.pdf) for my *Computers, Freedom, and Privacy* course this year. The relevant sections are at the end.
+Unfortunately, the government did not learn its lesson and has now come back for a second round. In accordance with its obsession for spying on citizens, the US Government has now called for the introduction of ["Responsible Encryption"](/resources/rosenstein_encryption_speech.pdf). Essentially, the FBI is bothered that it can no longer perform illegal warrantless wiretaps due the widespread adoption of *End to End Encryption*, and is once again using the "National Security" argument to gain support for imposing a mandatory crippling of encryption.
+
+
+If you interested in government/encryption relationship, take a look at the [final paper I wrote](/resources/crypto_paper.pdf) for my *Computers, Freedom, and Privacy* course this year. It should bring you up to speed with the current technical and legal landscape.
+
+[\[LINK 2\]](/404.html)
