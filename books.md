@@ -11,8 +11,7 @@ Keep in mind that the comments might contain spoilers.
 
 | Title | Comments |
 |-------|----------|
-| Computer Networks (Tanenbaum)&#8224; | |
-| Endymion&#8224; | |
+| Altered Carbon | Really cool scifi worldbuilding and excellent pacing. I watched the show on Netflix about a year ago and liked it, so I thought I would read the book. I am glad I did. |
 | Brave New World | I recently read an [an essay by Keynes](/resources/keynes_future.pdf) about the future of economics once mass automation has ended the need for everyone to work. Brave New World seems to be a pessimistic prediction of the world Keynes imagined, and I think that it is really well conceived. My favorite character is Mustapha Mond.  |
 | Jane Eyre \*| Absolutely loved it. My reading list is very dude heavy, so it was nice to get a female perspective, both from a main character and author. I never doubted Mr. Rochester for a second, I love that guy. |
 | Gentlemen Bankers: The World of J.P. Morgan | Assigned reading in my History of Capitalism course. While it is interesting to see how magnates come to power, I think it is more interesting how they retain that power and transform it into a dynasty for their children. This book reminds me a lot of HBO's *Succession*, about a media magnate and his family. |
