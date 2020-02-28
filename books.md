@@ -11,6 +11,7 @@ Keep in mind that the comments might contain spoilers.
 
 | Title | Comments |
 |-------|----------|
+| The Great Alone | This is a very short book, and I am glad for that. The plot was very predictable, and yet, the characters didn't act like how I have perceived real people to act. It was like that classic TV show situation where people don't actually verbalize what they are feeling, and then act surprised when others act in ways they don't appreciate. |
 | Altered Carbon | Really cool scifi worldbuilding and excellent pacing. I watched the show on Netflix about a year ago and liked it, so I thought I would read the book. I am glad I did. |
 | Brave New World | I recently read an [an essay by Keynes](/resources/keynes_future.pdf) about the future of economics once mass automation has ended the need for everyone to work. Brave New World seems to be a pessimistic prediction of the world Keynes imagined, and I think that it is really well conceived. My favorite character is Mustapha Mond.  |
 | Jane Eyre \*| Absolutely loved it. My reading list is very dude heavy, so it was nice to get a female perspective, both from a main character and author. I never doubted Mr. Rochester for a second, I love that guy. |
@@ -59,6 +60,7 @@ Keep in mind that the comments might contain spoilers.
 | The Supernaturalist | |
 | Code Talker | |
 | The Darkest Minds | |
+| Harry Potter (1,5,6,7) | I have a lot to say about HP. My biggest complaint is that the worldbuilding is just plain bad (illogical and inconsistent). For example, it is impossible that the Weasleys are poor (magic can be trivially monetized, ie: duplicating currency), it is impossible that not a single wizard has defected and told the muggle world about the existence of wizards, it is ridiculous that the Death Eaters and the Order of the Phoenix were in a state of "war", yet no muggle weapons are even considered. In many ways, my complaints boil down to the fact that the author had to make the series "PG" rated. The explanation for most of these issues is that "Wizards don't concern themselves with the muggle world", or some sort of false sense of superiority preventing wizards from adopting muggle technology. This is pretty weak... Having a moral superiority over something doesn't mean you can't respect it or learn from it. Also, the tone is pretty inconsistent with respect to the "bad guys". They should have been way more ruthless and intelligent. Voldemort makes all of his horcruxes famous objects because he's vain? Come on. It really feels like the author wanted to make a point about genocide being bad, yet didn't want to actually to make an intelligent critique and instead set up this strawman of a villain that was kind of half assing "being bad". I really love digging through the lore of created worlds, and when they don't hold up to even basic inspection, it makes me angry! |
 | Artemis Fowl Series \* | |
 | Inheritance Cycle (Eragon, ...) \* | |
 | The Compound | |
