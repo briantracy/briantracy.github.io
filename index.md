@@ -7,4 +7,5 @@
 3. [Internet Adventures](internet-adventures.html)
 4. [Photography](photography.html)
 5. [Software](software.html)
+6. [Writing](writing.html)
 
