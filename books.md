@@ -11,13 +11,13 @@ Keep in mind that the comments might contain spoilers.
 
 | Title | Comments |
 |-------|----------|
-| The Great Alone | This is a very short book, and I am glad for that. The plot was very predictable, and yet, the characters didn't act like how I have perceived real people to act. It was like that classic TV show situation where people don't actually verbalize what they are feeling, and then act surprised when others act in ways they don't appreciate. |
+| The Great Alone | This is a very short book, and I am glad for that. The plot was very predictable, and yet, the characters didn't act like how I have perceived real people to act. It was like that classic TV show situation where people don't actually verbalize what they are feeling, and then act surprised when others act in ways they don't appreciate. However, despite this, I stayed up late several nights in a row reading this book. This book has a sort of realism (I'm defining this as "feels like it could be possible") that is fascinating. |
 | Altered Carbon | Really cool scifi worldbuilding and excellent pacing. I watched the show on Netflix about a year ago and liked it, so I thought I would read the book. I am glad I did. |
 | Brave New World | I recently read an [an essay by Keynes](/resources/keynes_future.pdf) about the future of economics once mass automation has ended the need for everyone to work. Brave New World seems to be a pessimistic prediction of the world Keynes imagined, and I think that it is really well conceived. My favorite character is Mustapha Mond.  |
 | Jane Eyre \*| Absolutely loved it. My reading list is very dude heavy, so it was nice to get a female perspective, both from a main character and author. I never doubted Mr. Rochester for a second, I love that guy. |
 | Gentlemen Bankers: The World of J.P. Morgan | Assigned reading in my History of Capitalism course. While it is interesting to see how magnates come to power, I think it is more interesting how they retain that power and transform it into a dynasty for their children. This book reminds me a lot of HBO's *Succession*, about a media magnate and his family. |
 | The Fifth Season\*, The Obelisk Gate, The Stone Sky | Fantastic world building and storytelling. The narrative structure of the first book is quite novel. It follows three separate characters that are later revealed to be the same woman at different points in her life. If you are like me and love learning about the lore behind the fantasy, stick with all three books as the reveals come very late in the series. |
-| Attack on Titan * | First comic book I have ever read. Probably my favorite fictional world. The fact that the author has been releasing a chapter every month for 10 years is amazing. The art is insane, the plot is unique, the themes are real; I would recommend AOT to anyone.|
+| Attack on Titan * | First comic book I have ever read. Probably my favorite fictional world. The fact that the author has been releasing a chapter every month for 10 years is amazing. The art is insane, the plot is unique, the themes are real; I would recommend AOT to anyone. As of January 2020, the author made an announcement that he would be finishing the series within the year! |
 | The Sparrow (Mary Doria Russell) | I picked this book up after seeing it beat out Hyperion on a sci-fi list. This is the only book I have read that is built mostly on religious themes and internal conflicts of faith. |
 | Foundation (Asimov) | I love books about large scale journeys through time (see Dune), and this one does a great job of covering a plot whose scope reaches across the centuries. |
 | Hyperion \*, Fall of Hyperion | God Tier Science Fiction. This book and its sequel are a must read for fans of the genre. On the sequel: the author admits that he needed a down payment on the mortgage for his house, so he split the book into two parts so he could make more money off the story. Respect. |
@@ -50,7 +50,7 @@ Keep in mind that the comments might contain spoilers.
 | The Book Thief | |
 | Of Mice and Men | |
 | The Great Gatsby | |
-| Fahrenheit 451 | |
+| Fahrenheit 451 | HBO adaptation was bad. My favorite part of the book was the main character's wife Mildred. She is shown to be addicted to listening to broadcasts that are beamed directly into little "seashells" in her ears. This is such an accurate depiction of what we now do with wireless headphones, it makes me think of the novel every time I see a crowd of people all listening to something or on their phones. The HBO adaptation cut her character entirely, which was disappointing because her death at the hands of a rival nation during the one day war was the climax of the book. |
 | Hunger Games Series | |
 | The Knife of Never Letting Go | |
 | To Kill a Mockingbird | |
