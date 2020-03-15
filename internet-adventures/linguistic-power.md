@@ -3,7 +3,9 @@
 
 
 ### ELF Radiation
-Extremely Low Frequency EM Radiation
+How would one hail a submarine that is below the surface of the ocean? Sending a normal radio communications is impossible due to the conductive nature of seawater, so navies have to blast extremely low frequency (to increase penetration) waves to tell their ships to surface, then communicate via normal means. The cool thing about this is that antenna size is proportional to wavelength, so massive equipment (miles long) is used to generate these waves!
+
+[\[LINK 1\]](https://en.wikipedia.org/wiki/Extremely_low_frequency)
 
 
 ### Clipper Chip
@@ -23,6 +25,8 @@ I have always been skeptical of the phrase *"There is no way to say \_\_\_\_ in 
 For example, consider a civilization that has not yet invented the clock or a way of telling time. The English word "hour" would not have a corresponding word in their language, but you could teach them what an hour is based on shared physical phenomena (day length, shadow creep, ...). Concepts are universal, specific words are not.
 
 This stack exchange page is interesting because it makes the claim that not only are modern languages all equally expressive, but the languages of thousands of years ago are also comparable.
+The second link relates to something I was discussing with a coworker (a linguistics student) that ties in directly with the stack exchange answer.
 
-[\[LINK 1\]](http://web.archive.org/web/20191217021849/https://linguistics.stackexchange.com/questions/34578/were-ancient-languages-as-sophisticated-as-modern-languages)
+[\[LINK 3\]](http://web.archive.org/web/20191217021849/https://linguistics.stackexchange.com/questions/34578/were-ancient-languages-as-sophisticated-as-modern-languages)
+[\[LINK 4\]](https://en.wikipedia.org/wiki/Linguistic_relativity)
 
