@@ -80,3 +80,5 @@ Keep in mind that the comments might contain spoilers.
 | Half Moon Investigations | |
 | Tom Sawyer | |
 | Percy Jackson Series | |
+| Island of the Blue Dolphins | First book I remember reading (4th grade) |
+
