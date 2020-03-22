@@ -46,15 +46,15 @@ Keep in mind that the comments might contain spoilers.
 | Ender's Game \* | |
 | Whale Talk | |
 | All Quiet on the Western Front | |
-| World War Z | |
+| World War Z | Very different from the movie, so if you were disappointed with that, check out the book. It's structured as a series of short stories from survivors of the war. |
 | The Book Thief | |
-| Of Mice and Men | |
+| Of Mice and Men | This was assigned reading in 9th grade. Rumor has it, the instant the book was announced, someone in another class stood up and said "Isn't this the one where George kills Lenny at the end?" |
 | The Great Gatsby | |
 | Fahrenheit 451 | HBO adaptation was bad. My favorite part of the book was the main character's wife Mildred. She is shown to be addicted to listening to broadcasts that are beamed directly into little "seashells" in her ears. This is such an accurate depiction of what we now do with wireless headphones, it makes me think of the novel every time I see a crowd of people all listening to something or on their phones. The HBO adaptation cut her character entirely, which was disappointing because her death at the hands of a rival nation during the one day war was the climax of the book. |
 | Hunger Games Series | |
 | The Knife of Never Letting Go | |
 | To Kill a Mockingbird | |
-| Pendragon Series | |
+| Pendragon Series | I started reading this book and then gave it up. A few months later, the author, DJ MacHale came and spoke to my middle school. He was a really great guy, so I gave the book a second shot. I ended up reading all 10 consecutively. |
 | Hatchet | |
 | The Giver | |
 | The Supernaturalist | |
@@ -76,7 +76,7 @@ Keep in mind that the comments might contain spoilers.
 | Leviathan (Scott Westerfield) | |
 | The Haunting of Freddy | |
 | Alex Rider Series (Stormbreaker, ...) | |
-| A Brief History of Time | |
+| A Brief History of Time | Relax, it was the illustrated version. I was not actually reading Stephen Hawking in elementary school. |
 | Half Moon Investigations | |
 | Tom Sawyer | |
 | Percy Jackson Series | |
