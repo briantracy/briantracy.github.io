@@ -15,3 +15,5 @@ site_map:
 publish:
 	gitpub
 
+test: $(wildcard *.md **/*.md)
+	@echo $^
