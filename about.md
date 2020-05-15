@@ -1,5 +1,8 @@
 # About Me
 
+<p align="center">
+    <img src="out3.png" width="200" height="200" />
+</p>
 Hello,
 
 I am a third year college student studying computer science at Brown University.
@@ -8,7 +11,7 @@ My main area of interest is computer systems and computer security.
 I am from Palo Alto, CA and currently reside in Providence, RI.
 
 Outside of school, I like playing guitar and woodworking. I also work for my
-school as a systems administrator in the computer lab.
+school as a systems administrator in the computer lab and as a head teaching assistant for the software exploitation course.
 
 ---
 

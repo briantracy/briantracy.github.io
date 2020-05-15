@@ -10,6 +10,7 @@ Keep in mind that the comments contain plot details about the books.
 
 | Title | Comments |
 |-------|----------|
+| The Silmarillion&#8224; (J. R. R. Tolkien) | |
 | The Great Alone (Kristin Hannah) | This is a very short book, and I am glad for that. The plot was very predictable, and yet, the characters didn't act like how I have perceived real people to act. It was like that classic TV show situation where people don't actually verbalize what they are feeling, and then act surprised when others act in ways they don't appreciate. However, despite this, I stayed up late several nights in a row reading this book. This book has a sort of realism (I'm defining this as "feels like it could be possible") that is fascinating. |
 | Altered Carbon (Richard Morgan) | Really cool scifi worldbuilding and excellent pacing. I watched the show on Netflix about a year ago and liked it, so I thought I would read the book. I am glad I did. |
 | Brave New World (Aldous Huxley) | I recently read an [an essay by Keynes](/resources/keynes_future.pdf) about the future of economics once mass automation has ended the need for everyone to work. Brave New World seems to be a pessimistic prediction of the world Keynes imagined, and I think that it is really well conceived. My favorite character is Mustapha Mond.  |

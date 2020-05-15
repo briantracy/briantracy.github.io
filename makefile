@@ -15,5 +15,5 @@ site_map:
 publish:
 	gitpub
 
-test: $(wildcard *.md **/*.md)
+test: $(shell find . -name '*.md')
 	@echo $^
