@@ -11,6 +11,11 @@ pre {
     padding: 1em;
 }
 
+code {
+    background-color: lightgray;
+    padding: 3px;
+}
+
 footer {
     font-style: italic;
 }
