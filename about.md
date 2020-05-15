@@ -42,7 +42,7 @@ school as a systems administrator in the computer lab and as a head teaching ass
 
 ---
 
-Below is my email and fingerprint of my public PGP key if you wish to contact me. The actual key [is here](/briantracy_gpg.txt)
+Below is my email and fingerprint of my public PGP key if you wish to contact me. The actual key [is here](/resources/briantracy_gpg.txt)
 ```
 pub   rsa4096 2019-12-22 [SC]
       FDF650B7E5C6EE175E321F7BDE124EA87720AE90
