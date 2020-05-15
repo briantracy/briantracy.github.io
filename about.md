@@ -1,8 +1,5 @@
 # About Me
 
-<p align="center">
-    <img src="out3.png" width="200" height="200" />
-</p>
 Hello,
 
 I am a third year college student studying computer science at Brown University.

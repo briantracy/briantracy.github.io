@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-[ -z ${REPO_ROOT} ] && \
-    { echo "REPO_ROOT must be defined to execute this script" ; exit 1 ; }
-
-for img in $(find "${REPO_ROOT}/images/film" -type f); do
-    echo "- [$img]($img)"
-done
-
