@@ -8,17 +8,17 @@ HTML_TEMPLATE := _site/template.html
 CSS_TEMPLATE  := _site/styles.css
 SITE_CSS      := _site/compressed.css
 
-render: $(SITE_CSS) $(HTML_FILES)
+render: $(HTML_FILES)
 
 $(SITE_CSS): $(CSS_TEMPLATE)
 	sass --style=compressed --no-source-map $< $@
 
-%.html: %.md
+%.html: %.md $(HTML_TEMPLATE) $(SITE_CSS)
 	@echo "***\033[0;32mCOMPILING\033[0m***" $<
 	@pandoc --to html5 --from markdown-auto_identifiers-smart \
 			--template=$(HTML_TEMPLATE) \
 			--include-in-header=$(SITE_CSS) \
-			--metadata title="Brian Tracy - $(basename $base_name)" \
+			--metadata title="Brian Tracy" \
 			--metadata date="$(shell stat -f '%Sm' $<)" \
 			--ascii "$<" \
 	| html-minifier \
