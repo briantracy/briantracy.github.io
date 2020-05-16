@@ -8,7 +8,7 @@ My main area of interest is computer systems and computer security.
 I am from Palo Alto, CA and currently reside in Providence, RI.
 
 Outside of school, I like playing guitar and woodworking. I also work for my
-school as a systems administrator in the computer lab and as a head teaching assistant for the software exploitation course.
+school as a systems administrator and a teaching assistant.
 
 ---
 
