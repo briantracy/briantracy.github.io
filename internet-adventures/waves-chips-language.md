@@ -1,11 +1,11 @@
 
-# Adventure 1 - Linguistic Power
+# Adventure 1 - Waves, Chips, and Language
 
 
 ### ELF Radiation
 How would one hail a submarine that is below the surface of the ocean? Sending a normal radio communications is impossible due to the conductive nature of seawater, so navies have to blast extremely low frequency (to increase penetration) waves to tell their ships to surface, then communicate via normal means. The cool thing about this is that antenna size is proportional to wavelength, so massive equipment (miles long) is used to generate these waves!
 
-[\[LINK 1\]](https://en.wikipedia.org/wiki/Extremely_low_frequency)
+<https://en.wikipedia.org/wiki/Extremely_low_frequency>
 
 
 ### Clipper Chip
@@ -16,7 +16,7 @@ Unfortunately, the government did not learn its lesson and has now come back for
 
 If you interested in government/encryption relationship, take a look at the [final paper I wrote](/resources/crypto_paper.pdf) for my *Computers, Freedom, and Privacy* course this year. It should bring you up to speed with the current technical and legal landscape.
 
-[\[LINK 2\]](https://en.wikipedia.org/wiki/Clipper_chip)
+<https://en.wikipedia.org/wiki/Clipper_chip>
 
 
 ### Ancient Languages
@@ -27,6 +27,7 @@ For example, consider a civilization that has not yet invented the clock or a wa
 This stack exchange page is interesting because it makes the claim that not only are modern languages all equally expressive, but the languages of thousands of years ago are also comparable.
 The second link relates to something I was discussing with a coworker (a linguistics student) that ties in directly with the stack exchange answer.
 
-[\[LINK 3\]](http://web.archive.org/web/20191217021849/https://linguistics.stackexchange.com/questions/34578/were-ancient-languages-as-sophisticated-as-modern-languages)
-[\[LINK 4\]](https://en.wikipedia.org/wiki/Linguistic_relativity)
+<https://linguistics.stackexchange.com/questions/34578/were-ancient-languages-as-sophisticated-as-modern-languages>
+
+<https://en.wikipedia.org/wiki/Linguistic_relativity>
 
