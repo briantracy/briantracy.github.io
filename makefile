@@ -27,3 +27,7 @@ $(SITE_CSS): $(CSS_TEMPLATE)
 
 clean:
 	rm -f $(HTML_FILES)
+
+serve:
+	python -m SimpleHTTPServer 8080
+
