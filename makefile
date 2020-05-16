@@ -1,6 +1,4 @@
 
-
-
 MARKDOWN_FILES := $(shell find . -name '*.md' -type f)
 HTML_FILES     := $(addsuffix .html,$(basename $(MARKDOWN_FILES)))
 
@@ -11,14 +9,14 @@ SITE_CSS      := _site/compressed.css
 render: $(HTML_FILES)
 
 $(SITE_CSS): $(CSS_TEMPLATE)
-	sass --style=compressed --no-source-map $< $@
+	sass --style=compressed --no-source-map "$<" "$@"
 
 %.html: %.md $(HTML_TEMPLATE) $(SITE_CSS)
-	@echo "***\033[0;32mCOMPILING\033[0m***" $<
+	@echo "[\033[0;32mCOMPILING\033[0m]" $<
 	@pandoc --to html5 --from markdown-auto_identifiers-smart \
 			--template=$(HTML_TEMPLATE) \
 			--include-in-header=$(SITE_CSS) \
-			--metadata title="Brian Tracy" \
+			--metadata title="Brian Tracy - $(notdir $(basename $<))" \
 			--metadata date="$(shell stat -f '%Sm' $<)" \
 			--ascii "$<" \
 	| html-minifier \
