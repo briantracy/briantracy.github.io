@@ -29,6 +29,7 @@ clean:
 	rm -f $(HTML_FILES)
 
 serve:
+	open -a Safari.app http://localhost:8080
 	python -m SimpleHTTPServer 8080
-	firefox http://localhost:8080
+	
 

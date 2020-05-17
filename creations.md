@@ -39,7 +39,7 @@ be able to melt down some wax, stamp it with my personal initials, and adorn
 my letters with proof of origin. I used Blender to model the stamp head, and
 then sent off the final file to a company in New York for it to be 3d printed.
 I crafted the handle out of maple and walnut, and once assembled, it looks
-great! [pic1](/images/stamp_final.jpg) [pic2](/images/stamp_final.jpg)
+great! [pic1](/images/stamp_final.jpg) [pic2](/images/stamp_wax.jpg)
 [pic3](/images/stamp_whittle.jpg) [pic4](/images/stamp_3dmodel.jpg)
 
 
@@ -56,4 +56,9 @@ for a friend that goes to UCLA. [pic1](/images/desk_maps.jpg)
 ### Cutting Boards
 
 All woodworkers go through the rite of passage that is making cutting boards
-for their friends/family/friends-of-family-at-request-of-their-mother. [pic1](/images/cuttingboard1.jpg) 
+for their friends/family/friends-of-family-at-request-of-their-mother. [pic1](/images/cuttingboard1.jpg) [pic2](/images/cuttingboard2.jpg) [pic3](/images/cuttingboard3.jpg) 
+
+This one is special as it is an end-grain board, sometimes referred to as a "butchers block". I saw someone in the woodshop discard some great maple
+offcuts, and I asked if I could use them. I created a basic pattern by injecting
+some walnut between the maple pieces. 
+[pic1](/images/cuttingboard4-1.jpg) [pic2](/images/cuttingboard4-2.jpg) [pic3](/images/cuttingboard4-3.jpg) [pic4](/images/cuttingboard4-4.jpg)
