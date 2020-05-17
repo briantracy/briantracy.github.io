@@ -41,22 +41,22 @@ Keep in mind that the comments contain plot details about the books.
 | The Puritan Dilemma (Edmund S. Morgan)| One of the most boring books I've read. |
 | The Hobbit (J. R. R. Tolkein) | The last 40 pages of this book spawned a 3 hour movie. |
 | The Martian (Andy Weir) | |
-| Night (Elie Wiesel) | |
+| Night (Elie Wiesel) | Required reading during my Junior year of high school. I am glad we were assigned this book. I have seen it referred to as a "must read" for people interested in learning more about the Holocaust, and I agree with this assessment. |
 | With the Old Breed: At Peleliu and Okinawa (E. B. Sledge) | This book is one of the reference materials for the HBO series "The Pacific". There is also a chance that I am distantly related to the author. |
 | Ender's Game (Orson Scott Card) \* | |
-| Whale Talk (Chris Crutcher) | |
+| Whale Talk (Chris Crutcher) | This book appropriately handled some very mature themes for a story targeted at young adults. |
 | All Quiet on the Western Front (Erich Maria Remarque) | |
 | World War Z (Max Brooks) | Very different from the movie, so if you were disappointed with that, check out the book. It's structured as a series of short stories from survivors of the war. |
-| The Book Thief (Markus Zusak) | |
+| The Book Thief (Markus Zusak) | I first learned who Jesse Owens was from this book when one of the main characters (a young boy) covers himself in coal dust and runs around a track. My favorite Owen's quote is "Hitler didn't snub me - It was our president who snubbed me. The president didn't even send me a telegram" (from *Triumph* by Jeremy Schaap, near the end of the "Day Three" chapter). |
 | Of Mice and Men (John Steinbeck) | This was assigned reading in 9th grade. Rumor has it, the instant the book was announced, someone in another class stood up and said "Isn't this the one where George kills Lenny at the end?" |
 | The Great Gatsby (F. Scott Fitzgerald) | |
 | Fahrenheit 451 (Ray Bradbury) | HBO adaptation was bad. My favorite part of the book was the main character's wife Mildred. She is shown to be addicted to listening to broadcasts that are beamed directly into little "seashells" in her ears. This is such an accurate depiction of what we now do with wireless headphones, it makes me think of the novel every time I see a crowd of people all listening to something or on their phones. The HBO adaptation cut her character entirely, which was disappointing because her death at the hands of a rival nation during the one day war was the climax of the book. |
 | Unwind (Neal Shusterman) | Really terrifying book that had some great scenes. "They" should make this into a movie. |
-| Hunger Games Series (Suzanne Collins) | |
+| Hunger Games Series (Suzanne Collins) | Cool worldbuilding. If you liked this one, you will like the Japanese movie *Battle Royale* that came out in 2000 (8 years before HG). |
 | The Knife of Never Letting Go (Patrick Ness) | |
-| To Kill a Mockingbird (Harper Lee) | |
+| To Kill a Mockingbird (Harper Lee) | Super well adapted by the movie (starring Gregory Peck). |
 | Pendragon Series (D. J. MacHale) | I started reading this book and then gave it up. A few months later, the author, DJ MacHale came and spoke to my middle school. He was a really great guy, so I gave the book a second shot. I ended up reading all 10 consecutively. |
-| Hatchet (Gary Paulsen) | |
+| Hatchet (Gary Paulsen) | Main character is named Brian. This book goes well with the *`{My,On the Far}` Side of the Mountain* series.|
 | The Giver (Lois Lowry) | |
 | The Supernaturalist (Eoin Colfer) | |
 | Code Talker (Joseph Bruchac) | |
@@ -70,16 +70,16 @@ Keep in mind that the comments contain plot details about the books.
 | Frindle (Andrew Clements) | |
 | Seabiscuit (Laura Hillenbrand)| |
 | Holes (Louis Sachar) | |
-| My Side of the Mountain, Other Side of the Mountain (Jean Craighead) | |
-| Tales of the Greek Heroes (Roger Lancelyn Green) | |
-| Gloomy Gus (Walt Morey) | |
-| The Thief Lord (Cornelia Funke) \* | |
+| My Side of the Mountain, On the Far Sides of the Mountain (Jean George) | Really excellent kids book about a boy running away from home and living in the Catskills. This one shows spends a lot of time discussing respect for nature and friendship with animals, as well as the importance of self sufficiency. |
+| Tales of the Greek Heroes (Roger Lancelyn Green) | This is where you go when you level up from Percy Jackson. |
+| Gloomy Gus (Walt Morey) | I read this one over the course of a semester in middle school, one sitting at a time, every week. It is not about a sad human, but the relationship between a boy and a bear (the animal). |
+| The Thief Lord (Cornelia Funke) \* | One of the main characters "Scipio" was my hero. |
 | Leviathan (Scott Westerfield) | |
 | The Haunting of Freddy (Dietlof Reiche) | |
 | Alex Rider Series \[Stormbreaker, ...\] (Anthony Horowitz) | |
 | A Brief History of Time (Stephen Hawking) | Relax, it was the illustrated version. I was not actually reading Stephen Hawking in elementary school. |
-| Half Moon Investigations (Eoin Colfer)| |
+| Half Moon Investigations (Eoin Colfer)| Totally different tone from the other sci-fi titles this author has (Artemis Fowl, The Supernaturalist).|
 | Tom Sawyer (Mark Twain) | |
-| Percy Jackson Series (Rick Riordan) | |
-| Island of the Blue Dolphins (Scott O'Dell) | First book I remember reading (4th grade) |
+| Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
+| Island of the Blue Dolphins (Scott O'Dell) | First book I remember reading (4th grade). Pretty bloody for a kids book! |
 
