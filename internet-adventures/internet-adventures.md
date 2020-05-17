@@ -5,5 +5,5 @@ I spend too much time browsing the Internet. In an effort to convince myself tha
 
 
 1. [Waves, Chips, and Language](waves-chips-language.html)
-2. [Maps, Cables, and the Law](maps-cables-law.html)
+2. [Maps, Cables, and Pills](maps-cables-pills.html)
 
