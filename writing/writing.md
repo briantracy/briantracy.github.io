@@ -7,3 +7,5 @@ some of the technical aspects involved.
 
 2. [Here is a walkthrough](nas.html) of how I set up a file server on my local network to store backups from my computer.
 
+3. [bthreads](bthreads.html) is the Brian/Bad Threading library. It is a toy
+ Linux threading library that implements mutexes using atomic x86 instructions.

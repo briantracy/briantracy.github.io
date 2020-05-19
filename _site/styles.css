@@ -6,13 +6,12 @@ main {
 }
 
 pre {
-    background-color: lightgray;
+    background-color: #d3d3d3;
     padding: 1em;
 }
 
 code {
-    background-color: lightgray;
-    padding: 3px;
+    background-color: #d3d3d3;
 }
 
 footer {
@@ -24,7 +23,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5 {
-    color: darkgreen;
+    color: #006400;
 }
 
 table {
@@ -33,6 +32,6 @@ table {
 }
 
 th, td {
-    border:2px solid silver;
-    padding: 4px 4px 4px 4px;
+    border:2px solid #C0C0C0;
+    padding: 4px;
 }
