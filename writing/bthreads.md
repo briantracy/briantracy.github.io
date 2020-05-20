@@ -103,16 +103,59 @@ for (int i = 0; i < next_tid; i++) {
 ```
 
 *Aside: Technically, the call to `WEXITSTATUS` has no meaning unless the process cleanly exited (as apposed to being killed by a signal), but this is
-glossed over for simplicity's sake*
+glossed over for simplicity's sake. In fact, most things about this "library"
+completely ignore best practices for greater readability.*
 
-Now our threads can be spawned, and then reigned in when they are done working.
-We can now move on to synchronizing the threads during their execution.
+Now that our threads can be spawned, and then reigned in when they are done working, we can move on to synchronizing the threads during their execution.
 
 
-### Implementing Mutexes
+### Implementing Mutexes (Overview)
 
-To implement a mutex, we need some help from the hardware (*Note: this is false in certain situations: <https://en.wikipedia.org/wiki/Peterson%27s_algorithm>*). x86 provides the `lock` prefix for instructions, which allows atomic memory access. 
+To implement a mutex, we need some help from the hardware (*Note: this is false in certain situations: <https://en.wikipedia.org/wiki/Peterson%27s_algorithm>*). x86 provides the `lock` prefix for instructions, which allows for atomic memory access. This is essential because to properly
+implement a synchronization object, there needs to be a way to impose an order
+on the otherwise chaotic nature of multi processor memory access. The following
+scenario needs to be avoided at all costs:
 
+1. Thread 1 arrives at the beginning of the critical section and sees that the mutex is unlocked.
+2. Thread 1 claims the mutex, and says to everyone else "this is now locked".
+3. Before Thread 2 hears the proclamation that "this is now locked", it approaches the critical section and sees that it is open.
+4. Thread 2 claims the mutex and joins Thread 1 in the critical section.
+
+The crux of the issue is that the act of noticing that the mutex is unlocked, and then proceeding to lock it, is not instantaneous. The amount of time between these two steps is not 0, and in this short window, another thread may also see that the mutex is unlocked and enter the critical section.
+
+The solution is to combine these two steps into one **atomic** action.
+
+### Compare and Exchange
+
+The compare and exchange instruction (mnemonic `cmpxchg`) can be explained by
+the following examples. In both examples, we have three registers:
+
+1. The "test subject", whose value we are interested in.
+2. The "test value", a number we want to compare with the test subject.
+3. The "new value", a number that will replace the test subject if the comparison succeeds.
+
+**Example 1:** Test Value &ne; Test Subject 
+```
+mov     $0x1,%eax     ; eax = 1  (test value)
+mov     $0x7,%ebx     ; ebx = 7  (new value)
+mov     $0x9,%ecx     ; ecx = 9  (test subject)
+cmpxchg %ebx,%ecx     ; bang
+                      ; eax = 9  (changed)
+                      ; ebx = 7  (unchanged)
+                      ; ecx = 9  (unchanged)
+
+```
+
+**Example 1:** Test Value = Test Subject 
+```
+mov    $0x1,%eax      ; eax = 1 (test value)   --\
+mov    $0x7,%ebx      ; ebx = 7 (new value)      |
+mov    $0x1,%ecx      ; ecx = 1 (test subject) --/
+cmpxchg %ebx,%ecx     ; bang
+                      ; eax = 1 (unchanged)
+                      ; ebx = 7 (unchanged)
+                      ; ecx = 7 (changed!!)
+```
 
 ### Sample Program
 
