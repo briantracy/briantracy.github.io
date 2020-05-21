@@ -125,10 +125,15 @@ The crux of the issue is that the act of noticing that the mutex is unlocked, an
 
 The solution is to combine these two steps into one **atomic** action.
 
-### Compare and Exchange
+### Compare and Exchange (mnemonic `cmpxchg`)
 
-The compare and exchange instruction (mnemonic `cmpxchg`) can be explained by
-the following examples. In both examples, we have three registers:
+The `cmpxchg %reg, dest` instruction compares the current value of the accumulator (`%rax`, `%eax`, ...) to the value in `dest` (either another register or a location in memory). If the two are equal, the value in `%reg` (any general purpose register) is stored into `dest`. If they are not equal, the value in `dest` is loaded into the accumulator.
+
+Note that the value in the accumulator after the execution of a `cmpxchg` will always be equal to the value that was in `dest` before the instruction. In addition, the contents of `%reg` are never changed. 
+
+*Aside: The AT&amp;T style syntax is used*
+
+Here are two examples showing the two possible execution paths of a compare and exchange (one where the accumulator is equal to the destination, and one where they differ). In both examples, we will use three registers to demonstrate:
 
 1. The "test subject", whose value we are interested in.
 2. The "test value", a number we want to compare with the test subject.
@@ -140,22 +145,91 @@ mov     $0x1,%eax     ; eax = 1  (test value)
 mov     $0x7,%ebx     ; ebx = 7  (new value)
 mov     $0x9,%ecx     ; ecx = 9  (test subject)
 cmpxchg %ebx,%ecx     ; bang
-                      ; eax = 9  (changed)
-                      ; ebx = 7  (unchanged)
-                      ; ecx = 9  (unchanged)
+
+; *** NEW VALUES ***
+; eax = 9  (changed!!)
+; ebx = 7  (unchanged)
+; ecx = 9  (unchanged)
 
 ```
 
-**Example 1:** Test Value = Test Subject 
+**Example 2:** Test Value = Test Subject 
 ```
-mov    $0x1,%eax      ; eax = 1 (test value)   --\
-mov    $0x7,%ebx      ; ebx = 7 (new value)      |
-mov    $0x1,%ecx      ; ecx = 1 (test subject) --/
+mov    $0x1,%eax      ; eax = 1 (test value)
+mov    $0x7,%ebx      ; ebx = 7 (new value)
+mov    $0x1,%ecx      ; ecx = 1 (test subject)
 cmpxchg %ebx,%ecx     ; bang
-                      ; eax = 1 (unchanged)
-                      ; ebx = 7 (unchanged)
-                      ; ecx = 7 (changed!!)
+
+; *** NEW VALUES ***
+; eax = 1 (unchanged)
+; ebx = 7 (unchanged)
+; ecx = 7 (changed!!)
 ```
+
+### Lock State
+
+If we represent the lock state of a mutex as a number (0 = unlocked, 1 = locked), then the act of checking if a mutex is locked, and then subsequently locking it, can be done via a compare and exchange.
+
+```
+mov $0, %eax         ; 0 = unlocked (comparing mtx state with this)
+mov $1, %ebx         ; 1 = locked   (hopefully set mtx state to this)
+                     ; given: %ecx holds the location
+                     ; of the mutex state
+cmpxchg %ebx, (%ecx)
+
+; %eax now holds the value of the previous mtx state
+; so if we compare it with 0 (unlocked), this means that
+; the mutex was unlocked, and that we successfully locked it
+cmp %eax, $0
+je .got_mutex
+```
+
+### Implementation in C
+
+An easy way to have the compiler emit a `cmpxchg` instruction is to manually direct it to do so with an in-line assembly block. Assuming that the lock
+state of our mutex is located in the variable `mtx->locked`, the following
+code will attempt to lock the mutex one time.
+
+```
+int existing_value = -1;
+asm volatile (
+    "movl $0, %%eax;"
+    "movl $1, %%edx;"
+    "lock cmpxchg %%edx, %0;"
+    "movl %%eax, %1;"
+    : "=m" (mtx->locked), "=r" (existing_value)
+    :
+    : "eax"
+);
+// previous lock state now in existing_value
+```
+
+This construct currently only tries once for the mutex. This would not be useful in the most general case (*for the non general case, see `pthread_mutex_trylock`*), but provides the core of what will become a spin lock.
+
+To force a thread to wait until it acquires the mutex, we can simply wrap the
+above construct in an infinite loop, halting the threads process until it acquires the mutex.
+
+Due to the simplicity of our lock state (one integer), a thread can release the
+mutex by non atomically setting the lock state to the "unlocked" value.  
+
+```
+void spin_lock(mutex *mtx) {
+    while (1) {
+        int existing_value;
+        <... inline asm from above ...>
+        if (existing_value == 0) {
+            // got the mutex
+            return;
+        }
+    }
+}
+
+void spin_unlock(mutex *mtx) {
+    mtx->locked = 0;
+}
+```
+
+That is roughly the entirety of `bthreads`: a call to `clone`, a call to `wait`, and one `cmpxchg` instruction.
 
 ### Sample Program
 
