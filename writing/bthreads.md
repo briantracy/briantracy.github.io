@@ -8,9 +8,7 @@ library for programs running on Linux, without support from `pthreads` or the
 
 ### Motivation
 
-It appears to me that implementing something badly is the first step towards
-implementing something well, and since I want to learn more about systems
-programming, I thought I would give this a shot. Mutexes are very interesting
+As I dive deeper into systems programming . Mutexes are very interesting
 and while I have experience using them, I have only briefly considered how to
 create them myself.
 
@@ -231,10 +229,118 @@ void spin_unlock(mutex *mtx) {
 
 That is roughly the entirety of `bthreads`: a call to `clone`, a call to `wait`, and one `cmpxchg` instruction.
 
+
 ### Sample Program
 
-### Performance
+Here is a sample program (`client.c`) that uses all three features of the `bthreads` library.
 
+```
+bthread_mutex mtx;
+// This variable will be modified by all threads
+int protect_me = 12;
+// Total number of times a thread enters the critical
+// section. Used to make sure all the threads actually
+// get a chance to modify the shared memory.
+int critical_section_count = 0;
+
+int thread_fun(void *arg) {
+    print("hello", (char *)arg);
+    for (int i = 0; i < ITERS; i++) {
+        bthread_mutex_lock(&mtx);
+        critical_section_count++;
+        assert(protect_me == 12);
+        protect_me++;
+        assert(protect_me == 13);
+        protect_me--;
+        assert(protect_me == 12);
+        bthread_mutex_unlock(&mtx);
+    }
+    print("goodbye", (char *)arg);
+    exit(0);
+}
+
+int main(int argc, char *argv[]) {
+    if (argc < 2) {
+        fprintf(stderr, "usage: %s [threadname1] ... [threadnameN]\n", argv[0]);
+        return 1;
+    }
+    const int nthreads = argc - 1;
+
+    printf("I am the parent, my pid is %d\n", getpid());
+
+    for (int i = 0; i < nthreads; i++) {
+        int s = bthread_create(&thread_fun, argv[i + 1]);
+        if (s == -1) {
+            fprintf(stderr, "thread creation failed\n");
+            bthread_collect();
+            exit(1);
+        }
+    }
+    
+    bthread_collect();
+    assert(critical_section_count == nthreads * ITERS);
+}
+```
+
+When run, we get the following output.
+
+```
+$ gcc client.c bthread.c -o client
+$ ./client a b c d e f g
+I am the parent, my pid is 2991
+collecting threads ...
+hello from pid 2998, name=g
+hello from pid 2994, name=c
+hello from pid 2995, name=d
+hello from pid 2997, name=f
+hello from pid 2996, name=e
+hello from pid 2992, name=a
+hello from pid 2993, name=b
+goodbye from pid 2996, name=e
+goodbye from pid 2995, name=d
+goodbye from pid 2993, name=b
+goodbye from pid 2992, name=a
+goodbye from pid 2994, name=c
+... thread 0 exited with value 0
+... thread 1 exited with value 0
+... thread 2 exited with value 0
+... thread 3 exited with value 0
+... thread 4 exited with value 0
+goodbye from pid 2998, name=g
+goodbye from pid 2997, name=f
+... thread 5 exited with value 0
+... thread 6 exited with value 0
+... bye
+```
+
+For some semblance of proof that the mutex is actually working, if the line that locks the mutex is commented out, this is the output.
+
+```
+I am the parent, my pid is 3024
+collecting threads ...
+hello from pid 3025, name=a
+hello from pid 3026, name=b
+hello from pid 3027, name=c
+hello from pid 3028, name=d
+client: client.c:38: thread_fun: Assertion `protect_me == 12' failed.
+hello from pid 3029, name=e
+hello from pid 3030, name=f
+hello from pid 3031, name=g
+Aborted
+```
+
+---
+
+This is the end of the informative section of the writeup. I will now move
+on to the explorative (read: I don't know what's happening, so I can't speak with any confidence) section. If you see anything suspect, please let me know as I want to get to the bottom of this.
+
+---
+
+### Measuring Performance
+
+
+
+### Generated Assembly
 
 ### Resources
 

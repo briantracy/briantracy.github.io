@@ -12,6 +12,8 @@ I am from Palo Alto, CA and currently reside in Providence, RI.
 Outside of school, I like playing guitar and woodworking. I also work for my
 school as a systems administrator and a teaching assistant.
 
+My email address is brian &lt;dot&gt; tracy &lt;at&gt; gmail &lt;dot&gt; com
+
 ---
 
 | Category | Favorite |
@@ -20,7 +22,7 @@ school as a systems administrator and a teaching assistant.
 | Character Encoding | `us_ascii` |
 | Programming Language | C |
 | Browser | Firefox |
-| Corporation | 3M |
+| Corporation | Minnesota Mining and Manufacturing Company |
 | Historical Figure | Socrates |
 | Substance | Benzene |
 | Animal | Dog |
