@@ -8,9 +8,8 @@ library for programs running on Linux, without support from `pthreads` or the
 
 ### Motivation
 
-As I dive deeper into systems programming . Mutexes are very interesting
-and while I have experience using them, I have only briefly considered how to
-create them myself.
+This year in school, I was exposed to many different "flavors" of systems
+programming (OS, formal methods of verification, databases, networks, ...). By far the most interesting was the topic of how a uni/multi processor system can support multiple threads of execution. Particularly, the concept of mutual exclusion was intriguing, and I thought it would be a cool project to try to implement my own mutex using commonly available hardware features.
 
 Of course, a mutex isn't very interesting if you don't have multiple threads of
 control competing for it, so in order to test the mutexes I was creating,
@@ -43,19 +42,16 @@ For the sake of simplicity, joining threads is done all at once in
 
 ### Creating Threads
 
-The goal of threads is to have multiple concurrent instruction streams, all
+A goal of threads is to have multiple concurrent instruction streams, all
 with the capability of accessing a shared piece of memory. One method for accomplishing this would be to use `fork` to create a new process
 for each thread, then use `mmap` to map in a shared memory region into each
 process' address space.
 
-Instead of doing this ourselves, we can utilize the
-`clone` system call (more precisely, the glibc wrapper) and let the kernel
-handle the process creation and memory sharing.
+This approach felt a little clunky as the shared memory regions would have to be explicitly "named" by client programs (i.e: please create a new process, and map *these* chunks of my address space into the child). 
 
-*Aside: I have read that the process vs thread distinction is really a user space abstraction,
-and that the kernel sees both types of objects as simply "tasks". Assuming this
-is true, allowing the kernel to manage thread creation sees like a much better
-idea than a hacky `fork`+`mmap` approach*
+Instead of manually performing mappings for memory that the threads would like to share, we can ask the kernel to place the threads inside of the parent's address space via the `clone` system call.
+
+*Aside: The concept of "clone" throws a wrench in the traditional distinction between threads and processes students are initially introduced to. For example, the objects created by clone have their own distinct process ids, yet they can all be running within the same address space! One explanation I have read is that the process vs thread distinction is really a user space abstraction, and that the kernel sees both types of objects as simply "tasks". This thread/process duality is used below with respect to creation/joining.*
 
 With `clone`, thread creation distills down to a single call of the following
 form:
@@ -72,16 +68,20 @@ int child_pid = clone(
 `stack_top` points to a region of the address space that was previously
 allocated for this thread to run inside of, and the flags passed in are as follows:
 
-1. `CLONE_VM`: Tells the kernel to run this thread in the same address space as the one in which it was created. This is where the classical thread vs process distinction is made.
-2. `SIGCHLD` tells the kernel to ensure that when the newly created thread exits, `SIGCHLD` should be sent to the parent. This allows the parent to `wait` upon the child as if it were a process.
+1. `CLONE_VM`: Tells the kernel to run this thread in the same address space as the one in which it was created. This follows the classical "thread-like" model.
+2. `SIGCHLD` tells the kernel to ensure that when the newly created thread exits, `SIGCHLD` should be sent to the parent. This allows the parent to `wait` upon the child as if we were using the classical "process-like" model.
+
+`bthread_create` is just a wrapper around `clone` that creates the stack and passes in the right flags.
 
 So now we have the capability to fracture one address space into many stacks,
 have a thread running on each stack, and have all the threads access the same
 shared memory.
 
+*Aside: At this point (no synchronization), our little library is quite dangerous as the client has no way to prevent data races between all that shared memory.*
+
 ### Joining Threads
 
-Before the main thread (the one that spawned all the others via `btrhread_create`) exits, we would like all of the children to terminate. A
+Before the main thread (the one that spawned all the others via `btrhread_create`) exits, we would like all of the children to terminate. The
 common description of this action would be to say that we want to have the parent thread "join with" the child threads (see `pthread_join`).
 
 Due to the thread/process duality that is a result of `clone`, we can leverage
@@ -102,7 +102,7 @@ for (int i = 0; i < next_tid; i++) {
 
 *Aside: Technically, the call to `WEXITSTATUS` has no meaning unless the process cleanly exited (as apposed to being killed by a signal), but this is
 glossed over for simplicity's sake. In fact, most things about this "library"
-completely ignore best practices for greater readability.*
+completely ignore best practices in favor of greater readability.*
 
 Now that our threads can be spawned, and then reigned in when they are done working, we can move on to synchronizing the threads during their execution.
 
