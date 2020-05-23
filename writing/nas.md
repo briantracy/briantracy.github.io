@@ -1,6 +1,8 @@
 
 # Building a NAS
 
+**NOTE: This project is not done. I am having trouble initializing a ZFS file system on the completely empty seagate hard drives I bought**
+
 This is a walk-through of how I created a local backup system for all of my computer files (schoolwork, photographs, movies, ...).
 
 Here is a list prior knowledge (and acronyms) you should be aware of if you want to follow along.
