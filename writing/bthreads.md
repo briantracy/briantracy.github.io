@@ -119,15 +119,15 @@ scenario needs to be avoided at all costs:
 3. Before Thread 2 hears the proclamation that "this is now locked", it approaches the critical section and sees that it is open.
 4. Thread 2 claims the mutex and joins Thread 1 in the critical section.
 
-The crux of the issue is that the act of noticing that the mutex is unlocked, and then proceeding to lock it, is not instantaneous. The amount of time between these two steps is not 0, and in this short window, another thread may also see that the mutex is unlocked and enter the critical section.
+The crux of the issue is that the act of noticing that the mutex is unlocked, and then proceeding to lock it (steps 1 and 2 above), is not instantaneous. In the short window between these actions, another thread may also see that the mutex is unlocked and enter the critical section.
 
-The solution is to combine these two steps into one **atomic** action.
+The solution is to combine these two steps into one **atomic** action (or at least a sequence of actions that appear to be atomic).
 
 ### Compare and Exchange (mnemonic `cmpxchg`)
 
-The `cmpxchg %reg, dest` instruction compares the current value of the accumulator (`%rax`, `%eax`, ...) to the value in `dest` (either another register or a location in memory). If the two are equal, the value in `%reg` (any general purpose register) is stored into `dest`. If they are not equal, the value in `dest` is loaded into the accumulator.
+The `cmpxchg %reg, dest` instruction compares the current value of the accumulator to the value in `dest` (either another register or a location in memory). If the two are equal, the value in `%reg` (any general purpose register) is stored into `dest`. If they are not equal, the value in `dest` is loaded into the accumulator.
 
-Note that the value in the accumulator after the execution of a `cmpxchg` will always be equal to the value that was in `dest` before the instruction. In addition, the contents of `%reg` are never changed. 
+Note that the value in the accumulator after the execution of a `cmpxchg` will always be equal to the value that was in `dest` before the instruction (in one case, they were already equal. In the other, `dest` is put into the accumulator). In addition, the contents of `%reg` are never changed. 
 
 *Aside: The AT&amp;T style syntax is used*
 
@@ -180,6 +180,8 @@ cmpxchg %ebx, (%ecx)
 ; the mutex was unlocked, and that we successfully locked it
 cmp %eax, $0
 je .got_mutex
+; if %eax is 1, this means that the mutex was locked
+; when we checked it.
 ```
 
 ### Implementation in C
@@ -206,10 +208,6 @@ This construct currently only tries once for the mutex. This would not be useful
 
 To force a thread to wait until it acquires the mutex, we can simply wrap the
 above construct in an infinite loop, halting the threads process until it acquires the mutex.
-
-Due to the simplicity of our lock state (one integer), a thread can release the
-mutex by non atomically setting the lock state to the "unlocked" value.  
-
 ```
 void spin_lock(mutex *mtx) {
     while (1) {
@@ -221,10 +219,6 @@ void spin_lock(mutex *mtx) {
         }
     }
 }
-
-void spin_unlock(mutex *mtx) {
-    mtx->locked = 0;
-}
 ```
 
 That is roughly the entirety of `bthreads`: a call to `clone`, a call to `wait`, and one `cmpxchg` instruction.
@@ -234,7 +228,11 @@ That is roughly the entirety of `bthreads`: a call to `clone`, a call to `wait`,
 
 Here is a sample program (`client.c`) that uses all three features of the `bthreads` library.
 
+*Aside: The `print` function used below is not included for brevity's sake*
+
 ```
+// Will automatically be initialized to have its
+// locks state set to 0 (unlocked).
 bthread_mutex mtx;
 // This variable will be modified by all threads
 int protect_me = 12;
@@ -313,7 +311,9 @@ goodbye from pid 2997, name=f
 ... bye
 ```
 
-For some semblance of proof that the mutex is actually working, if the line that locks the mutex is commented out, this is the output.
+For some semblance of proof that the mutex is actually working, when the line that locks the mutex is commented out, this is the output.
+
+*Aside: I think this is technically undefined behavior (unprotected read/writes to shared memory from multiple threads), see the end for more on that.*
 
 ```
 I am the parent, my pid is 3024
@@ -329,21 +329,182 @@ hello from pid 3031, name=g
 Aborted
 ```
 
----
 
 This is the end of the informative section of the writeup. I will now move
 on to the explorative (read: I don't know what's happening, so I can't speak with any confidence) section. If you see anything suspect, please let me know as I want to get to the bottom of this.
 
 ---
 
+<center>Speculation Inbound</center>
+
+---
+
 ### Measuring Performance
 
+What does it mean for a spin lock to be "fast"? When a thread is blocked on a spin lock, it is not making any progress, so it is not clear how one could talk about speed in this context.
+
+How long a thread waits at the edge of a critical section is a function of what other threads are doing inside, so that is not really up to the implementation of the mutex.
+
+One way to measure performance of a spin lock could be to see how the overall system is impacted by threads waiting at a spin lock. The only thing the `bthread_mutex_lock` function does is repeatedly execute a `lock cmpxchg`, so if a bottleneck exists, it will be here.
 
 
-### Generated Assembly
+### Lock Prefix and Atomic Memory Access
 
-### Resources
+Without a deep knowledge of how the processor implements `lock`ed instructions, it feels safe to assume that instructions that modify memory atomically are "slower" than those that modify memory non-atomically.
 
-https://eli.thegreenplace.net/2018/launching-linux-threads-and-processes-with-clone/
+*Aside: My weak argument for this claim is that if atomic memory access were just as fast as non-atomic access, it would be the default. In addition, my basic understanding of caching layers tells me that wrangling the caches on a set of processors in such a way that we don't write to the same location simultaneously is a non trivial task.*
+
+Additionally, atomically modifying memory might not only be slower for the executing thread, but it might slow down the rest of the threads on the system 
+
+*Aside: An argument for this claim would be that other threads attempting to access the same memory need to be prevented from doing so until the "atomic thread" has done its work.*
+
+So an initial optimization might be to reduce the number of atomic memory accesses a given thread is performing while waiting at a spin lock.
+
+Keeping in mind that the worst case scenario for a mutex is a false positive (a thread thinks the mutex is open and enters prematurely) and that a false negative scenario (a thread believes the mutex is locked, when in reality, it is unlocked), we can relax the constraints on mutex acquisition logic to favor a false negative.
+
+If allowing more false negatives (but never relaxing our intolerance of false positives) improves performance, this would be a fair tradeoff. To do this, we can perform normal, non-atomic memory accesses in our spin loop, and only when they say that the mutex is unlocked do we perform an atomic memory access to verify.
+
+```
+// Un-optimized
+while (1) {
+    ...
+    // perform an atomic cmpxchg every iteration
+}
+
+// optimized
+while (1) {
+    if (mtx->locked != 0) {
+        // regular memory access tells us that the
+        // mutex is locked. Instead of atomically
+        // verifying this assumption (which is most likely true)
+        // just wait a few more cycles.
+        continue;
+    }
+    // regular memory access tells us that the mutex
+    // is unlocked! We are hopeful at this point, but
+    // need to atomically verify.
+    ...
+    // perform an atomic cmpxchg
+}
+
+```
+
+This reduces the number of atomic operations that are performed, without jeopardizing the strict no-false-positive semantics.
+
+### Benchmark
+
+To see if this optimization makes a difference, I cooked up a benchmark where while in the critical section, each thread performs a huge number of reads and writes. The memory operations are structured such that the order is completely random (to reduce predictive caching) and the search space (`ARRAY_SIZE`) is large enough to prevent locality based caching.
+
+The goal here is to "slam the memory bus" to aggravate any adverse side effects that performing a `lock`ed instruction might have on the rest of the system.
+
+```
+int massive_array[ARRAY_SIZE];
+static unsigned long total = 0;
+void slam_bus() {
+    // Perform lots of writes and reads to memory
+    // Try to avoid hitting caches.
+    int idx = rand() % ARRAY_SIZE;
+    for (int i = 0; i < BUS_SLAM_ROUNDS; i++) {
+        int next_idx = massive_array[idx];
+        // next thread that comes here will go somewhere totally different
+        massive_array[idx] = (ARRAY_SIZE - 1) - massive_array[idx];
+        idx = next_idx;
+        total += idx;
+    }
+}
+
+bthread_mutex mtx;
+int protect_me = 12;
+
+int thread_fun(void *arg) {
+    (void)arg;
+    for (int i = 0; i < THREAD_FUNC_REPS; i++) {
+        bthread_mutex_lock(&mtx);
+        assert(protect_me == 12);
+        protect_me++;
+        assert(protect_me == 13);
+        protect_me--;
+        assert(protect_me == 12);
+
+        slam_bus();
+
+        bthread_mutex_unlock(&mtx);
+    }
+    exit(0);
+}
+```
+
+To see the results, I compile one benchmark with the optimization and one without.
+
+```
+$ diff bthread-with-opt.c bthread-without-opt.c 
+141c141
+<         if (mtx->locked != 0) { continue; }
+---
+>         //if (mtx->locked != 0) { continue; }
+
+$ gcc benchmark.c bthread-with-opt.c && time ./a.out
+            <output trimmed>
+... bye
+total = 1638299986875
+
+real    0m17.612s
+user    0m35.155s
+sys 0m0.021s
+
+$ gcc benchmark.c bthread-without-opt.c && time ./a.out
+            <output trimmed>
+... bye
+total = 1638299986875
+
+real    0m30.714s
+user    1m1.370s
+sys 0m0.025s
+```
+
+So the optimized version is definitely faster. How much faster is a function of what we are doing in the critical section, and how many threads are spinning in wait.
+
+
+This is the end of the explorative section. Moving forward, I will be discussing the things that I can't make any sense out of.
+
+---
+
+<center>Confusion Inbound</center>
+
+---
+
+### Optimization
+
+All of the examples shown have been compiled without optimizations. Applying even `-O1` breaks the programs, but not because of an issue with the mutex functions (the optimizations `gcc` makes are really readable. It almost looks hand written):
+
+```
+$ gcc -c -O1 bthread.c && objdump -d bthread.o | less
+0000000000000218 <bthread_mutex_lock>:
+ 218:   8b 07           mov    (%rdi),%eax
+ 21a:   85 c0           test   %eax,%eax
+ 21c:   75 fc           jne    21a <bthread_mutex_lock+0x2>
+ 21e:   b8 00 00 00 00  mov    $0x0,%eax
+ 223:   ba 01 00 00 00  mov    $0x1,%edx
+ 228:   f0 0f b1 17     lock cmpxchg %edx,(%rdi)
+ 22c:   89 c2           mov    %eax,%edx
+ 22e:   85 d2           test   %edx,%edx
+ 230:   75 e6           jne    218 <bthread_mutex_lock>
+ 232:   f3 c3           repz retq 
+```
+
+Both the client program and the benchmark invariable hang while waiting for
+one of the threads to exit. I don't know why, but optimization does not seem to agree with my amalgamation of clone and wait.
+
+*Aside: I am almost positive that this is not an issue with clone and wait. These are extremely well tested functions that were written by RealProgrammers&trade;. The issue is probably some undefined behavior I am invoking in the way `bthreads` is setup.*
+
+### Conclusion
+
+This writeup was made in an attempt to codify what I think I learned while digging deeper into multi threaded programming on Linux. Please feel free to reach out and correct my mistakes. Thanks for reading.
+
+Here are some cool resources.
+
+<https://www.felixcloutier.com/x86/cmpxchg>
+
+<https://eli.thegreenplace.net/2018/launching-linux-threads-and-processes-with-clone/>
 
 
