@@ -1,7 +1,6 @@
 
 main {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 48em;
 }
 
@@ -16,6 +15,7 @@ code {
 
 footer {
     font-style: italic;
+    margin-top: 3em;
 }
 
 hr {
