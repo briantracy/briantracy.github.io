@@ -8,9 +8,11 @@ Keep in mind that the comments contain plot details about the books.
 
 ---
 
+To read maybe?: Crime and Punishment, Book of the new Sun, LoTR.
+
 | Title | Comments |
 |-------|----------|
-| The Silmarillion&#8224; (J. R. R. Tolkien) | |
+| The Silmarillion&#8224; (J. R. R. Tolkien) | At first, the writing style was hard to parse and understand, much like reading old historical documents. For this reason,  |
 | The Great Alone (Kristin Hannah) | This is a very short book, and I am glad for that. The plot was very predictable, and yet, the characters didn't act like how I have perceived real people to act. It was like that classic TV show situation where people don't actually verbalize what they are feeling, and then act surprised when others act in ways they don't appreciate. However, despite this, I stayed up late several nights in a row reading this book. This book has a sort of realism (I'm defining this as "feels like it could be possible") that is fascinating. |
 | Altered Carbon (Richard Morgan) | Really cool scifi worldbuilding and excellent pacing. I watched the show on Netflix about a year ago and liked it, so I thought I would read the book. I am glad I did. |
 | Brave New World (Aldous Huxley) | I recently read an [an essay by Keynes](/resources/keynes_future.pdf) about the future of economics once mass automation has ended the need for everyone to work. Brave New World seems to be a pessimistic prediction of the world Keynes imagined, and I think that it is really well conceived. My favorite character is Mustapha Mond.  |
@@ -57,9 +59,9 @@ Keep in mind that the comments contain plot details about the books.
 | To Kill a Mockingbird (Harper Lee) | Super well adapted by the movie (starring Gregory Peck). |
 | Pendragon Series (D. J. MacHale) | I started reading this book and then gave it up. A few months later, the author, DJ MacHale came and spoke to my middle school. He was a really great guy, so I gave the book a second shot. I ended up reading all 10 consecutively. |
 | Hatchet (Gary Paulsen) | Main character is named Brian. This book goes well with the *`{My,On the Far}` Side of the Mountain* series.|
-| The Giver (Lois Lowry) | |
-| The Supernaturalist (Eoin Colfer) | |
-| Code Talker (Joseph Bruchac) | |
+| The Giver (Lois Lowry) \* | Movie was good. I read this because my grandmother, who was a school teacher, assigned this book for her students. |
+| The Supernaturalist (Eoin Colfer) | Ended on a promising sequel setup, but as of 2007, only a rough outline of the alleged second book exists. I am not hopeful. |
+| Code Talker (Joseph Bruchac) | One of a small number of war books I have read, but among the best. |
 | The Darkest Minds (Alexandra Bracken) | Bad movie adaptation. |
 | Harry Potter 1,5,6,7 (J. K. Rowling) | I have a lot to say about HP. My biggest complaint is that the worldbuilding is just plain bad (illogical and inconsistent). For example, it is impossible that the Weasleys are poor (magic can be trivially monetized, ie: duplicating currency), it is impossible that not a single wizard has defected and told the muggle world about the existence of wizards, it is ridiculous that the Death Eaters and the Order of the Phoenix were in a state of "war", yet no muggle weapons are even considered. In many ways, my complaints boil down to the fact that the author had to make the series "PG" rated. The explanation for most of these issues is that "Wizards don't concern themselves with the muggle world", or some sort of false sense of superiority preventing wizards from adopting muggle technology. This is pretty weak... Having a moral superiority over something doesn't mean you can't respect it or learn from it. Also, the tone is pretty inconsistent with respect to the "bad guys". They should have been way more ruthless and intelligent. Voldemort makes all of his horcruxes famous objects because he's vain? Come on. It really feels like the author wanted to make a point about genocide being bad, yet didn't want to actually to make an intelligent critique and instead set up this strawman of a villain that was kind of half assing "being bad". I really love digging through the lore of created worlds, and when they don't hold up to even basic inspection, it makes me angry! |
 | Artemis Fowl Series (Eoin Colfer) \* | |
@@ -79,7 +81,7 @@ Keep in mind that the comments contain plot details about the books.
 | Alex Rider Series \[Stormbreaker, ...\] (Anthony Horowitz) | |
 | A Brief History of Time (Stephen Hawking) | Relax, it was the illustrated version. I was not actually reading Stephen Hawking in elementary school. |
 | Half Moon Investigations (Eoin Colfer)| Totally different tone from the other sci-fi titles this author has (Artemis Fowl, The Supernaturalist).|
-| Tom Sawyer (Mark Twain) | |
+| Tom Sawyer (Mark Twain) | Everyone in my class was given a copy to read, and around that time I got these new "gel" highlighters that I was obsessed with. I covered the edges of every page and basically painted most of the book with this waxy, fluorescent substance. |
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
 | Island of the Blue Dolphins (Scott O'Dell) | First book I remember reading (4th grade). Pretty bloody for a kids book! |
 
