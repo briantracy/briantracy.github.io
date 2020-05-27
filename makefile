@@ -6,7 +6,7 @@ HTML_TEMPLATE := _site/template.html
 CSS_TEMPLATE  := _site/styles.css
 SITE_CSS      := _site/compressed.css
 
-.PHONY: clean serve validate
+.PHONY: clean serve validate validate-online
 
 render: $(HTML_FILES)
 
@@ -35,10 +35,18 @@ serve:
 	python -m SimpleHTTPServer 8080
 
 
+# Submit each *on disk* file to the html validator
 validate:
-	for file in $(HTML_FILES); do \
+	@for file in $(HTML_FILES); do \
 		echo "[\033[0;33mCHECKING\033[0m] $$file" ; \
 		curl -F out=gnu -F "file=@$$file" http://validator.w3.org/nu/ ; \
 	done
-	
+
+
+# Ask the html validator to look at each *on line* file (it will scrape)
+validate-online:
+	@for file in $(HTML_FILES); do \
+		echo "[\033[0;33mCHECKING\033[0m] $$file" ; \
+		curl "http://validator.w3.org/nu/?doc=https://briantracy.xyz/$$file&out=gnu" ; \
+	done
 
