@@ -34,13 +34,11 @@ serve:
 	open -a Firefox.app http://localhost:8080
 	python -m SimpleHTTPServer 8080
 
+
 validate:
-	@for file in $(HTML_FILES); do \
-		if curl "http://validator.w3.org/nu/?doc=https://briantracy.xyz/$$file" 2> /dev/null | grep 'success' > /dev/null ; then \
-			echo "[\033[0;32mVALID\033[0m] $$file"; \
-		else \
-			echo "[\033[0;31mINVALID\033[0m] $$file" ; \
-		fi \
+	for file in $(HTML_FILES); do \
+		echo "[\033[0;33mCHECKING\033[0m] $$file" ; \
+		curl -F out=gnu -F "file=@$$file" http://validator.w3.org/nu/ ; \
 	done
 	
 
