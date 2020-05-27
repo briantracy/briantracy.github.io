@@ -2,7 +2,7 @@
 
 Hello,
 
-<img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/about_image.png" width="200" height="200">
+<img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/about_image.png" width="200" height="200" alt="human+dog">
 
 I am a fourth year college student studying computer science at Brown University.
 My main area of interest is computer systems and computer security.

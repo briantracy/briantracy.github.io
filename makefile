@@ -6,6 +6,8 @@ HTML_TEMPLATE := _site/template.html
 CSS_TEMPLATE  := _site/styles.css
 SITE_CSS      := _site/compressed.css
 
+.PHONY: clean serve validate
+
 render: $(HTML_FILES)
 
 $(SITE_CSS): $(CSS_TEMPLATE)
@@ -31,5 +33,14 @@ clean:
 serve:
 	open -a Firefox.app http://localhost:8080
 	python -m SimpleHTTPServer 8080
+
+validate:
+	@for file in $(HTML_FILES); do \
+		if curl "http://validator.w3.org/nu/?doc=https://briantracy.xyz/$$file" 2> /dev/null | grep 'success' > /dev/null ; then \
+			echo "[\033[0;32mVALID\033[0m] $$file"; \
+		else \
+			echo "[\033[0;31mINVALID\033[0m] $$file" ; \
+		fi \
+	done
 	
 

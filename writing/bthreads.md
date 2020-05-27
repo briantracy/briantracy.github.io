@@ -335,9 +335,6 @@ on to the explorative (read: I don't know what's happening, so I can't speak wit
 
 ---
 
-<center>Speculation Inbound</center>
-
----
 
 ### Measuring Performance
 
@@ -469,9 +466,6 @@ This is the end of the explorative section. Moving forward, I will be discussing
 
 ---
 
-<center>Confusion Inbound</center>
-
----
 
 ### Optimization
 
