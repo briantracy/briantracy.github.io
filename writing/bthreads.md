@@ -95,6 +95,7 @@ for (int i = 0; i < next_tid; i++) {
     int status;
     if (waitpid(thread_ids[i], &status, 0) == -1) {
         fprintf(stderr, "... failed to join with thread %d\n", i);
+        continue;
     }
     fprintf(stderr, "... thread %i exited with value %d\n", i, WEXITSTATUS(status));
 }
