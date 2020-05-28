@@ -314,7 +314,7 @@ goodbye from pid 2997, name=f
 
 For some semblance of proof that the mutex is actually working, when the line that locks the mutex is commented out, this is the output.
 
-*Aside: I think this is technically undefined behavior (unprotected read/writes to shared memory from multiple threads), see the end for more on that.*
+*Aside: I think this is technically undefined behavior (unprotected read/writes to shared memory from multiple threads), [this comment](https://github.com/briantracy/bthread/blob/master/bthread.c#L164) for more.*
 
 ```
 I am the parent, my pid is 3024
