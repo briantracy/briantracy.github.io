@@ -110,7 +110,7 @@ Now that our threads can be spawned, and then reigned in when they are done work
 
 ### Implementing Mutexes (Overview)
 
-To implement a mutex, we need some help from the hardware (*Note: this is false in certain situations: <https://en.wikipedia.org/wiki/Peterson%27s_algorithm>*). x86 provides the `lock` prefix for instructions, which allows for atomic memory access. This is essential because to properly
+To implement a mutex, we need some help from the hardware (*Note: this is false in certain situations: <https://en.wikipedia.org/wiki/Peterson%27s_algorithm>*). x86 provides the `lock` prefix for (certain) instructions, which allows for atomic memory access. This is essential because to properly
 implement a synchronization object, there needs to be a way to impose an order
 on the otherwise chaotic nature of multi processor memory access. The following
 scenario needs to be avoided at all costs:
