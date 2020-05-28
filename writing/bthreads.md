@@ -358,7 +358,7 @@ Additionally, atomically modifying memory might not only be slower for the execu
 
 So an initial optimization might be to reduce the number of atomic memory accesses a given thread is performing while waiting at a spin lock.
 
-Keeping in mind that the worst case scenario for a mutex is a false positive (a thread thinks the mutex is open and enters prematurely) and that a false negative scenario (a thread believes the mutex is locked, when in reality, it is unlocked), we can relax the constraints on mutex acquisition logic to favor a false negative.
+Keeping in mind that the worst case scenario for a mutex is a false positive (a thread thinks the mutex is open and enters prematurely) and that a false negative scenario (a thread believes the mutex is locked, when in reality, it is unlocked) is not fatal, we can relax the constraints on mutex acquisition logic to favor a false negative.
 
 If allowing more false negatives (but never relaxing our intolerance of false positives) improves performance, this would be a fair tradeoff. To do this, we can perform normal, non-atomic memory accesses in our spin loop, and only when they say that the mutex is unlocked do we perform an atomic memory access to verify.
 
@@ -470,27 +470,70 @@ This is the end of the explorative section. Moving forward, I will be discussing
 
 ### Optimization
 
-All of the examples shown have been compiled without optimizations. Applying even `-O1` breaks the programs, but not because of an issue with the mutex functions (the optimizations `gcc` makes are really readable. It almost looks hand written):
+
+All of the example programs so far have been compiled without optimizations. Compiling with even the lowest optimization level breaks both the client and benchmark programs. More specifically, when the time comes to join the threads, the main process hangs on the call to `wait()` forever.
+
+Here is the assembly generated with optimizations (doesn't work).
 
 ```
 $ gcc -c -O1 bthread.c && objdump -d bthread.o | less
 0000000000000218 <bthread_mutex_lock>:
- 218:   8b 07           mov    (%rdi),%eax
- 21a:   85 c0           test   %eax,%eax
+ 218:   8b 07           mov    (%rdi),%eax         ; load first arg
+ 21a:   85 c0           test   %eax,%eax           ; non-atomic busy loop
  21c:   75 fc           jne    21a <bthread_mutex_lock+0x2>
  21e:   b8 00 00 00 00  mov    $0x0,%eax
  223:   ba 01 00 00 00  mov    $0x1,%edx
- 228:   f0 0f b1 17     lock cmpxchg %edx,(%rdi)
+ 228:   f0 0f b1 17     lock cmpxchg %edx,(%rdi)   ; atomic verification
  22c:   89 c2           mov    %eax,%edx
  22e:   85 d2           test   %edx,%edx
- 230:   75 e6           jne    218 <bthread_mutex_lock>
- 232:   f3 c3           repz retq 
+ 230:   75 e6           jne    218 <bthread_mutex_lock> ; try again
+ 232:   f3 c3           repz retq
 ```
 
-Both the client program and the benchmark invariable hang while waiting for
-one of the threads to exit. I don't know why, but optimization does not seem to agree with my amalgamation of clone and wait.
+And here is the assembly generated without optimizations (does work). 
 
-*Aside: I am almost positive that this is not an issue with clone and wait. These are extremely well tested functions that were written by RealProgrammers&trade;. The issue is probably some undefined behavior I am invoking in the way `bthreads` is setup.*
+```
+$ gcc -c -O0 bthread.c && objdump -d bthread.o | less
+0000000000000f96 <bthread_mutex_lock>:
+ f96:   55                      push   %rbp
+ f97:   48 89 e5                mov    %rsp,%rbp         ; standard prelude
+ f9a:   48 89 7d e8             mov    %rdi,-0x18(%rbp)
+ f9e:   48 8b 45 e8             mov    -0x18(%rbp),%rax  ; load first arg
+ fa2:   8b 00                   mov    (%rax),%eax
+ fa4:   85 c0                   test   %eax,%eax         ; non-atomic busy loop
+ fa6:   75 26                   jne    fce <bthread_mutex_lock+0x38>
+ fa8:   c7 45 fc ff ff ff ff    movl   $0xffffffff,-0x4(%rbp)
+ faf:   48 8b 4d e8             mov    -0x18(%rbp),%rcx
+ fb3:   b8 00 00 00 00          mov    $0x0,%eax
+ fb8:   ba 01 00 00 00          mov    $0x1,%edx
+ fbd:   f0 0f b1 11             lock cmpxchg %edx,(%rcx) ; atomic verification
+ fc1:   89 c2                   mov    %eax,%edx
+ fc3:   89 55 fc                mov    %edx,-0x4(%rbp)
+ fc6:   83 7d fc 00             cmpl   $0x0,-0x4(%rbp)
+ fca:   74 05                   je     fd1 <bthread_mutex_lock+0x3b>
+ fcc:   eb d0                   jmp    f9e <bthread_mutex_lock+0x8>
+ fce:   90                      nop
+ fcf:   eb cd                   jmp    f9e <bthread_mutex_lock+0x8>
+ fd1:   90                      nop
+ fd2:   5d                      pop    %rbp
+ fd3:   c3                      retq   
+```
+
+I personally cannot find the difference that would cause the program to hang inside of a libc function.
+
+To make things worse, attempting to step over a `clone()` call in gdb completely breaks everything and the program just runs to completion. I read somewhere that debugging `pthreads` is possible in gdb because `pthreads` is aware of the concept of debuggers and provides some extra metadata. `bthreads` is obviously painfully unaware of anything else, so it makes sense that gdb would not "just work".
+
+
+Here are some things I checked for in an attempt to fix the issue:
+
+1. Am I allowed to clobber `edx` in side of `bthread_mutex_unlock`? Yes. The calling convention for x86_64 says this is a callee saved register.
+2. Am I sure that my code is causing the bug? Yes. Removing calls to the lock/unlock functions makes both optimization levels work.
+3. Am I invoking undefined behavior? Could be. I tried debugging with sanitizers and was not able to get much out of them. One thing to note is that AddressSanitizer does not play nicely with clone
+4. Am I sure that libc is correct? Ha ha. Yes I am sure. Blaming the compiler / OS / standard library is a hail mary that should only be thrown after a week of debugging, and I am not nearly confident enough in my code to be blaming someone else's.
+
+One thing I could try would be to compile `bthreads` as a shared library at two different optimization levels, link to it from a client program that calls the lock and unlock functions once, and then see how the register state differs between the two clients that used differently optimized shared libraries. This would allow me to keep the assembly of the client program the same and isolate just my mutex code.
+
+Well, that is where I give up. Looks like some more time in gdb is in my future, but until then, that is all.
 
 ### Conclusion
 
