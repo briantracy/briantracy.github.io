@@ -529,7 +529,7 @@ Here are some things I checked for in an attempt to fix the issue:
 1. Am I allowed to clobber `edx` in side of `bthread_mutex_unlock`? Yes. The calling convention for x86_64 says this is a callee saved register.
 2. Am I sure that my code is causing the bug? Yes. Removing calls to the lock/unlock functions makes both optimization levels work.
 3. Am I invoking undefined behavior? Could be. I tried debugging with sanitizers and was not able to get much out of them. One thing to note is that AddressSanitizer does not play nicely with clone
-4. Am I sure that libc is correct? Ha ha. Yes I am sure. Blaming the compiler / OS / standard library is a hail mary that should only be thrown after a week of debugging, and I am not nearly confident enough in my code to be blaming someone else's.
+4. Am I sure that libc is correct? Ha ha. Yes I am sure. Blaming the compiler / OS / standard library is a hail mary that should only be thrown after a week of debugging. Also, I am not nearly confident enough in my code to be blaming someone else's.
 
 One thing I could try would be to compile `bthreads` as a shared library at two different optimization levels, link to it from a client program that calls the lock and unlock functions once, and then see how the register state differs between the two clients that used differently optimized shared libraries. This would allow me to keep the assembly of the client program the same and isolate just my mutex code.
 
