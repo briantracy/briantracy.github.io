@@ -1,7 +1,7 @@
 
 # Photography
 
-I use a Canon A1 camera loaded with an assortment of Kodak Gold, FujiFilm, Ektar, and others.
+I use a Canon A1 camera loaded with an assortment of Kodak Gold 200, Kodak Ultramax 400, Fuji C200, Ektar 100.
 
 I took a black and white film photography course offered by the art department at my school as my introduction to photography.
 
