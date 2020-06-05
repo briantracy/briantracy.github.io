@@ -246,10 +246,10 @@ void bthread_mutex_lock(bthread_mutex *mtx);</code></pre><pre><code>$ gcc -c -O0
  29c:   eb cd                   jmp    26b &lt;bthread_mutex_lock+0x8&gt;
  29e:   90                      nop
  29f:   5d                      pop    %rbp
- 2a0:   c3                      retq</code></pre><p>And here is the assembly generated optimizations. I was amazed by how much cleaner it was. It looks exactly like what I would write if I were writing the assembly directly.</p><pre><code>$ gcc -c -O1 bthread.c &amp;&amp; objdump -d bthread.o | less
+ 2a0:   c3                      retq</code></pre><p>And here is the assembly generated with optimizations enabled. I was amazed by how much cleaner it was. It looks exactly like what a human would create.</p><pre><code>$ gcc -c -O1 bthread.c &amp;&amp; objdump -d bthread.o | less
 0000000000000218 &lt;bthread_mutex_lock&gt;:
             ; no prelude because we are not using the stack
- 218:   8b 07                   mov    (%rdi),%eax  ; dereference arg
+ 218:   8b 07                   mov    (%rdi),%eax  ; dereference lock state
  21a:   85 c0                   test   %eax,%eax
  21c:   75 fa                   jne    218 &lt;bthread_mutex_lock&gt;   ; retry
  21e:   b8 00 00 00 00          mov    $0x0,%eax
@@ -258,4 +258,4 @@ void bthread_mutex_lock(bthread_mutex *mtx);</code></pre><pre><code>$ gcc -c -O0
  22c:   89 c1                   mov    %eax,%ecx
  22e:   85 c9                   test   %ecx,%ecx
  230:   75 e6                   jne    218 &lt;bthread_mutex_lock&gt;  ; retry
- 232:   f3 c3                   repz retq                        ; to the mtx</code></pre><h3>Conclusion</h3><p>This writeup was made in an attempt to codify what I think I learned while digging deeper into multi threaded programming on Linux. Please feel free to reach out and correct my mistakes. Thanks for reading.</p><p>Here are some cool resources.</p><p><a href="https://www.felixcloutier.com/x86/cmpxchg" class="uri">https://www.felixcloutier.com/x86/cmpxchg</a></p><p><a href="https://eli.thegreenplace.net/2018/launching-linux-threads-and-processes-with-clone/" class="uri">https://eli.thegreenplace.net/2018/launching-linux-threads-and-processes-with-clone/</a></p></main><footer>Last modified May 31 14:10:57 2020</footer></body></html>
+ 232:   f3 c3                   repz retq                        ; to the mtx</code></pre><h3>Conclusion</h3><p>This writeup was made in an attempt to codify what I think I learned while digging deeper into multi threaded programming on Linux. Please feel free to reach out and correct my mistakes. Thanks for reading.</p><p>Here are some cool resources.</p><p><a href="https://www.felixcloutier.com/x86/cmpxchg" class="uri">https://www.felixcloutier.com/x86/cmpxchg</a></p><p><a href="https://eli.thegreenplace.net/2018/launching-linux-threads-and-processes-with-clone/" class="uri">https://eli.thegreenplace.net/2018/launching-linux-threads-and-processes-with-clone/</a></p></main><footer>Last modified May 31 14:39:06 2020</footer></body></html>
