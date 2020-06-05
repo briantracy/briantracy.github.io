@@ -12,7 +12,7 @@ I am from Palo Alto, CA and currently reside in Providence, RI. I was born at th
 Outside of school, I like playing guitar and woodworking. I also work for my
 school as a systems administrator and a teaching assistant.
 
-My email address is brian &lt;dot&gt; tracy &lt;at&gt; gmail &lt;dot&gt; com
+My email address is brian &lt;dot&gt; tracy33 &lt;at&gt; gmail &lt;dot&gt; com
 
 ---
 
