@@ -7,12 +7,12 @@ Hello,
 I am a fourth year college student studying computer science at Brown University.
 My main area of interest is computer systems and computer security.
 
-I am from Palo Alto, CA and currently reside in Providence, RI. I was born at the end of 1998.
+I was born in Palo Alto, CA near the end of 1998, and I currently reside in Providence, RI.
 
 Outside of school, I like playing guitar and woodworking. I also work for my
 school as a systems administrator and a teaching assistant.
 
-My email address is brian &lt;dot&gt; tracy33 &lt;at&gt; gmail &lt;dot&gt; com
+My email address is brian [dot] tracy33 [at] gmail [dot] com
 
 ---
 
