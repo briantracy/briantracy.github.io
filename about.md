@@ -12,7 +12,7 @@ I was born in Palo Alto, CA near the end of 1998, and I currently reside in Prov
 Outside of school, I like playing guitar and woodworking. I also work for my
 school as a systems administrator and a teaching assistant.
 
-My email address is brian [dot] tracy33 [at] gmail [dot] com
+My email address is <span style="unicode-bidi:bidi-override;direction:rtl;">moc.liamg@33ycart.nairb</span>
 
 ---
 
