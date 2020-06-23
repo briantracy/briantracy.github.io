@@ -7,3 +7,6 @@ some of the technical aspects involved.
 
 2. [bthreads](bthreads.html) is the Brian/Bad Threading library. It is a toy
  Linux threading library that implements mutexes using atomic x86 instructions.
+
+3. A short opinion about the dangers of using [a new JavaScript language feature](object-literals.html).
+
