@@ -1,6 +1,8 @@
 # ECMAScript 2015 "Enhanced Object Literals" are an anti-pattern
 
 
+*This is an opinion.*
+
 Consider the following function written using the relatively new JavaScript feature of ["Enhanced Object Literals"](https://www.sitepoint.com/es6-enhanced-object-literals/).
 
 ```
