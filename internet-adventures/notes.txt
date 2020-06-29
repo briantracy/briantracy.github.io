@@ -13,3 +13,5 @@ Act of God insurance
 
 
 https://www.antipope.org/charlie/blog-static/2010/03/cmap-5-why-books-are-the-lengt.html
+
+https://unix.stackexchange.com/questions/595094/how-can-i-convert-a-text-file-to-columns-like-a-newspaper
