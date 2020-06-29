@@ -8,7 +8,7 @@ short descriptions and pictures. Most of them are woodworking projects.
 ### Wooden Containers
 
 One of my friends is a succulent hoarder, so I made her a cup she could use
-as a flowerpot. Mainly maple, it has strips of walnuts inlaid for some
+as a flowerpot. Mainly maple, it has strips of walnut inlaid for some
 additional visual flair. [pic1](/images/flowerpot_done.jpg) [pic2](/images/flowerpot_drillpress.jpg) [pic3](/images/flowerpot_oct.jpg) [pic4](/images/flowerpot_rough.jpg)  [pic5](/images/flowerpot_raw.jpg)
 
 A second, very similar project was a pencil holder I made for myself. Like the
