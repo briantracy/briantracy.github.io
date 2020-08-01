@@ -83,5 +83,6 @@ To read maybe?: Crime and Punishment, Book of the new Sun, LoTR.
 | Half Moon Investigations (Eoin Colfer)| Totally different tone from the other sci-fi titles this author has (Artemis Fowl, The Supernaturalist).|
 | Tom Sawyer (Mark Twain) | Everyone in my class was given a copy to read, and around that time I got these new "gel" highlighters that I was obsessed with. I covered the edges of every page and basically painted most of the book with this waxy, fluorescent substance. |
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
-| Island of the Blue Dolphins (Scott O'Dell) | First book I remember reading (4th grade). Pretty bloody for a kids book! |
+| Island of the Blue Dolphins (Scott O'Dell) | Second book I remember reading (4th grade). Pretty bloody for a kids book! |
+| Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
