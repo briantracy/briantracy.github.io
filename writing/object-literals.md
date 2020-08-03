@@ -41,3 +41,5 @@ return {
 ```
 
 *Side Note: The popular linting library ESLint do not currently have a rule to detect the usage of this language feature. I am considering creating an issue in their system for this.*
+
+*Side Note': The Visual Studio Code editor, when performing a literal textual replacement reproduces the behavior described above. However, when using the built in refactor tool, it is smart enough to avoid changing the name of the object keys. However, my point still stands that a symbolic change to the source should not have a difference on output.*
