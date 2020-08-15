@@ -8,10 +8,12 @@ Keep in mind that the comments contain plot details about the books.
 
 ---
 
-To read maybe?: Crime and Punishment, Book of the new Sun, LoTR.
+To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 
 | Title | Comments |
 |-------|----------|
+| The Bible&#8224; (KJV) | |
+| Dune [reread]| Had to brush up on my lore before the movie drops. |
 | The Silmarillion (J. R. R. Tolkien) | Insanely detailed and consistent worldbuilding. The writing style is hard to pick up at first, but by the end, it begins to make sense and the beauty of the phrasing becomes apparent. Now that I have read this and the Hobbit, I am ready for the Lord of the Rings! |
 | The Great Alone (Kristin Hannah) | This is a very short book, and I am glad for that. The plot was very predictable, and yet, the characters didn't act like how I have perceived real people to act. It was like that classic TV show situation where people don't actually verbalize what they are feeling, and then act surprised when others act in ways they don't appreciate. However, despite this, I stayed up late several nights in a row reading this book. This book has a sort of realism (I'm defining this as "feels like it could be possible") that is fascinating. |
 | Altered Carbon (Richard Morgan) | Really cool scifi worldbuilding and excellent pacing. I watched the show on Netflix about a year ago and liked it, so I thought I would read the book. I am glad I did. |
@@ -45,13 +47,13 @@ To read maybe?: Crime and Punishment, Book of the new Sun, LoTR.
 | The Martian (Andy Weir) | |
 | Night (Elie Wiesel) | Required reading during my Junior year of high school. I am glad we were assigned this book. I have seen it referred to as a "must read" for people interested in learning more about the Holocaust, and I agree with this assessment. |
 | With the Old Breed: At Peleliu and Okinawa (E. B. Sledge) | This book is one of the reference materials for the HBO series "The Pacific". There is also a chance that I am distantly related to the author. |
-| Ender's Game (Orson Scott Card) \* | |
+| Ender's Game (Orson Scott Card) \* | Two people have told me that the spin-off series "Ender's Shadow" is also really good, so I might look into that. |
 | Whale Talk (Chris Crutcher) | This book appropriately handled some very mature themes for a story targeted at young adults. |
 | All Quiet on the Western Front (Erich Maria Remarque) | |
 | World War Z (Max Brooks) | Very different from the movie, so if you were disappointed with that, check out the book. It's structured as a series of short stories from survivors of the war. |
 | The Book Thief (Markus Zusak) | I first learned who Jesse Owens was from this book when one of the main characters (a young boy) covers himself in coal dust and runs around a track. My favorite Owen's quote is "Hitler didn't snub me - It was our president who snubbed me. The president didn't even send me a telegram" (from *Triumph* by Jeremy Schaap, near the end of the "Day Three" chapter). |
 | Of Mice and Men (John Steinbeck) | This was assigned reading in 9th grade. Rumor has it, the instant the book was announced, someone in another class stood up and said "Isn't this the one where George kills Lenny at the end?" |
-| The Great Gatsby (F. Scott Fitzgerald) | |
+| The Great Gatsby (F. Scott Fitzgerald) | The only movie adaptation I have seen is the new one with Leonardo DiCaprio, which I liked. A few of my film loving friends don't approve of my approval. |
 | Fahrenheit 451 (Ray Bradbury) | HBO adaptation was bad. My favorite part of the book was the main character's wife Mildred. She is shown to be addicted to listening to broadcasts that are beamed directly into little "seashells" in her ears. This is such an accurate depiction of what we now do with wireless headphones, it makes me think of the novel every time I see a crowd of people all listening to something or on their phones. The HBO adaptation cut her character entirely, which was disappointing because her death at the hands of a rival nation during the one day war was the climax of the book. |
 | Unwind (Neal Shusterman) | Really terrifying book that had some great scenes. "They" should make this into a movie. |
 | Hunger Games Series (Suzanne Collins) | Cool worldbuilding. If you liked this one, you will like the Japanese movie *Battle Royale* that came out in 2000 (8 years before HG). |
@@ -77,7 +79,7 @@ To read maybe?: Crime and Punishment, Book of the new Sun, LoTR.
 | Gloomy Gus (Walt Morey) | I read this one over the course of a semester in middle school, one sitting at a time, every week. It is not about a sad human, but the relationship between a boy and a bear (the animal). |
 | The Thief Lord (Cornelia Funke) \* | One of the main characters "Scipio" was my hero. |
 | Leviathan (Scott Westerfield) | |
-| The Haunting of Freddy (Dietlof Reiche) | |
+| The Haunting of Freddy (Dietlof Reiche) | This is the only book I have read that uses a non-standard font. |
 | Alex Rider Series \[Stormbreaker, ...\] (Anthony Horowitz) | |
 | A Brief History of Time (Stephen Hawking) | Relax, it was the illustrated version. I was not actually reading Stephen Hawking in elementary school. |
 | Half Moon Investigations (Eoin Colfer)| Totally different tone from the other sci-fi titles this author has (Artemis Fowl, The Supernaturalist).|
@@ -85,4 +87,14 @@ To read maybe?: Crime and Punishment, Book of the new Sun, LoTR.
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
 | Island of the Blue Dolphins (Scott O'Dell) | Second book I remember reading (4th grade). Pretty bloody for a kids book! |
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
+
+
+As of the end of 2019, I do most of my reading on a e-reader (specifically, the Kindle) because I have found this method to be much cheaper than buying books.
+
+I use the free and open source application [Calibre](https://calibre-ebook.com/) to manage my digital library and I download my books from the following websites:
+
+1. Library Genesis (<https://libgen.is/>)
+2. Standard EBooks (<https://standardebooks.org/>)
+3. Project Gutenburg (<https://www.gutenberg.org/>)
+4. ZLibrary (<https://b-ok.cc/>)
 
