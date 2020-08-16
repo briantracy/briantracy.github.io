@@ -7,5 +7,6 @@
 3. [Creations](creations.html)
 4. [Internet Adventures](internet-adventures/internet-adventures.html)
 5. [Photography](photography.html)
-6. [Writing](writing/writing.html)
+6. [Random](random/random.html)
+7. [Writing](writing/writing.html)
 
