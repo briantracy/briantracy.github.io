@@ -89,6 +89,8 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
 
+<span id='numbooks'></span>
+
 As of the end of 2019, I do most of my reading on a e-reader (specifically, the Kindle) because I have found this method to be much cheaper than buying books.
 
 I use the free and open source application [Calibre](https://calibre-ebook.com/) to manage my digital library and I download my books from the following websites:
@@ -97,4 +99,6 @@ I use the free and open source application [Calibre](https://calibre-ebook.com/)
 2. Standard EBooks (<https://standardebooks.org/>)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
 4. ZLibrary (<https://b-ok.cc/>)
+
+<script>document.getElementById('numbooks').innerHTML = document.getElementsByTagName('table')[0].rows.length - 1;</script>
 
