@@ -71,6 +71,7 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 | The Compound (S. A. Bodeen)| |
 | The City of Ember (Jeanne DuPrau) | |
 | The Green Glass Sea (Ellen Klages) | |
+| Half Moon Investigations (Eoin Colfer)| Totally different tone from the other sci-fi titles this author has (Artemis Fowl, The Supernaturalist).|
 | Frindle (Andrew Clements) | |
 | Seabiscuit (Laura Hillenbrand)| |
 | Holes (Louis Sachar) | |
@@ -80,9 +81,9 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 | The Thief Lord (Cornelia Funke) \* | One of the main characters "Scipio" was my hero. |
 | Leviathan (Scott Westerfield) | |
 | The Haunting of Freddy (Dietlof Reiche) | This is the only book I have read that uses a non-standard font. |
+| Flipped (Wendelin Van Draanen) | |
 | Alex Rider Series \[Stormbreaker, ...\] (Anthony Horowitz) | |
 | A Brief History of Time (Stephen Hawking) | Relax, it was the illustrated version. I was not actually reading Stephen Hawking in elementary school. |
-| Half Moon Investigations (Eoin Colfer)| Totally different tone from the other sci-fi titles this author has (Artemis Fowl, The Supernaturalist).|
 | Tom Sawyer (Mark Twain) | Everyone in my class was given a copy to read, and around that time I got these new "gel" highlighters that I was obsessed with. I covered the edges of every page and basically painted most of the book with this waxy, fluorescent substance. |
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
 | Island of the Blue Dolphins (Scott O'Dell) | Second book I remember reading (4th grade). Pretty bloody for a kids book! |
