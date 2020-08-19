@@ -89,7 +89,7 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
 | Island of the Blue Dolphins (Scott O'Dell) | I believe I read this in 4th grade. Pretty bloody for a kids book! |
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
-| Top Secret (John Reynolds Gardiner) | |
+| Top Secret (John Reynolds Gardiner) | 2nd grade maybe? |
 
 
 <span id='numbooks'></span>
