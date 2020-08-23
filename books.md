@@ -87,6 +87,7 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 | A Brief History of Time (Stephen Hawking) | Relax, it was the illustrated version. I was not actually reading Stephen Hawking in elementary school. |
 | Tom Sawyer (Mark Twain) | Everyone in my class was given a copy to read, and around that time I got these new "gel" highlighters that I was obsessed with. I covered the edges of every page and basically painted most of the book with this waxy, fluorescent substance. |
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
+| Spy X: The Code (Peter Lerangis) | I learned about the concept of a "skeleton key" from this book, I think the main character has one. |
 | Island of the Blue Dolphins (Scott O'Dell) | I believe I read this in 4th grade. Pretty bloody for a kids book! |
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 | Top Secret (John Reynolds Gardiner) | 2nd grade maybe? |
