@@ -28,7 +28,7 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 | Hyperion \*, Fall of Hyperion (Dan Simmons) | God Tier Science Fiction. This book and its sequel are a must read for fans of the genre. On the sequel: the author admits that he [needed a down payment to buy a new house](https://scifi.stackexchange.com/questions/72422/why-were-hyperion-and-fall-of-hyperion-split-into-two-books), so he split the book into two parts so he could make more money off the story. Respect. |
 | Dune Series (Frank Herbert) \* | One of my favorites -- All six books are epic, but the fourth, God Emperor of Dune is the highlight of the series. I am so hyped for the movie coming out in 2020 |
 | East of Eden (John Steinbeck)\* | This one is a tear jerker that really made me think about what it means to live an entire lifetime. As a young person, the American life expectancy of 77 years seems like an impossibly long time. It was nice to see how the characters evolved over the course of the book |
-| The Long Walk (Stephen King) \* | This book does a great job of instilling the reader with the sense of anxiety that the characters are feeling. |
+| The Long Walk (Stephen King) | This book does a great job of instilling the reader with the sense of anxiety that the characters are feeling. |
 | Declaration of Independence + US Constitution | From a political perspective, I am a staunch constitutionalist. Reading this text is so exciting and inspiring, although parsing the grammar of the language that was used at the time is very difficult. Reading alongside an interpreted version is also very helpful; knowing what to look for makes the run on sentences more manageable. |
 | The Slow Regard of Silent Things (Patrick Rothfuss) | I did not like this one as much as the two KingKiller books, but it served as a good read during the unbearable hiatus that we are currently experiencing before the final book in the series. |
 | Mistborn Series (Brandon Sanderson) \* | I really love how well these books are structured, both in terms of pacing and worldbuilding. The magic is so internally consistent and it provides a refreshing, almost "realistic" power. |
@@ -89,8 +89,8 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
 | Spy X: The Code (Peter Lerangis) | I learned about the concept of a "skeleton key" from this book, I think the main character has one. |
 | Island of the Blue Dolphins (Scott O'Dell) | I believe I read this in 4th grade. Pretty bloody for a kids book! |
-| Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 | Top Secret (John Reynolds Gardiner) | 2nd grade maybe? |
+| Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
 
 <span id='numbooks'></span>
