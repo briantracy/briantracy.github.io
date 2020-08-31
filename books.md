@@ -105,5 +105,3 @@ I use the free and open source application [Calibre](https://calibre-ebook.com/)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
 4. ZLibrary (<https://b-ok.cc/>)
 
-<script>document.getElementById('numbooks').innerHTML = document.getElementsByTagName('table')[0].rows.length - 1;</script>
-
