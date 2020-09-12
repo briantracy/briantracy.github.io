@@ -12,7 +12,8 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 
 | Title | Comments |
 |-------|----------|
-| The Bible&#8224; (KJV) | |
+| The Pentateuch&#8224; (KJV) | |
+| Meditations (Marcus Aurelius) | |
 | Ender's Shadow (Orson Scott Card) | This book and Ender's Game are connected in a way that I have not come across before. They both tell the same story, but from different character's perspectives. Overall, I liked this one a little less than the original because the reader is expected to know the ending. |
 | Dune [reread]| Had to brush up on my lore before the movie drops. |
 | The Silmarillion (J. R. R. Tolkien) | Insanely detailed and consistent worldbuilding. The writing style is hard to pick up at first, but by the end, it begins to make sense and the beauty of the phrasing becomes apparent. Now that I have read this and the Hobbit, I am ready for the Lord of the Rings! |
