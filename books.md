@@ -8,7 +8,7 @@ Keep in mind that the comments contain plot details about the books.
 
 ---
 
-To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
+To read maybe?: The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), Crime and Punishment, Book of the new Sun, LoTR, stormlight archive.
 
 | Title | Comments |
 |-------|----------|
