@@ -12,8 +12,8 @@ To read maybe?: Just for Fun, Crime and Punishment, Book of the new Sun, LoTR.
 
 | Title | Comments |
 |-------|----------|
-| The Pentateuch&#8224; (KJV) | |
-| Meditations (Marcus Aurelius) | |
+| The Pentateuch&#8224; (King James Translation) | Also known as the "Five Books of Moses" or the "Torah", the Pentateuch consists of the following books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. These books contain the classic stories that are referenced across all Abrahamic religions (Judaism, Christianity, Islam, ...) and are still featured heavily in secular pop culture today. Here are some quotations that you have probably heard before, regardless of your religious background: "Let there be light", "Thou shalt not kill", "land of milk and honey". |
+| Meditations (Marcus Aurelius) | This is a tough, but worthwhile read. Probably the most powerful author on my list so far (an emperor of Rome). |
 | Ender's Shadow (Orson Scott Card) | This book and Ender's Game are connected in a way that I have not come across before. They both tell the same story, but from different character's perspectives. Overall, I liked this one a little less than the original because the reader is expected to know the ending. |
 | Dune [reread]| Had to brush up on my lore before the movie drops. |
 | The Silmarillion (J. R. R. Tolkien) | Insanely detailed and consistent worldbuilding. The writing style is hard to pick up at first, but by the end, it begins to make sense and the beauty of the phrasing becomes apparent. Now that I have read this and the Hobbit, I am ready for the Lord of the Rings! |
