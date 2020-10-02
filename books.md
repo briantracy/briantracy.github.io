@@ -4,7 +4,19 @@ I like discussing books with people, but I always forget which ones I have
 read. Below is a list of all the books I can remember reading with the most
 recent appearing first. &#8224; = in progress, \* = favorite
 
-Keep in mind that the comments contain plot details about the books.
+Keep in mind that the comments contain plot details about the books (spoilers).
+
+---
+
+One thought I struggle with is whether or not reading books is "worth it". At its core, reading is a way to hear stories, and this is not something that books have a monopoly on. Movies, TV shows, YouTube videos, video games, ..., all share stories in seemingly equally valid ways. So my question is, why read?
+
+Are there cognitive benefits to absorbing stories through writing that are not reaped when watching or listening? Will reading *The Giver* make a "better person" than I would have been if I had simply listened to the audio book? What about the movie adaptation? They are all the same story (approximately).
+
+Is there something more "noble" about a life spent reading as apposed to one spent watching TV? I am going to forget the details of everything I perceive, so why does it matter that I spent time reading them, when in the same amount of time, I could have been exposed to 3x as many stories through a TV show?
+
+If the details are important, then are the hundreds of hours I have spent playing Call of Duty (Modern Warfare 2) meaningful in the same way that spending the same amount of time reading would have been? I have memorized the statistics and patterns of dozens of guns and attachments. I have an extremely accurate mental map of hundreds of square miles of in-game terrain.
+
+One thing I know personally is that the video based formats (movies, tv, ...) are far more addicting than the written word.
 
 ---
 
