@@ -10,17 +10,28 @@ Keep in mind that the comments contain plot details about the books (spoilers).
 
 One thought I struggle with is whether or not reading books is "worth it". At its core, reading is a way to hear stories, and this is not something that books have a monopoly on. Movies, TV shows, YouTube videos, video games, ..., all share stories in seemingly equally valid ways. So my question is, why read?
 
-Are there cognitive benefits to absorbing stories through writing that are not reaped when watching or listening? Will reading *The Giver* make a "better person" than I would have been if I had simply listened to the audio book? What about the movie adaptation? They are all the same story (approximately).
+Are there cognitive benefits to absorbing stories through writing that are not reaped when watching or listening? Will reading *The Giver* make me a "better person" than I would have been if I had simply listened to the audio book? What about the movie adaptation? They are all the same story (approximately).
 
 Is there something more "noble" about a life spent reading as apposed to one spent watching TV? I am going to forget the details of everything I perceive, so why does it matter that I spent time reading them, when in the same amount of time, I could have been exposed to 3x as many stories through a TV show?
 
-If the details are important, then are the hundreds of hours I have spent playing Call of Duty (Modern Warfare 2) meaningful in the same way that spending the same amount of time reading would have been? I have memorized the statistics and patterns of dozens of guns and attachments. I have an extremely accurate mental map of hundreds of square miles of in-game terrain.
+If the details are important, then are the hundreds of hours I have spent playing Call of Duty (Modern Warfare 2) meaningful in the same way that spending the same amount of time reading would have been? I have memorized the statistics and patterns of dozens of guns and attachments. I have an extremely accurate mental map of hundreds of square miles of in-game terrain. Is this better or worse than knowing the entire lineage of the Elven houses from Lord of the Rings?
 
-One thing I know personally is that the video based formats (movies, tv, ...) are far more addicting than the written word.
+I have read articles about "studies" that say reading has health benefits such as preventing the early onset of dementia and reducing stress, but I am too young to worry about my health in 50 years and I am not a stressed person. So if you don't care about those specific benefits, is there still a need to read? 
+
+One thing I know personally is that the video based formats (movies, tv, ...) are far more addicting than the written word. **I am addicted to electronics.** Uttering this feels like admitting a weakness, but if I say that I am addicted to reading books, this is seen as an admirable quality. Is there a reason that my internal moral compass tells me that "caving" in and watching TV instead of practicing the "asceticism" of reading is the wrong choice?
+
+Maybe we read for fun, and that's enough. But in that case, those other types of media are designed to be more fun! Is watching the Altered Carbon TV show some sort of hedonism compared to reading the *Altered Carbon* book? Is the joy of reading somehow more "deserved" than the "easy" satisfaction of watching something?
+
+Maybe there *is* a line of thought worth exploring about the relative ease of consumption. Reading is "work" (good and noble), watching is "play" (bad and shameful). But what if we already work enough?
+
+For my final musing, I ask you to weigh your reactions to the following hypothetical statements from your friends.
+
+1. "I read for 8 hours yesterday!"
+2. "I watched TV for 8 hours yesterday!"
 
 ---
 
-To read maybe?: The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), Crime and Punishment, Book of the new Sun, LoTR, stormlight archive.
+To read maybe?: The way of Kings (sanderson), The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), Crime and Punishment, Book of the new Sun, LoTR.
 
 | Title | Comments |
 |-------|----------|
