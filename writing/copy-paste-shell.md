@@ -2,7 +2,7 @@
 
 # Don't Copy Paste Into A Shell
 
-When you see some shell command on the internet, do not copy it into your terminal.
+When you see a shell command on the Internet, do not copy it into your terminal.
 
 Modern JavaScript Clipboard APIs allow a website to trivially overwrite what you put inside your clipboard, without the user's confirmation or permission.
 
