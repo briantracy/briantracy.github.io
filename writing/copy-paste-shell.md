@@ -1,6 +1,6 @@
 
 
-# Don't Copy Pate Into A Shell
+# Don't Copy Paste Into A Shell
 
 When you see some shell command on the internet, do not copy it into your terminal.
 
