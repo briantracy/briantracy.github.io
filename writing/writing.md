@@ -10,3 +10,4 @@ some of the technical aspects involved.
 
 3. A short opinion about the dangers of using [a new JavaScript language feature](object-literals.html).
 
+4. [Don't Copy Paste Into a Shell](copy-paste-shell.html)
