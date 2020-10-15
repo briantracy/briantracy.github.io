@@ -35,7 +35,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 
 | Title | Comments |
 |-------|----------|
-| The Pentateuch&#8224; (King James Translation) | Also known as the "Five Books of Moses" or the "Torah", the Pentateuch consists of the following books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. These books contain the classic stories that are referenced across all Abrahamic religions (Judaism, Christianity, Islam, ...) and are still featured heavily in secular pop culture today. Here are some quotations that you have probably heard before, regardless of your religious background: "Let there be light", "Thou shalt not kill", "land of milk and honey", "40 days and 40 nights", "am I my brother's keeper?". |
+| The Pentateuch&#8224; (King James Translation) | Also known as the "Five Books of Moses" or the "Torah", the Pentateuch consists of the following books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. These books contain the classic stories that are referenced across all Abrahamic religions (Judaism, Christianity, Islam, ...) and are still featured heavily in secular pop culture today. Here are some quotations that you have probably heard before, regardless of your religious background: "Let there be light", "Thou shalt not kill", "land of milk and honey", "40 days and 40 nights", "am I my brother's keeper?". This may seem heretic to the more orthodox, but reading the bible does not have to be a religious endeavor and is totally worth everyone's time. |
 | The Stormlight Archive \[Way of Kings, ...\] (Brandon Sanderson)* | The hype is real and Sanderson is the king. Mistborn was an insane start, but the Stormlight Archive books are on a higher level of writing and storytelling. I really look forward to the new book coming out in 2020. |
 | Meditations (Marcus Aurelius) | This is a tough, but worthwhile read. Probably the most powerful author on my list so far (an emperor of Rome). |
 | Ender's Shadow (Orson Scott Card) | This book and Ender's Game are connected in a way that I have not come across before. They both tell the same story, but from different character's perspectives. Overall, I liked this one a little less than the original because the reader is expected to know the ending. |
@@ -47,11 +47,11 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | Jane Eyre (Charlotte Bront&euml;) \*| Absolutely loved it. My reading list is very dude heavy, so it was nice to get a female perspective, both from a main character and author. I never doubted Mr. Rochester for a second, I love that guy. |
 | Gentlemen Bankers: The World of J.P. Morgan (Susie J. Pak) | Assigned reading in my History of Capitalism course. While it is interesting to see how magnates come to power, I think it is more interesting how they retain that power and transform it into a dynasty for their children. This book reminds me a lot of HBO's *Succession*, about a media magnate and his family. |
 | The Fifth Season\*, The Obelisk Gate, The Stone Sky (N. K. Jemisin) | Fantastic world building and storytelling. The narrative structure of the first book is quite novel. It follows three separate characters that are later revealed to be the same woman at different points in her life. If you are like me and love learning about the lore behind the fantasy, stick with all three books as the reveals come very late in the series. |
-| Attack on Titan (Hajime Isayama) * | First comic book I have ever read. Probably my favorite fictional world. The fact that the author has been releasing a chapter every month for 10 years is amazing. The art is insane, the plot is unique, the themes are real; I would recommend AOT to anyone. As of January 2020, the author made an announcement that he would be finishing the series within the year! |
+| Attack on Titan (Hajime Isayama) * | First comic book I have ever read. Probably my favorite fictional world. The fact that the author has been releasing a chapter every month for 10 years is amazing. The art is insane, the plot is unique, the themes are real; I would recommend AOT to anyone. As of January 2020, the author made an announcement that he would be finishing the series within the year! October 2020 Update: wow the series is steaming towards a conclusion! The final season of the anime adaptation (cover everything after chapter 90) has been confirmed for this December. |
 | The Sparrow (Mary Doria Russell) | I picked this book up after seeing it beat out Hyperion on a sci-fi list. This is the only book I have read that is built mostly on religious themes and internal conflicts of faith. |
 | Foundation (Isaac Asimov) | I love books about large scale journeys through time (see Dune), and this one does a great job of covering a plot whose scope reaches across the centuries. |
 | Hyperion \*, Fall of Hyperion (Dan Simmons) | God Tier Science Fiction. This book and its sequel are a must read for fans of the genre. On the sequel: the author admits that he [needed a down payment to buy a new house](https://scifi.stackexchange.com/questions/72422/why-were-hyperion-and-fall-of-hyperion-split-into-two-books), so he split the book into two parts so he could make more money off the story. Respect. |
-| Dune Series (Frank Herbert) \* | One of my favorites -- All six books are epic, but the fourth, God Emperor of Dune is the highlight of the series. I am so hyped for the movie coming out in 2020 |
+| Dune Series (Frank Herbert) \* | One of my favorites -- All six books are epic, but the fourth, God Emperor of Dune is the highlight of the series. I am so hyped for the movie coming out in 2020. October 2020 Update: haha! sike. The movie got delayed until October 2021 due to covid19. |
 | East of Eden (John Steinbeck)\* | This one is a tear jerker that really made me think about what it means to live an entire lifetime. As a young person, the American life expectancy of 77 years seems like an impossibly long time. It was nice to see how the characters evolved over the course of the book |
 | The Long Walk (Stephen King) | This book does a great job of instilling the reader with the sense of anxiety that the characters are feeling. |
 | Declaration of Independence + US Constitution | From a political perspective, I am a staunch constitutionalist. Reading this text is so exciting and inspiring, although parsing the grammar of the language that was used at the time is very difficult. Reading alongside an interpreted version is also very helpful; knowing what to look for makes the run on sentences more manageable. |
@@ -105,7 +105,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | Tales of the Greek Heroes (Roger Lancelyn Green) | This is where you go when you level up from Percy Jackson. |
 | Gloomy Gus (Walt Morey) | I read this one over the course of a semester in middle school, one sitting at a time, every week. It is not about a sad human, but the relationship between a boy and a bear (the animal). |
 | The Thief Lord (Cornelia Funke) \* | One of the main characters "Scipio" was my hero. |
-| Leviathan (Scott Westerfield) | |
+| Leviathan (Scott Westerfield) | I would like to see this adapted as a movie. The concept of WW1 being fought between animal and machine powered nations could be visually stunning. |
 | The Haunting of Freddy (Dietlof Reiche) | This is the only book I have read that uses a non-standard font. |
 | Flipped (Wendelin Van Draanen) | |
 | Alex Rider Series \[Stormbreaker, ...\] (Anthony Horowitz) | |
@@ -117,8 +117,6 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | Top Secret (John Reynolds Gardiner) | 2nd grade maybe? |
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
-
-<span id='numbooks'></span>
 
 As of the end of 2019, I do most of my reading on a e-reader (specifically, the Kindle) because I have found this method to be much cheaper than buying books.
 
