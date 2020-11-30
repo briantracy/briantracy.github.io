@@ -47,5 +47,7 @@ My email address is <span style="unicode-bidi:bidi-override;direction:rtl;">moc.
 
 ---
 
+Proof of Identity [is discussed here](/identity.html)
+
 My public GPG key [is here](/resources/briantracy_gpg.txt)
 
