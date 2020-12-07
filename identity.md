@@ -13,13 +13,7 @@ So by presenting a photo id issued by a trusted government, we build a chain of 
 
 With the sophistication of modern image manipulation software, a picture with my face, a photo id, and then the text "I own briantracy.xyz" is not enough. Fortunately, we do not yet have the technology (available to everybody) to doctor videos as convincingly.
 
-So I offer the following: a video with my face, several forms of photo id issued by a trusted government, and a claim of ownership of briantracy.xyz
-
-Augmented with a GPG key, this creates a robust chain of trust.
-
-```
-US Government -> my face / my name -> my domain -> my GPG key -> ???
-```
+So I offer the following: a video with my face, several forms of photo id issued by the US Government, and a claim of ownership of briantracy.xyz
 
 
 
