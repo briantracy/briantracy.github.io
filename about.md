@@ -21,9 +21,9 @@ My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">i
 | Browser | Firefox |
 | Corporation | Dow Chemical |
 | Historical Figure | Socrates |
-| Animal | Dog |
+| Animal | Dog (or deer) |
 | Timepiece | Casio F91-W |
-| File Format | `.xml` |
+| File Format | `ELF` |
 | Music Genre | Blues |
 | Text Editor | vim |
 | Character Encoding | `us_ascii` |
