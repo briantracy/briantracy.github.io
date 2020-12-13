@@ -57,6 +57,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | Of Mice and Men (John Steinbeck) | This was assigned reading in 9th grade. Rumor has it, the instant the book was announced, someone in another class stood up and said "Isn't this the one where George kills Lenny at the end?" |
 | The Great Gatsby (F. Scott Fitzgerald) | The only movie adaptation I have seen is the new one with Leonardo DiCaprio, which I liked. A few of my film loving friends don't approve of my approval. |
 | Fahrenheit 451 (Ray Bradbury) | HBO adaptation was bad. My favorite part of the book was the main character's wife Mildred. She is shown to be addicted to listening to broadcasts that are beamed directly into little "seashells" in her ears. This is such an accurate depiction of what we now do with wireless headphones, it makes me think of the novel every time I see a crowd of people all listening to something or on their phones. The HBO adaptation cut her character entirely, which was disappointing because her death at the hands of a rival nation during the one day war was the climax of the book. |
+| Whirligig (Paul Fleischman) | |
 | Unwind (Neal Shusterman) | Really terrifying book that had some great scenes. "They" should make this into a movie. |
 | Hunger Games Series (Suzanne Collins) | Cool worldbuilding. If you liked this one, you will like the Japanese movie *Battle Royale* that came out in 2000 (8 years before HG). |
 | The Knife of Never Letting Go (Patrick Ness) | |
