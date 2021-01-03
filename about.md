@@ -14,6 +14,8 @@ school as a systems administrator and a teaching assistant.
 
 My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">iamg@33ycart.na</span>l.com
 
+[Here is an album](https://photos.app.goo.gl/v551gaGyWBSHqJVo9) full of pictures of me.
+
 ---
 
 | Category | Favorite |
