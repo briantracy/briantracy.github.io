@@ -9,7 +9,7 @@ Keep in mind that the comments contain plot details about the books (spoilers).
 ---
 
 
-To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), Crime and Punishment, Book of the new Sun, LoTR.
+To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), Crime and Punishment, Book of the new Sun, LoTR, Uncle Tom's Cabin, The Jungle
 
 | Title | Comments |
 |-------|----------|
