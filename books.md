@@ -55,6 +55,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | All Quiet on the Western Front (Erich Maria Remarque) | |
 | World War Z (Max Brooks) | Very different from the movie, so if you were disappointed with that, check out the book. It's structured as a series of short stories from survivors of the war. |
 | The Book Thief (Markus Zusak) | I first learned who Jesse Owens was from this book when one of the main characters (a young boy) covers himself in coal dust and runs around a track. My favorite Owen's quote is "Hitler didn't snub me - It was our president who snubbed me. The president didn't even send me a telegram" (from *Triumph* by Jeremy Schaap, near the end of the "Day Three" chapter). |
+| Lord of the Flis (William Golding) | |
 | Of Mice and Men (John Steinbeck) | This was assigned reading in 9th grade. Rumor has it, the instant the book was announced, someone in another class stood up and said "Isn't this the one where George kills Lenny at the end?" |
 | The Great Gatsby (F. Scott Fitzgerald) | The only movie adaptation I have seen is the new one with Leonardo DiCaprio, which I liked. A few of my film loving friends don't approve of my approval. |
 | Fahrenheit 451 (Ray Bradbury) | HBO adaptation was bad. My favorite part of the book was the main character's wife Mildred. She is shown to be addicted to listening to broadcasts that are beamed directly into little "seashells" in her ears. This is such an accurate depiction of what we now do with wireless headphones, it makes me think of the novel every time I see a crowd of people all listening to something or on their phones. The HBO adaptation cut her character entirely, which was disappointing because her death at the hands of a rival nation during the one day war was the climax of the book. |
@@ -63,6 +64,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | Hunger Games Series (Suzanne Collins) | Cool worldbuilding. If you liked this one, you will like the Japanese movie *Battle Royale* that came out in 2000 (8 years before HG). |
 | The Knife of Never Letting Go (Patrick Ness) | |
 | To Kill a Mockingbird (Harper Lee) | Super well adapted by the movie (starring Gregory Peck). |
+| The Pearl (John Steinbeck) | |
 | Pendragon Series (D. J. MacHale) | I started reading this book and then gave it up. A few months later, the author, DJ MacHale came and spoke to my middle school. He was a really great guy, so I gave the book a second shot. I ended up reading all 10 consecutively. |
 | Hatchet (Gary Paulsen) | Main character is named Brian. This book goes well with the *`{My,On the Far}` Side of the Mountain* series.|
 | The Giver (Lois Lowry) \* | Movie was good. I read this because my grandmother, who was a school teacher, assigned this book for her students. |
