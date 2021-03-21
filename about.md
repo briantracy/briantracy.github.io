@@ -43,7 +43,7 @@ My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">i
 | Phenomenon | Magnetism |
 | Date Format | Tue Feb 5 23:01:16 EST 2019 |
 | Essay | [This is Water](/resources/this_is_water.pdf) |
-| Book | [hard to say](/books.html) |
+| Book | [hard to say](/reading.html) |
 | Band | Tedeschi Trucks Band |
 | Metal | Copper |
 

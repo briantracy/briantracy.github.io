@@ -3,10 +3,8 @@
 
 ### Site Map
 1. [About](about.html)
-2. [Books](books.html)
-3. [Creations](creations.html)
-4. [Internet Adventures](internet-adventures/internet-adventures.html)
-5. [Photography](photography.html)
-6. [Random](random/random.html)
-7. [Writing](writing/writing.html)
+2. [Creations](creations.html)
+3. [Photography](photography.html)
+4. [Reading](reading.html)
+5. [Writing](writing/writing.html)
 
