@@ -12,4 +12,5 @@ as "related to school").
 
 | Day | Notes |
 |:---:|:------|
-| Sat Mar 27 | I have to fight the urge to open up a new browser tab and distract myself. This is definitely making me feel sad, which is an interesting development. |
+| Sat Mar 27 | I have to fight the urge to open up a new browser tab and distract myself. I am feeling sad and missing the distraction. |
+| Sun Mar 28 | Same urges today. Not any easier to do schoolwork. |
