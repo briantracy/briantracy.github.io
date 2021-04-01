@@ -7,7 +7,7 @@ Hello,
 I am a fourth year college student studying computer science at Brown University.
 My main area of interest is computer systems and computer security.
 
-I was born in Palo Alto, CA near the end of 1998, and I currently reside in Providence, RI.
+I was born in Palo Alto, CA near the end of 1998, and I currently reside in ~~Providence, RI~~ (moved back home for covid19).
 
 Outside of school, I like playing guitar and woodworking. I also work for my
 school as a systems administrator and a teaching assistant.
