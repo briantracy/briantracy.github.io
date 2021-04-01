@@ -16,3 +16,4 @@ as "related to school").
 | Sun Mar 28 | Same urges today. Not any easier to do schoolwork. I have been reading when I need to distract myself. |
 | Mon Mar 29 | Lots of reading, I am strangely feeling better. |
 | Tue Mar 30 | I am not missing browsing the internet at all at this point. I do miss playing the PS4 though. This process is definitely helping me improve my perseverance. |
+| Wed Mar 31 | Feeling good today. |
