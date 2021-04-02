@@ -10,9 +10,7 @@ some of the technical aspects involved.
 
 3. A short opinion about the dangers of using [a new JavaScript language feature](object-literals.html).
 
-4. [Don't Copy Paste Into a Shell](copy-paste-shell.html)
+4. [Don't Copy Paste Into a Shell](copy-paste-shell.html). A message of warning and a proof of why you should never copy text from a website and paste it into your terminal.
 
-5. [The (semi) Definitive `CFLAGS` list for safe C Programming](cflags.html)
-
-6. [No Internet Week](no-internet-week.html)
+5. [No Internet Week](no-internet-week.html)
 

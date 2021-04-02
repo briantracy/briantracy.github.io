@@ -37,7 +37,6 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | East of Eden (John Steinbeck)\* | This one is a tear jerker that really made me think about what it means to live an entire lifetime. As a young person, the American life expectancy of 77 years seems like an impossibly long time. It was nice to see how the characters evolved over the course of the book |
 | The Long Walk (Stephen King) | This book does a great job of instilling the reader with the sense of anxiety that the characters are feeling. |
 | Declaration of Independence + US Constitution | From a political perspective, I am a staunch constitutionalist. Reading this text is so exciting and inspiring, although parsing the grammar of the language that was used at the time is very difficult. Reading alongside an interpreted version is also very helpful; knowing what to look for makes the run on sentences more manageable. |
-| The Slow Regard of Silent Things (Patrick Rothfuss) | I did not like this one as much as the two KingKiller books, but it served as a good read during the unbearable hiatus that we are currently experiencing before the final book in the series. |
 | The Old Man and the Sea (Ernest Hemingway) | I think I missed the point of this book entirely, so maybe I will reread and do some more thinking. |
 | A Little Life (Hanya Yanagihara) \*| This is an amazing book for many reasons. First, the book follows the four main characters for their entire lives. Second, it provides insights into both living with a mental illness and supporting friends with mental illnesses that I thought were very poignant. |
 | The Death of Ivan Ilych (Leo Tolstoy) | |
@@ -46,7 +45,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | The Kite Runner (Khaled Hosseini) | |
 | The Communist Manifesto (Karl Marx and Friedrich Engels) | I read this because I became interested in the Cold War and what exactly all the hype was about. Growing up in America, it is easy for me to think that Economics == Capitalism, and that our current system is the best system. This book didn't challenge that belief, but it made me think more about it. |
 | 1984 (George Orwell) | As a staunch supporter of civil liberties and restricted government power, this book is a classic! |
-| The Name of the Wind, The Wise Man's Fear (Patrick Rothfuss) \* | Pat Rothfuss really needs to release the third book!  The magic system in this series is unique amongst the fantasy I have read because it has its basis in chemistry and physics. Reminds me of the magic in Mistborn. |
+| The Name of the Wind, The Wise Man's Fear, The Slow Regard of Silent Things (Patrick Rothfuss) \* | Pat Rothfuss really needs to release the third book!  The magic system in this series is unique amongst the fantasy I have read because it has its basis in chemistry and physics. Reminds me of the magic in Mistborn. It has now been over a decade since the release of book two, and there has been no concrete information even hinting at the existence of a final book in the series. The author says that he is working on it, but that it is difficult for him to finish the series. For his sake, I hope he finds the strength to reach the finish line, it is very apparent that he is unhappy with the lack of a third book. |
 | The Art of War (Sun Tzu) | Not very applicable to my life as a student! |
 | The Puritan Dilemma (Edmund S. Morgan)| One of the most boring books I've read. |
 | The Hobbit (J. R. R. Tolkein) | The last 40 pages of this book spawned a 3 hour movie. |
@@ -109,7 +108,7 @@ I use the free and open source application [Calibre](https://calibre-ebook.com/)
 1. Library Genesis (<https://libgen.is/>)
 2. Standard EBooks (<https://standardebooks.org/>)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
-4. ZLibrary (<https://b-ok.cc/>)
+4. ZLibrary (<https://z-lib.org/>)
 
 
 ---

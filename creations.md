@@ -1,7 +1,7 @@
 
 # Creations
 
-I find joy in creating things.
+I like creating things.
 Below is a list of the things I am most proud of making, along with
 short descriptions and pictures. Most of them are woodworking projects.
 
