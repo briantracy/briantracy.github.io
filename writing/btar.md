@@ -20,7 +20,7 @@ of a recent college graduate, I thought "I can do better".
 ### Tar Overview
 
 `tar` converts a set of files into a single file. This new file, known as an "archive"
-(hence the name **t**ape **ar**chive) can later be converted back into the original
+(hence the name **t**ape **ar**chive, tape being the magnetic storage medium) can later be converted back into the original
 set of files.
 
 One of the great things about files is that they are just bytes, so to amalgamate
