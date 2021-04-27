@@ -227,7 +227,7 @@ info: transferring file `b.txt` to `archive.btar`
 info: transferring file `c.txt` to `archive.btar`
 info: transferring file `d.txt` to `archive.btar`
 $ rm {a,b,c,d}.txt
-$ ./btar unpack archive.btar {a,b,c,d}.txt
+$ ./btar unpack archive.btar a.txt b.txt c.txt d.txt
 info: reading archive `archive.btar`
 `archive.btar` is a valid btar archive, created at Tue Apr 27 00:18:16 2021
 Archive contains 4 files and has a header length of 120 bytes
