@@ -276,6 +276,13 @@ this to ourselves! A whole class of overflow related bugs disappears when using 
 full word size of modern processors (ie: 2^32 dollars is a reasonable amount of money
 while 2^64 dollars is not), and I think we should be leveraging this.
 
+Partly, I think that the ergonomics of the C language are to blame. For example,
+the definitions in `<inttypes.h>` like `uint64_t` are quite the mouthful and
+discourage their own use. It is so much easier to just write `for (int i = 0 ...`
+than it is to "do the right thing" and be careful with your types.
+
+Other languages have fancy keywords like `u64` that I think would be nice.
+
 
 ### Conclusion
 
