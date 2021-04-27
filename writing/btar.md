@@ -36,7 +36,7 @@ to know where all the files are without reading the entire archive.
 We can model this information with a method that is extremely similar to the concept
 of [Extents](https://en.wikipedia.org/wiki/Extent_(file_systems)) in file systems.
 Essentially, each file is identified in the archive by a tuple of `(offset, length)`,
-and all of these tuples are stored at the head of the file.
+and all of these tuples are stored at the head of the archive.
 
 All you need now is a way to associate a file name with a single tuple, and the
 archive is complete.
@@ -250,3 +250,32 @@ ddddd
 ddddd
 ddddd
 ```
+
+### Concessions
+
+It is hard to determine where to draw the line in toy projects like this between
+"this is educational, the big concepts matter" and "this needs to be used in production".
+
+For my previous project, bthreads, I put off lots of corner cases to make everything
+clean and tidy for educational purposes. I chose to do the same here. For example,
+all of the files in an archive have to be in the same directory, and file permissions
+are not stored. These are "easy" features to add, but the educational value of adding
+them is small compared to the work they would take. You can conceptually "get" how these
+things would be done and don't necessarily need to do them yourself if you want to
+follow along.
+
+One concession I did not make was skimping out on the 64 bit quantities. Sticking
+to 32 bit lengths would have made the file format smaller, but would have had a
+very tangible impact on the max archive size.
+
+I pointed this out in an earlier section because
+I think this is a crucial lesson that computer programmers have had to learn the
+hard way many times (Y2K, 2038 Problem, FAT file system limitations, IPv4 address
+limitations, early Minecraft world size restriction, ...). We have got to stop doing
+this to ourselves! A whole class of overflow related bugs disappears when using the
+full word size of modern processors (ie: 2^32 dollars is a reasonable amount of money
+while 2^64 dollars is not), and I think we should be leveraging this.
+
+
+### Conclusion
+
