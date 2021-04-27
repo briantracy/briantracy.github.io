@@ -14,3 +14,5 @@ some of the technical aspects involved.
 
 5. [No Internet Week](no-internet-week.html)
 
+6. [btar](btar.html) is a half baked implementation of tar, with one extra feature.
+
