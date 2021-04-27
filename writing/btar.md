@@ -17,7 +17,7 @@ require random access to individual files.*
 I read this and thought, "wow that seems like an oversight", and then, with the hubris
 of a recent college graduate, I thought "I can do better".
 
-### `tar` Overview
+### Tar Overview
 
 `tar` converts a set of files into a single file. This new file, known as an "archive"
 (hence the name **t**ape **ar**chive) can later be converted back into the original
@@ -118,6 +118,32 @@ Here is a comment from the top of `btar.h` giving a visual description of the fo
 */
 ```
 
+Here is a look at a small archive (see example at bottom) in binary format.
+
+1. <span style="color: red;">Magic Bytes</span>
+2. <span style="color: blue;">Creation Timestamp</span> (Tue Apr 27 00:18:16 2021)
+3. <span style="color: green;">Number of files in archive</span> (4)
+4. <span style="color: brown;">Size of archive metadata</span> (120 bytes)
+5. <span style="color: cyan;">Extent Offset</span> (1 per file)
+6. <span style="color: orange;">Extent Length</span> (1 per file)
+7. <span style="color: purple">Null terminated file names</span> (4 of them)
+8. <span style="color: darkgray">File Data</span> (4 adjacent blocks)
+
+
+<div style="font-family: monospace;">
+$ xxd archive.btar <br>
+00000000: <span style="color: red;">9a00 a1fc 6274 6172</span><span style="color: blue;"> b8ba 8760 0000 0000</span>  ....btar...\`.... <br>
+00000010: <span style="color: green;">0400 0000 0000 0000</span> <span style="color: brown;">7800 0000 0000 0000</span>  ........x....... <br>
+00000020: <span style="color: cyan;">0000 0000 0000 0000</span> <span style="color: orange;">0400 0000 0000 0000</span>  ................ <br>
+00000030: <span style="color: cyan;">0400 0000 0000 0000</span> <span style="color: orange;">0400 0000 0000 0000</span>  ................ <br>
+00000040: <span style="color: cyan;">0800 0000 0000 0000</span> <span style="color: orange;">0400 0000 0000 0000</span>  ................ <br>
+00000050: <span style="color: cyan;">0c00 0000 0000 0000</span> <span style="color: orange;">1800 0000 0000 0000</span>  ................ <br>
+00000060: <span style="color: purple">612e 7478 7400 622e 7478 7400 632e 7478</span>  a.txt.b.txt.c.tx <br>
+00000070: <span style="color: purple">7400 642e 7478 7400</span> <span style="color: darkgray">6161 610a 6262 620a</span>  t.d.txt.aaa.bbb. <br>
+00000080: <span style="color: darkgray">6363 630a 6464 6464 640a 6464 6464 640a</span>  ccc.ddddd.ddddd. <br>
+00000090: <span style="color: darkgray">6464 6464 640a 6464 6464 640a</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ddddd.ddddd. <br>
+</div>
+
 ### Implementation
 
 Here is the process for extracting a file from the archive:
@@ -145,6 +171,15 @@ the archive.
 
 ### 2038 Problem
 
+All length related fields are stored with 64 bit quantities to avoid size related
+issues. If only 32 bit quantities were used, the maximum file size that could be
+included in an archive would be 4GB, which is not an unreasonable file size any more.
+
+### Testing
+
+To test, I wrote a script that generates 30 files full of random bytes, ranging from
+0b to 200KB in size. I archive them all together, unarchive them, and compare the
+files from the archive to the originals.
 
 ### Usage
 
@@ -162,4 +197,56 @@ o To extract all (or certain) files from an archive:
 
 o To view the contents of an archive:
   > btar list archive
+```
+
+### Example
+
+Here is a walkthrough of using the program.
+
+```
+$ cat {a,b,c,d}.txt
+aaa
+bbb
+ccc
+ddddd
+ddddd
+ddddd
+ddddd
+$ ./btar pack archive.btar {a,b,c,d}.txt
+info: creating archive `archive.btar` from `4` files
+info: opening file `a.txt`
+info: opening file `b.txt`
+info: opening file `c.txt`
+info: opening file `d.txt`
+info: btar header will occupy first 120 bytes of archive
+info: - archive header: 32 bytes
+info: - file metadata: 64 bytes (16 bytes * 4 files)
+info: - filenames: 24 bytes
+info: transferring file `a.txt` to `archive.btar`
+info: transferring file `b.txt` to `archive.btar`
+info: transferring file `c.txt` to `archive.btar`
+info: transferring file `d.txt` to `archive.btar`
+$ rm {a,b,c,d}.txt
+$ ./btar unpack archive.btar {a,b,c,d}.txt
+info: reading archive `archive.btar`
+`archive.btar` is a valid btar archive, created at Tue Apr 27 00:18:16 2021
+Archive contains 4 files and has a header length of 120 bytes
+archive `archive.btar` contains the following files
+ o `a.txt` (bytes=4, offset=0)
+ o `b.txt` (bytes=4, offset=4)
+ o `c.txt` (bytes=4, offset=8)
+ o `d.txt` (bytes=24, offset=12)
+info: extracting file `a.txt` at offset `120` with length `4`
+info: extracting file `b.txt` at offset `124` with length `4`
+info: extracting file `c.txt` at offset `128` with length `4`
+info: extracting file `d.txt` at offset `132` with length `24`
+info: ... done
+$ cat {a,b,c,d}.txt
+aaa
+bbb
+ccc
+ddddd
+ddddd
+ddddd
+ddddd
 ```
