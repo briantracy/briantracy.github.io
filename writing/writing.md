@@ -16,3 +16,5 @@ some of the technical aspects involved.
 
 6. [btar](btar.html) is a half baked implementation of tar, with one extra feature.
 
+7. I wrote a paper about [syscall filtering](/resources/syscall_paper.pdf) for a software exploitation course.
+
