@@ -281,8 +281,13 @@ the definitions in `<inttypes.h>` like `uint64_t` are quite the mouthful and
 discourage their own use. It is so much easier to just write `for (int i = 0 ...`
 than it is to "do the right thing" and be careful with your types.
 
-Other languages have fancy keywords like `u64` that I think would be nice.
+Other languages have fancy keywords like `u64` that I think would be nice (I guess
+you could `typedef` these).
 
 
 ### Conclusion
 
+The simplicity of `btar` comes mostly from the fact that the file abstraction is
+so straightforward. Files are just bytes, so many files together are just many bytes
+together. I am still confused as to why the original `tar` did not provide random
+access, maybe someone a little older can clue me in!
