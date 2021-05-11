@@ -6,13 +6,18 @@ Hello,
 
 I am a computer programmer (by profession) with a degree in computer science from Brown University. My main areas of interest are computer systems and computer security.
 
-I was born in Palo Alto, CA near the end of 1998, and I currently live there (I will soon move to Boston, MA).
+I was born in Palo Alto, CA near the end of 1998, and I currently live there (I will soon be moving to Boston, MA).
 
 I like playing guitar and woodworking. In college, I worked for my school as a systems administrator and a teaching assistant.
 
 My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">iamg@<span style="font-size:0.01px;">obfuscation</span>33ycart.na</span>l.com
 
 [Here is an album](https://photos.app.goo.gl/v551gaGyWBSHqJVo9) full of pictures of me.
+
+My Stack Overflow account [is here](https://stackoverflow.com/users/2631920/brian-tracy).
+
+I also have a [LinkedIn account](https://www.linkedin.com/in/brian-tracy-129167a1
+).
 
 ---
 
