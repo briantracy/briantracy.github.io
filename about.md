@@ -4,13 +4,11 @@ Hello,
 
 <img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/about_image.png" width="200" height="200" alt="human+dog">
 
-I am a fourth year college student studying computer science at Brown University.
-My main area of interest is computer systems and computer security.
+I am a computer programmer (by profession) with a degree in computer science from Brown University. My main areas of interest are computer systems and computer security.
 
-I was born in Palo Alto, CA near the end of 1998, and I currently reside in ~~Providence, RI~~ (moved back home for covid19).
+I was born in Palo Alto, CA near the end of 1998, and I currently live there (I will soon move to Boston, MA).
 
-Outside of school, I like playing guitar and woodworking. I also work for my
-school as a systems administrator and a teaching assistant.
+I like playing guitar and woodworking. In college, I worked for my school as a systems administrator and a teaching assistant.
 
 My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">iamg@<span style="font-size:0.01px;">obfuscation</span>33ycart.na</span>l.com
 
