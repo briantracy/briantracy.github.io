@@ -1,20 +1,21 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website Brian Tracy - bperf"><title>Brian Tracy - bperf</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><p>dlopen(NULL) returns handle for current process</p><p>dladdr() returns the sumbol name of an address</p><p>JSON parser in C</p><pre><code>union json_value {
-    int type;
-    union json_data {
-        double number;
-        const char *string;
-        int bool;
-        struct {
-            const char *key;
-            union json_value *value;
-        } *dict;
-    } data;
-</code></pre><p>Re-implement tar (tape archive) with random access</p><pre><code>struct btar_file_metadata {
-    char name[256];
-    uint64_t perm;
-    uint64_t archive_offset;
-}
-struct btar_archive_header {
-    unsigned char magic[8];
-    uint64_t creation_date;
-}</code></pre><p>Re-implement grep with compiled patterns to programs</p></main><footer>Last modified Mar 30 21:55:27 2021</footer></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website Brian Tracy - bperf"><title>Brian Tracy - bperf</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>bperf &mdash; Bad Performance Profiler</h1><p>This writeup will walk through the implementation of a basic performance profiler for C programs.</p><h3>Motivation</h3><p>One of the more interesting topics I learned about in school is Linux's dynamic loader (<code>ld.so</code>). Symbol resolution (the act of converting a symbols textual name to its address) seemed especially fascinating and I wanted to make use of it in a project. By combining the dynamic loader with frequent interrupts, I thought I could gauge the performance of a program by periodically determining which function was currently executing.</p><h3>Goals</h3><p>Ideally I would be able to modify a program minimally (just add a call to <code>perf_start()</code> and <code>perf_stop()</code>), run it, then see a nice output telling me what parts of the program were running for the longest.</p><h3>Sampling Theory</h3><p>The theory behind a sampling profiler is fairly straightforward: if you want to know what a program is spending its time doing, all you have to do is ask! If you check in on the program periodically and mark down which function is currently executing, you will be able to paint a picture of which functions are "on the CPU" most often.</p><pre><code>                       (---&gt; Time ---&gt;)
+
+samples: a  a  a  b  a  a  b  b  b  c  c  a  a  a  a  a
+         |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+         v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v
+        +-------+---+---+--------+-----+--------+-------+
+        |   a   | b | a |    b   |  c  |    a   |   a   |
+        +-------+---+---+--------+-----+--------+-------+
+                        (Function on CPU)
+
+
+Results:
+    a - 10 ticks
+    b - 4  ticks
+    c - 2  ticks</code></pre><p>If you notice that you interrupted function <code>A</code> 5 times as often as function <code>B</code>, it follows that function <code>A</code> was being executed roughly for 5 times as long as function <code>B</code></p><p><em>Aside: It is worth noting that the sampling rate is critical to the accuracy of the final metrics. Consider a program that has two functions, <code>F</code> and <code>J</code>. <code>F</code> runs for 9ms, then <code>J</code> runs for 1ms. If you are sampling the program every 10ms and get "unlucky", you could interrupt the program only when <code>J</code> is running, and conclude that is was running 100% of the time. If you sampled once per 1ms, this error goes away.</em></p><p>To make this idea concrete, we can use software interrupts to "check in" on a program periodically, and instruction pointer tracking to see what program is being interrupted.</p><p>The high level algorithm looks like this:</p><pre><code>profile($program):
+    map&lt;function,int&gt; samples
+    every 10 ms:
+        interrupt $program
+        fn = $program-&gt;last_executed_function
+        samples[fn]++
+        resume $program</code></pre><h3>First Attempt</h3><p>The first problem I wanted to solve was determining what function was interrupted while executing inside a signal handler.</p><p>I recalled hearing an anecdote from my operating systems professor about how the adoption of Non-eXecutable Memory (often referred to as NX) broke some operating systems due to the way they were handling signals. The design was that whenever a signal had to be sent to a process that did not have a user defined handler, the code of the default handler would literally be pushed on to the userspace stack and then executed.</p><p>Remembering this, I thought that maybe the current implementation (which definitely did not use executable code on the stack) might still have access to the user's stack through the stack pointer. If I could get access to the saved registers of the interrupted process inside of an interrupt handler, I could track the instruction pointer.</p><p>Unfortunately, it appears that in modern versions of Linux, signal handlers are executed in a separate region of the stack and I could not find a way to reliably gain access to the "main" stack. In addition, it seems that upon interrupt, registers are spilled to a separate kernel stack that would be totally inaccessible to the interrupt handler.</p><h3>Man Page Hunting</h3><p>After I verified via <code>gdb</code> that I could not partially "unwind" the interrupt stack to get to the interrupted function, I let the project go for a few weeks. Eventually, after much searching, I ran across a stack overflow post that had a very interesting code example that made everything possible.</p><h3>Mapping %rip -&gt; symbol</h3><h3>Keeping Track (async-signal-safely)</h3></main><footer>Last modified May 12 18:32:55 2021</footer></body></html>
