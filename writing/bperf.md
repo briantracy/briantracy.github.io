@@ -126,7 +126,7 @@ With the profiler in a working state, I needed a benchmark program to run it on.
 
 Create four functions called `tinywork`, `leastwork`, `middlework`, `mostwork`, each of which is essentially a busy CPU loop where a counter is incremented to a large number. `tinywork` runs for `1<<20` iterations, `leastwork` for 8x as many (`1<<23`), `middlework` for twice as many as `leastwork`, and `mostwork` for twice as many as `middlework`. Finally, there is `in_kernel` which just reads a huge number of bytes from `/dev/urandom`.
 
-Each of these functions are called 10 times while the program is being profiled. We expect to see nearly linear scaling in CPU time between the `*work` functions as they are all doing the same thing, just for different amounts of time.
+Each of these functions is called 10 times while the program is being profiled. We expect to see nearly linear scaling in CPU time between the `*work` functions as they are all doing the same thing, just for different amounts of time.
 
 ### Output
 
@@ -145,4 +145,8 @@ Wow! The resulting percentages are almost exactly in the series that was expecte
 
 Also, note the precision of the measurements. `bperf` can pick up a wide range from over 50% all the way down to 1%, so we are not "losing" anything to the noise.
 
-### Frequency of Interrupts
+### Conclusion
+
+For this use case, sampling based profilers are extremely accurate! However, I have doubts that this naive method would generalize well to real programs due to pesky things like mulithreading, multicore processing, and signal masking.
+
+Thanks for following along, as always, the [full source code is online](https://github.com/briantracy/systemb/tree/master/bperf).

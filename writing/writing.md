@@ -12,10 +12,14 @@ some of the technical aspects involved.
 
 ### Systems Programming Series
 
+In this series, I re-implement classic systems programming concepts. It is an educational series aimed towards people who want to learn more about the core concepts behind their favorite programs.
+
 1. [bthreads](bthreads.html) is the Brian/Bad Threading library. It is a toy
  Linux threading library that implements mutexes using atomic x86 instructions.
 
-2. [btar](btar.html) is a half baked implementation of tar, with one extra feature.
+2. [btar](btar.html) is a clone(ish) of tar, with support for random access to files in the archive.
+
+3. [bperf](bperf.html) is a profiler for C programs.
 
 
 ### Technical Shorts
