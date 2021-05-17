@@ -1,5 +1,6 @@
 
-# Books
+# Reading
+
 I like discussing books with people, but I always forget which ones I have
 read. Below is a list of all the books I can remember reading with the most
 recent appearing first. &#8224; = in progress, \* = favorite
