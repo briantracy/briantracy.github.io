@@ -1,7 +1,7 @@
 
 # Currency Density
 
-*You are robbing a bank and can only carry **100 pounds** of currency out of the vault. Once inside, you see that the bank has organized its money into large piles of **Dimes**, **Quarters**, and **Half Dollars**. How do you pack your bag, taking from these piles, so that you maximize the amount of money you get?*
+*You are robbing a bank and can only carry **100 pounds** (45 kilograms) of currency out of the vault. Once inside, you see that the bank has organized its money into large piles of **Dimes**, **Quarters**, and **Half Dollars**. How do you pack your bag, taking from these piles, so that you maximize the amount of money you get?*
 
 ---
 <br>
