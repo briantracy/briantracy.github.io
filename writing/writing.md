@@ -29,9 +29,11 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 2. [Don't Copy Paste Into a Shell](copy-paste-shell.html). A message of warning and a proof of why you should never copy text from a website and paste it into your terminal.
 
 
-### Personal
+### Other
 
 1. [No Internet Week](no-internet-week.html)
+
+2. [Density of Coins](currency-density.html)
 
 
 
