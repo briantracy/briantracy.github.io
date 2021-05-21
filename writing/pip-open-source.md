@@ -16,7 +16,7 @@ finalPackage3
 $ pip install -r requirements.txt
 ```
 
-Instead of the above (correct) invocation, they would often forget the `-r` flag and simply write:
+Instead of the above (correct) invocation, they would often forget the `-r` flag and simply try:
 
 ```
 $ pip install requirements.txt
@@ -26,7 +26,7 @@ ERROR: No matching distribution found for requirements.txt
 
 This is an unfortunate error message for a beginner as they are unlikely to understand that "satisfies the requirement ..." means that `pip` was attempting to find a package named "requirements.txt" (and not, as intended, to install the packages **listed in** requirements.txt).
 
-My contribution merely detects this common use case and emits a helpful warning.
+My contribution merely detects this common mistake and emits a helpful warning.
 
 ```
 HINT: You are attempting to install a package literally named
