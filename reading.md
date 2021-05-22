@@ -14,7 +14,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 
 | Title | Comments |
 |-------|----------|
-| The Pentateuch&#8224; (King James Translation) | Also known as the "Five Books of Moses" or the "Torah", the Pentateuch consists of the following books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. These books contain the classic stories that are referenced across all Abrahamic religions (Judaism, Christianity, Islam, ...) and are still featured heavily in secular pop culture today. Here are some quotations that you have probably heard before, regardless of your religious background: "Let there be light", "Thou shalt not kill", "land of milk and honey", "40 days and 40 nights", "am I my brother's keeper?", "stranger in a strange land". |
+| This Side of Paradise (F. Scott Fitzgerald) | |
 | Breach of Peace (Daniel B. Greene) | I watch Daniel's videos on youtube about Sci-fi and Fantasy books, and when he announced that he had become an author, I had to check out his book. I think it is extremely good for a debut novel, and the title is one of the best I have seen. |
 | Siddhartha\* (Herman Hesse) | A beautiful story that I would recommend to everyone. |
 | Piranesi (Susanna Clarke) | |
@@ -113,3 +113,5 @@ I use the free and open source application [Calibre](https://calibre-ebook.com/)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
 4. ZLibrary (<https://z-lib.org/>)
 
+
+<!-- | The Pentateuch&#8224; (King James Translation) | Also known as the "Five Books of Moses" or the "Torah", the Pentateuch consists of the following books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. These books contain the classic stories that are referenced across all Abrahamic religions (Judaism, Christianity, Islam, ...) and are still featured heavily in secular pop culture today. Here are some quotations that you have probably heard before, regardless of your religious background: "Let there be light", "Thou shalt not kill", "land of milk and honey", "40 days and 40 nights", "am I my brother's keeper?", "stranger in a strange land". | -->
