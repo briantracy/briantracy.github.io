@@ -7,7 +7,7 @@ Consider the following riddle:
 
 ---
 
-<center>(answer is below)</center>
+<p style="text-align: center;">(answer is below)</p>
 
 ---
 
