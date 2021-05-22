@@ -1,0 +1,112 @@
+
+# Endianness (Byte Order) Is Real!
+
+
+As a student, I learned about the concept of [endianness / byte order](https://en.wikipedia.org/wiki/Endianness) at a very high level. Due to the fact that x86 is a little endian ISA and ARM ISAs are by default little endian, big endian systems simply did not exist to me. In fact, unless I was to do some low level networking, I was confident in the fact that I would never need to use a big endian system while at school.
+
+Well it turns out that big endian systems do exist, and code that I write one day may have to run on such systems. Knowing this, I wanted to prove to myself that there really was something fundamentally different, and potentially dangerous, about naively targeting these platforms. To do so, I cooked up a sample application and ran it on both a little endian x86 system, and a big endian (emulated via QEMU) MIPS system.
+
+---
+
+The application is a fake database type thing where the user inputs some information about themselves that can be read back at a later date.
+
+```
+$ ./users
+usage: ./users create <file> <name> <id> <weight>
+usage: ./users fetch <file>
+```
+
+The `create` operation puts the user supplied values into a structure, then writes the structure to the given file.
+
+The `fetch` operation populates a structure from the bytes of the given file.
+
+Here is the user structure:
+
+```
+struct user {
+    char name[8];   // 8 bytes
+    uint64_t id;    // 8 bytes
+    double weight;  // 8 bytes
+};
+```
+
+Essentially, the `create` operation is:
+
+```
+struct user new_user = { /* (name, id, weight) from user input */ };
+write(fd, &new_user, sizeof(struct user));
+```
+
+And the `fetch` operation is:
+
+```
+struct user existing_user;
+read(fd, &existing_user, sizeof(struct user));
+```
+
+
+For the little endian x86 system:
+```
+vagrant@ubuntu-focal:~ $ uname -a
+Linux ubuntu-focal 5.4.0-73-generic #82-Ubuntu SMP
+Wed Apr 14 17:39:42 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+For the big endian mips system:
+```
+root@ubuntu-focalqemu:~# uname -a
+Linux ubuntu-focalqemu 4.19.0-16-4kc-malta #1 SMP Debian 4.19.181-1
+(2021-03-19) mips GNU/Linux
+```
+
+
+```
+root@ubuntu-focalqemu:/test# ./mips_users create mips.data brimips 12345 987.654
+creating user {'brimips', id=12345, weight=987.654000} in file mips.data
+root@ubuntu-focalqemu:/test# ./mips_users fetch mips.data
+found user {'brimips', id=12345, weight=987.654000} in file mips.data
+```
+
+
+In the emulated environment, running the mips binary, we get semi garbage data when attempting to read in the little endian x86/64 data:
+```
+root@ubuntu-focalqemu:/test# ./mips_users fetch x86.data
+found user {'brix86', id=4120793659044003840, weight=-0.000000} in file x86.data
+root@ubuntu-focalqemu:/test# ./mips_users fetch x64.data
+found user {'brix64', id=4120793659044003840, weight=-0.000000} in file x64.data
+```
+
+Likewise, on the x86/64 platform, we get incorrect values when attempting to read from the big endian mips data.
+```
+vagrant@ubuntu-focal:/vagrant/mips$ ./x86_users fetch mips.data
+found user {'brimips', id=4120793659044003840, weight=-0.000000} in file mips.data
+vagrant@ubuntu-focal:/vagrant/mips$ ./x64_users fetch mips.data
+found user {'brimips', id=4120793659044003840, weight=-0.000000} in file mips.data
+```
+
+```
+$ file mips_users
+mips_users: ELF 32-bit MSB pie executable, MIPS, MIPS32 rel2 version 1 (SYSV)
+
+$ file x86_users
+x86_users: ELF 32-bit LSB shared object, Intel 80386, version 1 (SYSV)
+
+$ file x64_users
+x64_users: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV)
+```
+
+```
+$ xxd -c8 mips.data
+00000000: 6272 696d 6970 7300  brimips.
+00000008: 0000 0000 0000 3039  ......09
+00000010: 408e dd3b 645a 1cac  @..;dZ..
+$ xxd -c8 x86.data
+00000000: 6272 6978 3836 0000  brix86..
+00000008: 3930 0000 0000 0000  90......
+00000010: ac1c 5a64 3bdd 8e40  ..Zd;..@
+$ xxd -c8 x64.data
+00000000: 6272 6978 3634 0000  brix64..
+00000008: 3930 0000 0000 0000  90......
+00000010: ac1c 5a64 3bdd 8e40  ..Zd;..@
+```
+

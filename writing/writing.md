@@ -30,6 +30,8 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 
 3. My first [open source contribution](pip-open-source.html)!
 
+4. [Endianness Exists](endianness-exists.html), a short demo of how seemingly portable code can be hamstrung by strange systems.
+
 ### Other
 
 1. [No Internet Week](no-internet-week.html)
