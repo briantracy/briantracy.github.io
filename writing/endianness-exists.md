@@ -48,24 +48,24 @@ The goal is to demonstrate how this code, while seemingly "portable" (in the sen
 
 ---
 
-The setup is that there are two different systems, one little endian and one big. In addition, on the little endian system, both a 32 and 64 bit version of the program are compiled. We will see that due to the `struct user` definition, there will be no difference between the 32 and 64 bit programs, but there will be a difference between the two systems.
+The setup is that there are two different systems, one little endian and one big. In addition, on the little endian system, both a 32 and 64 bit version of the program is compiled. We will see that due to the `struct user` definition, there will be no difference between the 32 and 64 bit programs (due to the members being of fixed width), but there will be a difference between the two systems.
 
 
-For the little endian system, I am running a virtual x64 machine on my personal computer:
+For the little endian system, I am running a virtual x64 machine on my personal computer (via vagrant + Virtual Box):
 ```
 vagrant@ubuntu-focal:~ $ uname -a
 Linux ubuntu-focal 5.4.0-73-generic #82-Ubuntu SMP
 Wed Apr 14 17:39:42 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-For the big endian system, I am running QEMU to emulate MIPS Debian from within the above virtual machine:
+For the big endian system, I am running QEMU to emulate MIPS Debian, all from within the above virtual machine:
 ```
 root@ubuntu-focalqemu:~ # uname -a
 Linux ubuntu-focalqemu 4.19.0-16-4kc-malta #1 SMP Debian 4.19.181-1
 (2021-03-19) mips GNU/Linux
 ```
 
-Here is an example of the program running normally.
+Here is an example of the program running normally. We create a new users named "brimips" with id "12345" and weight "987.654". The binary representation of these values are then written to file. Next, we read the user in that file and get the correct values out.
 
 ```
 root@ubuntu-focalqemu:/test# ./mips_users create mips.data brimips 12345 987.654
@@ -74,8 +74,9 @@ root@ubuntu-focalqemu:/test# ./mips_users fetch mips.data
 found user {'brimips', id=12345, weight=987.654000} in file mips.data
 ```
 
+Simultaneously, on the little endian machine, we run the same program to create two new data files. Again, everything on the same machine works perfectly.
 
-In the emulated environment, running the MIPS binary, we get semi garbage data when attempting to read in the little endian x86/64 data:
+Finally, mis-matching the data files and attempting to read them from the system the were not created on will yield garbage results. Here we have the MIPS program attempting to read the x86/64 data file.
 ```
 root@ubuntu-focalqemu:/test# ./mips_users fetch x86.data
 found user {'brix86', id=4120793659044003840, weight=-0.000000} in file x86.data
@@ -129,5 +130,10 @@ $ xxd -c8 x64.data
 00000010: ac1c 5a64 3bdd 8e40  ..Zd;..@     double weight (987.654)
 ```
 
-# Conclusions
+### Conclusions
 
+It is unwise to serialize and de-serialize without thought. Obviously, ELF knows how to do this (I believe the ELF header is a structure that gets read out of the executable at load time), but special care is put into that.
+
+In addition, even if the serialization code is endianness-aware, your use case might not always need to have such a compact on-disk format. The benefits of directly writing a structure are space and complexity (of a naive solution) savings, but you also sacrifice human readability and portability. I would guess that this is one of the reasons behind the rise of human readable protocols/exchange formats like HTTP and JSON. If you can afford the price of transforming through JSON, you might save yourself some rather insidious bugs.
+
+Finally, strange machines do exist! Granted, my test machines were not extra-strange (like ternary systems or systems where `CHAR_BIT != 8`), but it is good to know that the world is not run solely on x86.
