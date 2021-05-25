@@ -2,7 +2,7 @@
 # Endianness (Byte Order) Is Real!
 
 
-As a student, I learned about the concept of [endianness / byte order](https://en.wikipedia.org/wiki/Endianness) at a very high level. Due to the fact that x86 is a little endian ISA and ARM ISAs are by default little endian, big endian systems simply did not exist to me. In fact, unless I was to do some low level networking, I was confident in the fact that I would never need to use a big endian system while at school.
+As a student, I learned about the concept of [endianness / byte order](https://en.wikipedia.org/wiki/Endianness) at a very high level. Due to the fact that x86 is a little endian ISA and ARM ISAs are by default little endian (and the new Apple chips), big endian systems simply did not exist to me. In fact, unless I was to do some low level networking, I was confident in the fact that I would never need to use a big endian byte ordering at any point.
 
 Well it turns out that big endian systems do exist, and code that I write one day may have to run on such systems. Knowing this, I wanted to prove to myself that there really was something fundamentally different, and potentially dangerous, about naively targeting these platforms. To do so, I cooked up a sample application and ran it on both a little endian x86 system, and a big endian (emulated via QEMU) MIPS system.
 
