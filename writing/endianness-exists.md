@@ -76,7 +76,7 @@ found user {'brimips', id=12345, weight=987.654000} in file mips.data
 
 Simultaneously, on the little endian machine, we run the same program to create two new data files. Again, everything on the same machine works perfectly.
 
-Finally, mis-matching the data files and attempting to read them from the system the were not created on will yield garbage results. Here we have the MIPS program attempting to read the x86/64 data file.
+Finally, mis-matching the data files and attempting to read them from the system they were not created on will yield garbage results. Here we have the MIPS program attempting to read the x86/64 data file.
 ```
 root@ubuntu-focalqemu:/test# ./mips_users fetch x86.data
 found user {'brix86', id=4120793659044003840, weight=-0.000000} in file x86.data
@@ -134,6 +134,6 @@ $ xxd -c8 x64.data
 
 It is unwise to serialize and de-serialize without thought. Obviously, ELF knows how to do this (I believe the ELF header is a structure that gets read out of the executable at load time), but special care is put into that.
 
-In addition, even if the serialization code is endianness-aware, your use case might not always need to have such a compact on-disk format. The benefits of directly writing a structure are space and complexity (of a naive solution) savings, but you also sacrifice human readability and portability. I would guess that this is one of the reasons behind the rise of human readable protocols/exchange formats like HTTP and JSON. If you can afford the price of transforming through JSON, you might save yourself some rather insidious bugs.
+In addition, even if the serialization code is endian-aware, your use case might not always need to have such a compact on-disk format. The benefits of directly writing a structure are space and complexity (of a naive solution) savings, but you also sacrifice human readability and portability. I would guess that this is one of the reasons behind the rise of human readable protocols/exchange formats like HTTP and JSON. If you can afford the price of transforming through JSON, you might save yourself some rather insidious bugs.
 
 Finally, strange machines do exist! Granted, my test machines were not extra-strange (like ternary systems or systems where `CHAR_BIT != 8`), but it is good to know that the world is not run solely on x86.
