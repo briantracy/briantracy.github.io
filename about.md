@@ -4,7 +4,7 @@ Hello,
 
 <img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/about_image.png" width="200" height="200" alt="human+dog">
 
-I am a computer programmer (by profession) with a degree in computer science from Brown University. My main areas of interest are computer systems and computer security.
+I am a computer programmer (by profession) who studied computer science at Brown University. My main areas of interest are computer systems and computer security.
 
 I was born in Palo Alto, CA near the end of 1998, and I currently live there (I will soon be moving to Boston, MA).
 
