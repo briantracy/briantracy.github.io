@@ -14,6 +14,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 
 | Title | Comments |
 |-------|----------|
+| The Glass Bead Game (Hermann Hesse) | |
 | This Side of Paradise (F. Scott Fitzgerald) | |
 | Breach of Peace (Daniel B. Greene) | I watch Daniel's videos on youtube about Sci-fi and Fantasy books, and when he announced that he had become an author, I had to check out his book. I think it is extremely good for a debut novel, and the title is one of the best I have seen. |
 | Siddhartha\* (Herman Hesse) | A beautiful story that I would recommend to everyone. |
@@ -58,6 +59,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | Ender's Game (Orson Scott Card) \* | Two people have told me that the spin-off series "Ender's Shadow" is also really good, so I might look into that. |
 | Whale Talk (Chris Crutcher) | This book appropriately handled some very mature themes for a story targeted at young adults. |
 | All Quiet on the Western Front (Erich Maria Remarque) | |
+| The Maze Runner (James Dashner) | |
 | World War Z (Max Brooks) | Very different from the movie, so if you were disappointed with that, check out the book. It's structured as a series of short stories from survivors of the war. |
 | The Book Thief (Markus Zusak) | I first learned who Jesse Owens was from this book when one of the main characters (a young boy) covers himself in coal dust and runs around a track. My favorite Owen's quote is "Hitler didn't snub me - It was our president who snubbed me. The president didn't even send me a telegram" (from *Triumph* by Jeremy Schaap, near the end of the "Day Three" chapter). |
 | Lord of the Flies (William Golding) | |
