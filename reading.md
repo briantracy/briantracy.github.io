@@ -14,6 +14,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 
 | Title | Comments |
 |-------|----------|
+| Slaughterhouse-Five (Kurt Vonnegut) | The Tralfamadorian concept of time is exactly the same as Dr. Manhattan's in the comic series "Watchmen". I wonder if Watchmen was influenced by Vonnegut. |
 | The Glass Bead Game (Hermann Hesse) | |
 | This Side of Paradise (F. Scott Fitzgerald) | |
 | Breach of Peace (Daniel B. Greene) | I watch Daniel's videos on youtube about Sci-fi and Fantasy books, and when he announced that he had become an author, I had to check out his book. I think it is extremely good for a debut novel, and the title is one of the best I have seen. |
@@ -109,10 +110,12 @@ As of the end of 2019, I do most of my reading on a e-reader (Kindle) because I 
 
 I use the free and open source application [Calibre](https://calibre-ebook.com/) to manage my digital library and I download my books from the following websites:
 
-1. Library Genesis (<https://libgen.is/>)
-2. Standard EBooks (<https://standardebooks.org/>)
+1. Standard EBooks (<https://standardebooks.org/>)
+2. ZLibrary (<https://z-lib.org/>)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
-4. ZLibrary (<https://z-lib.org/>)
+4. Library Genesis (<https://libgen.is/>)
+
+I have never listened to an audiobook, and for now, I don't plan on doing so.
 
 
 <!-- | The Pentateuch&#8224; (King James Translation) | Also known as the "Five Books of Moses" or the "Torah", the Pentateuch consists of the following books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. These books contain the classic stories that are referenced across all Abrahamic religions (Judaism, Christianity, Islam, ...) and are still featured heavily in secular pop culture today. Here are some quotations that you have probably heard before, regardless of your religious background: "Let there be light", "Thou shalt not kill", "land of milk and honey", "40 days and 40 nights", "am I my brother's keeper?", "stranger in a strange land". | -->
