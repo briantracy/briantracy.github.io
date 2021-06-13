@@ -14,6 +14,7 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 
 | Title | Comments |
 |-------|----------|
+| The Three-Body Problem (Liu Cixin) | |
 | Slaughterhouse-Five (Kurt Vonnegut) | The Tralfamadorian concept of time is exactly the same as Dr. Manhattan's in the comic series "Watchmen". I wonder if Watchmen was influenced by Vonnegut. |
 | The Glass Bead Game (Hermann Hesse) | |
 | This Side of Paradise (F. Scott Fitzgerald) | |
