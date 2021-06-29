@@ -2,18 +2,13 @@
 # Reading
 
 I like discussing books with people, but I always forget which ones I have
-read. Below is a list of all the books I can remember reading with the most
-recent appearing first. &#8224; = in progress, \* = favorite
+read. Below is a list of all the books I can remember reading (most
+recent appearing first). &dagger; = in progress, \* = favorite
 
-Keep in mind that the comments contain plot details about the books (spoilers).
-
----
-
-
-To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, Book of the new Sun, LoTR, Uncle Tom's Cabin, The things they carried, River Out of Eden
 
 | Title | Comments |
 |-------|----------|
+| Little Women &dagger; (Louisa May Alcott) | |
 | The Three-Body Problem (Liu Cixin) | |
 | Slaughterhouse-Five (Kurt Vonnegut) | The Tralfamadorian concept of time is exactly the same as Dr. Manhattan's in the comic series "Watchmen". I wonder if Watchmen was influenced by Vonnegut. |
 | The Glass Bead Game (Hermann Hesse) | |
@@ -106,6 +101,10 @@ To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson o
 | Top Secret (John Reynolds Gardiner) | 2nd grade maybe? |
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
+
+To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, Book of the new Sun, LoTR, Uncle Tom's Cabin, The things they carried, River Out of Eden
+
+---
 
 As of the end of 2019, I do most of my reading on a e-reader (Kindle) because I have found this method to be much cheaper than buying books.
 
