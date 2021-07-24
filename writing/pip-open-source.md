@@ -34,4 +34,4 @@ HINT: You are attempting to install a package literally named
 Consider using the '-r' flag to install the packages listed in requirements.txt
 ```
 
-[My patch has been approved](https://github.com/pypa/pip/pull/9915) and is awaiting the next release of `pip` to go live to millions of confused students around the world!
+[My patch has been approved](https://github.com/pypa/pip/pull/9915) and is now live for millions of confused students around the world!
