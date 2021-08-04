@@ -47,7 +47,7 @@ great! [pic1](/images/stamp_final.jpg) [pic2](/images/stamp_wax.jpg)
 
 Here are some flags I made as christmas gifts. [pic1](/images/all_flags.jpg)
 
-Here are some blocks I made for a friend's newborn child. [pic1](/images/blocks_stacked.jpg) [pic2](/images/blocks_glue.jpg)
+Here are some blocks I made for a friend's newborn child. [pic1](/images/blocks_stacked.jpg) [pic2](/images/blocks_glue.jpg) [pic3](/images/blocks2.jpg)
 
 I made two laser etched maps (Palo Alto and New York) as well as a desk toy
 for a friend that goes to UCLA. [pic1](/images/desk_maps.jpg)
