@@ -6,7 +6,7 @@ Hello,
 
 I am a computer programmer (at [Onshape](https://www.onshape.com/en/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security.
 
-I was born in Palo Alto, CA near the end of 1998, and I currently live there (I will soon be moving to Boston, MA).
+I was born in Palo Alto CA in 1998, and I currently live there (I will soon be moving to Boston, MA).
 
 I like playing guitar and woodworking. In college, I worked for my school as a systems administrator and a teaching assistant.
 

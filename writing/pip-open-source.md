@@ -5,7 +5,7 @@ I am a huge fan of open source software and one of my biggest goals is to one da
 
 [pip](https://pypi.org/project/pip/) is the *de facto* python package manager. It is used to install pieces python code that other people wrote (called packages) so that programmers are not forced to "re-invent the wheel" (i.e.: re-implement common designs) any time they start a new project.
 
-While working in my school's computer lab, I noticed that many students who were just learning about python had trouble interacting with the package manager. This difficulty would leave them feeling hopeless and uninspired ("I can't even set up my program's environment, how am I supposed to write the program itself?"). Often, they would get hung up on the very idiomatic step of installing packages listed in a file:
+While working in my school's computer lab, I noticed that many students who were just learning about python had trouble interacting with the package manager. This difficulty would leave them feeling hopeless and uninspired ("I can't even set up my program's environment, how am I supposed to write the program itself?"). Often, they would get hung up on the very idiomatic step of installing packages listed in a file (using the `-r <file>` flag):
 
 ```
 $ cat requirements.txt
