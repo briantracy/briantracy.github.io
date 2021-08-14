@@ -4,7 +4,7 @@ Hello,
 
 <img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/about_image.png" width="200" height="200" alt="human+dog">
 
-I am a computer programmer (by profession) who studied computer science at Brown University. My main areas of interest are computer systems and computer security.
+I am a computer programmer (at [Onshape](https://www.onshape.com/en/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security.
 
 I was born in Palo Alto, CA near the end of 1998, and I currently live there (I will soon be moving to Boston, MA).
 
@@ -14,10 +14,13 @@ My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">i
 
 [Here is an album](https://photos.app.goo.gl/v551gaGyWBSHqJVo9) full of pictures of me.
 
-My Stack Overflow account [is here](https://stackoverflow.com/users/2631920/brian-tracy).
+I used to spend a bunch of time helping people on [Stack Overflow](https://stackoverflow.com/users/2631920/brian-tracy), and that is where I learned how to program.
 
 I also have a [LinkedIn account](https://www.linkedin.com/in/brian-tracy-129167a1
 ).
+
+My public GPG key [is here](/resources/briantracy_gpg.txt)
+
 
 ---
 
@@ -49,8 +52,3 @@ I also have a [LinkedIn account](https://www.linkedin.com/in/brian-tracy-129167a
 | Book | [hard to say](/reading.html) |
 | Band | Tedeschi Trucks Band |
 | Metal | Copper |
-
----
-
-My public GPG key [is here](/resources/briantracy_gpg.txt)
-
