@@ -5,7 +5,6 @@
 
 * [About](about.html)
 * [Creations](creations.html)
-* [Photography](photography.html)
 * [Reading](reading.html)
 * [Writing](writing/writing.html)
 
