@@ -8,6 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | |
+| Sula (Toni Morrison) &dagger; | |
 | Little Women (Louisa May Alcott) | Reading books written long ago is always such an interesting experience. I found it amazing that the characters in the story (which was written around 1868) act out scenes from Shakespeare, much like we still do today. I bet that if you removed all technological and chronological references from the story, it would be hard to place it in a specific time when reading. |
 | The Three-Body Problem (Liu Cixin) | Here is a quote from the translator's note that I found especially interesting: "The best translations into English do not, in fact, read as if they were originally written in English. The English words are arranged in such a way that the reader sees a glimpse of another culture's patters of thinking, hears an echo of another language's rhythms and cadences, and feels a tremor of another people's gestures and movements." |
 | Slaughterhouse-Five (Kurt Vonnegut) | The Tralfamadorian concept of time is exactly the same as Dr. Manhattan's in the comic series "Watchmen". I wonder if Watchmen was influenced by Vonnegut. |
