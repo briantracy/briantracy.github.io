@@ -25,5 +25,5 @@ as "related to school").
 
 | Day | Notes |
 |:----|:------|
-Sat Aug 28 (2021) | |
+| Sat Aug 28 (2021) | First day was manageable this time. I spent most of the day reading or sleeping. I decided to load my kindle up with a bunch of new books to keep me going for the week. |
 
