@@ -21,9 +21,3 @@ as "related to school").
 | Fri Apr 2 | The end of the week is here, and I have learned a lot about my habits. I don't think I will be continuing to watch hours of youtube every day, and my overall internet usage will definitely go way down. |
 
 
-# No Internet Week 2
-
-| Day | Notes |
-|:----|:------|
-| Sat Aug 28 (2021) | First day was manageable this time. I spent most of the day reading or sleeping. I decided to load my kindle up with a bunch of new books to keep me going for the week. |
-
