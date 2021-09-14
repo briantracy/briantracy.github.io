@@ -10,6 +10,8 @@ I was born in Palo Alto CA in 1998, and I currently live there (I will soon be m
 
 I like playing guitar and woodworking. In college, I worked for my school as a systems administrator and a teaching assistant.
 
+I play soccer, tennis, and basketball fairly regularly.
+
 My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">iamg@<span style="font-size:0.01px;">obfuscation</span>33ycart.na</span>l.com
 
 [Here is an album](https://photos.app.goo.gl/v551gaGyWBSHqJVo9) full of pictures of me.
