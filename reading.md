@@ -9,6 +9,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Title | Comments |
 |-------|----------|
 | Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | |
+| The Lies of Locke Lamora \* (Scott Lynch) | |
 | The Things They Carried (Tim O'Brien) | |
 | Sula (Toni Morrison) | |
 | Little Women (Louisa May Alcott) | Reading books written long ago is always such an interesting experience. I found it amazing that the characters in the story (which was written around 1868) act out scenes from Shakespeare, much like we still do today. I bet that if you removed all technological and chronological references from the story, it would be hard to place it in a specific time when reading. |
