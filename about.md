@@ -2,7 +2,7 @@
 
 Hello,
 
-<img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/about_image.png" width="200" height="200" alt="human+dog">
+<img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/result.jpg" width="200" height="200" alt="human+dog">
 
 I am a computer programmer (at [Onshape](https://www.onshape.com/en/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security.
 
