@@ -10,7 +10,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 |-------|----------|
 | Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | |
 | The Trial (Franz Kafka)&dagger; | |
-| The Blade Itself (Joe Abercrombie) | An amazing introduction to a series that I have heard great things about. |
+| The First Law Trilogy \* \[The Blade Itself, ...\] (Joe Abercrombie) | An amazing series with great characters and some cool lore. I hope the second trilogy is as good! |
 | The Lies of Locke Lamora\*, Red Seas Under Red Skies (Scott Lynch) | Very good heist books. I thought the first one was far better than the second. |
 | The Things They Carried (Tim O'Brien) | |
 | Sula (Toni Morrison) | |
