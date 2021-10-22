@@ -12,7 +12,8 @@ I like playing guitar and woodworking. In college, I worked for my school as a s
 
 I play soccer, tennis, and basketball fairly regularly.
 
-My email address is bri<span style="unicode-bidi:bidi-override;direction:rtl;">iamg@<span style="font-size:0.01px;">obfuscation</span>33ycart.na</span>l.com
+My email addresses are bri<span style="unicode-bidi:bidi-override;direction:rtl;">iamg@<span style="font-size:0.01px;">web-scrape-prevention</span>33ycart.na</span>l.com and
+brian\_<span style="unicode-bidi:bidi-override;direction:rtl;">rb.inmula@ycart<span style="font-size:0.01px;">web-scrape-prevention</span></span>own.edu
 
 [Here is an album](https://photos.app.goo.gl/v551gaGyWBSHqJVo9) full of pictures of me.
 
