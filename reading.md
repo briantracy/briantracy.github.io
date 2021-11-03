@@ -94,6 +94,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | My Side of the Mountain, On the Far Sides of the Mountain (Jean George) | Really excellent kids book about a boy running away from home and living in the Catskills. This one shows spends a lot of time discussing respect for nature and friendship with animals, as well as the importance of self sufficiency. |
 | Tales of the Greek Heroes (Roger Lancelyn Green) | This is where you go when you level up from Percy Jackson. |
 | Gloomy Gus (Walt Morey) | I read this one over the course of a semester in middle school, one sitting at a time, every week. It is not about a sad human, but the relationship between a boy and a bear (the animal). |
+| The Outsiders (S.E. Hinton) | |
 | The Thief Lord (Cornelia Funke) \* | One of the main characters "Scipio" was my hero. |
 | Leviathan (Scott Westerfield) | I would like to see this adapted as a movie. The concept of WW1 being fought between animal and machine powered nations could be visually stunning. |
 | The Haunting of Freddy (Dietlof Reiche) | This is the only book I have read that uses a non-standard font. |
