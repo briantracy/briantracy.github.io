@@ -19,7 +19,7 @@ brian\_<span style="unicode-bidi:bidi-override;direction:rtl;">rb.inmula@ycart<s
 
 I used to spend a bunch of time helping people on [Stack Overflow](https://stackoverflow.com/users/2631920/brian-tracy), and that is where I learned how to program.
 
-I also like making minor grammatical [edits to Wikipedia](https://en.wikipedia.org/wiki/Special:Contributions/CasioWatchLover) when I find something that really doesn't sound right.
+I also like contributing [edits to Wikipedia](https://en.wikipedia.org/wiki/Special:Contributions/CasioWatchLover) when I can.
 
 I have a [LinkedIn account](https://www.linkedin.com/in/brian-tracy-129167a1
 ), but no other social media presence.
