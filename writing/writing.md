@@ -32,11 +32,13 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 
 4. [Endianness Exists](endianness-exists.html), a short demo of how seemingly portable code can be hamstrung by strange systems.
 
-### Other
+### Musings
 
 1. [No Internet Week](no-internet-week.html)
 
 2. [Density of Coins](currency-density.html)
 
 3. [iOS software features that make me want to dedicate my life to business, start my own company, build a trillion dollar empire, perform a hostile takeover of Apple, then fire every single person who ever worked on iOS](ios-software-features.html)
+
+4. [Donating to charity?](young-charity.html)
 
