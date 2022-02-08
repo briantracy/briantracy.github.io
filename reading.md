@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| One Piece (Eiichiro Oda) | Second comic I've read, pretty good. A thousand chapters is nothing to sneeze at, I can't believe the author has been working for over 20 years. |
 | Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | |
 | The Trial (Franz Kafka)&dagger; | |
 | The First Law Trilogy \* \[The Blade Itself, ...\] (Joe Abercrombie) | An amazing series with great characters and some cool lore. I hope the second trilogy is as good! |
