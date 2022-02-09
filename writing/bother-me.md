@@ -16,3 +16,7 @@
 
 4. The lack of any real `const` correctness in Java. The `final` keyword is under powered.
 
+5. Companies using common nouns as their name
+    * The Market (a grocery store near me)
+    * Square (payment processor)
+
