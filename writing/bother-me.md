@@ -19,4 +19,7 @@
 5. Companies using common nouns as their name
     * The Market (a grocery store near me)
     * Square (payment processor)
+    * Movement (climbing gym)
 
+6. Fictional depictions of sword training where the participants are using real swords and
+are taking real swings at each other. 
