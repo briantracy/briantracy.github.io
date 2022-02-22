@@ -35,7 +35,7 @@ The answer is that it does not matter how you pack your bag, as all three of the
 | Half Dollar    | 50                  | 11.340               | <span style="color: #006400; font-weight: bolder">4.409</span>                |
 | Dollar         | 100                 | 8.1                  | 12.3                 |
 
-Consult the [United States Mint's currency specifications](https://www.usmint.gov/learn/coin-and-medal-programs/coin-specifications) for proof.
+Consult the [United States Mint's currency specifications](https://web.archive.org/web/20220212165649/https://www.usmint.gov/learn/coin-and-medal-programs/coin-specifications) for proof.
 
 
 By the way, the bag you take from the bank will have just shy of two grand.
