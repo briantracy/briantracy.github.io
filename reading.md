@@ -8,6 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| The Gap Cycle&dagger; (Stephen R. Donaldson) | |
+| Butcher's Crossing (John Williams) | Supremely depressing, but a good story. |
 | One Piece (Eiichiro Oda) | Second comic I've read, pretty good. A thousand chapters is nothing to sneeze at, I can't believe the author has been working for over 20 years. |
 | Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | |
 | The Trial (Franz Kafka)&dagger; | |
@@ -112,7 +114,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
 
-To read maybe?:, The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, Book of the new Sun, LoTR, Uncle Tom's Cabin, The things they carried, River Out of Eden
+To read maybe?: The disappearing spoon, 12 rules for ... (the jordan peterson one), Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, Book of the new Sun (long), LoTR, Uncle Tom's Cabin, River Out of Eden
 
 ---
 
