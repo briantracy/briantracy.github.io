@@ -8,7 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| The Gap Cycle&dagger; (Stephen R. Donaldson) | |
+| The Gap Cycle \[The Real Story\]; (Stephen R. Donaldson) | |
 | Butcher's Crossing (John Williams) | Supremely depressing, but a good story. |
 | One Piece (Eiichiro Oda) | Second comic I've read, pretty good. A thousand chapters is nothing to sneeze at, I can't believe the author has been working for over 20 years. |
 | Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | |
