@@ -8,18 +8,19 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| The Stranger\* (Albert Camus) | |
 | The Gap Cycle \[The Real Story, Forbidden Knowledge\]; (Stephen R. Donaldson) | Brutal. |
 | Butcher's Crossing (John Williams) | Supremely depressing, but a good story. |
 | One Piece (Eiichiro Oda) | Second comic I've read, pretty good. A thousand chapters is nothing to sneeze at, I can't believe the author has been working for over 20 years. |
 | Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | |
-| The First Law Trilogy \* \[The Blade Itself, ...\] (Joe Abercrombie) | An amazing series with great characters and some cool lore. I hope the second trilogy is as good! |
+| The First Law Trilogy\* \[The Blade Itself, ...\] (Joe Abercrombie) | An amazing series with great characters and some cool lore. I hope the second trilogy is as good! |
 | The Lies of Locke Lamora\*, Red Seas Under Red Skies (Scott Lynch) | Very good heist books. I thought the first one was far better than the second. |
 | The Things They Carried (Tim O'Brien) | |
 | Sula (Toni Morrison) | |
 | Little Women (Louisa May Alcott) | Reading books written long ago is always such an interesting experience. I found it amazing that the characters in the story (which was written around 1868) act out scenes from Shakespeare, much like we still do today. I bet that if you removed all technological and chronological references from the story, it would be hard to place it in a specific time when reading. |
 | The Three-Body Problem (Liu Cixin) | Here is a quote from the translator's note that I found especially interesting: "The best translations into English do not, in fact, read as if they were originally written in English. The English words are arranged in such a way that the reader sees a glimpse of another culture's patters of thinking, hears an echo of another language's rhythms and cadences, and feels a tremor of another people's gestures and movements." |
 | Slaughterhouse-Five (Kurt Vonnegut) | The Tralfamadorian concept of time is exactly the same as Dr. Manhattan's in the comic series "Watchmen". I wonder if Watchmen was influenced by Vonnegut. |
-| The Glass Bead Game (Hermann Hesse) | |
+| The Glass Bead Game (Hermann Hesse) | I find a recurring pattern in Hesse's works is that I keep thinking about them months after I am done reading. More so with Siddartha, but with Glass Bead Game, it brings me memories of my time reading it and feeling lost. |
 | This Side of Paradise (F. Scott Fitzgerald) | |
 | Breach of Peace (Daniel B. Greene) | I watch Daniel's videos on youtube about Sci-fi and Fantasy books, and when he announced that he had become an author, I had to check out his book. I think it is extremely good for a debut novel, and the title is one of the best I have seen. |
 | Siddhartha\* (Herman Hesse) | A beautiful story that I would recommend to everyone. |
