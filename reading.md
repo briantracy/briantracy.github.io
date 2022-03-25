@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Animal Farm (George Orwell) | |
 | The Stranger\* (Albert Camus) | |
 | The Gap Cycle \[The Real Story, Forbidden Knowledge\]; (Stephen R. Donaldson) | Brutal. |
 | Butcher's Crossing (John Williams) | Supremely depressing, but a good story. |

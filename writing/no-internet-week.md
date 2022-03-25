@@ -20,4 +20,14 @@ as "related to school").
 | Thu Apr 1 | No more cravings today, feeling pretty confident about continuing my life with a largely reduced internet usage. |
 | Fri Apr 2 | The end of the week is here, and I have learned a lot about my habits. I don't think I will be continuing to watch hours of youtube every day, and my overall internet usage will definitely go way down. |
 
+---
 
+| Day | Notes |
+|:----|:------|
+| Fri Mar 24 (2022) | |
+| Sat Mar 25 | |
+| Sun Mar 26 | |
+| Mon Mar 27 | |
+| Tue Mar 28 | |
+| Wed Mar 29 | |
+| Thu Mar 30 | |
