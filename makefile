@@ -39,7 +39,7 @@ serve:
 validate:
 	@for file in $(HTML_FILES); do \
 		echo "[\033[0;33mCHECKING\033[0m] $$file" ; \
-		curl -F out=gnu -F "file=@$$file" http://validator.w3.org/nu/ ; \
+		curl -F out=gnu -F "file=@$$file" https://validator.w3.org/nu/ ; \
 	done
 
 
@@ -47,6 +47,6 @@ validate:
 validate-online:
 	@for file in $(HTML_FILES); do \
 		echo "[\033[0;33mCHECKING\033[0m] $$file" ; \
-		curl "http://validator.w3.org/nu/?doc=https://briantracy.xyz/$$file&out=gnu" ; \
+		curl "https://validator.w3.org/nu/?doc=https://briantracy.xyz/$$file&out=gnu" ; \
 	done
 
