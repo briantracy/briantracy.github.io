@@ -13,7 +13,6 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | The Gap Cycle \[The Real Story, Forbidden Knowledge\] (Stephen R. Donaldson) | Brutal. |
 | Butcher's Crossing (John Williams) | Supremely depressing, but a good story. |
 | One Piece (Eiichiro Oda) | Second comic I've read, pretty good. A thousand chapters is nothing to sneeze at, I can't believe the author has been working for over 20 years. |
-<!-- | Consider the Lobster and Other Essays (David Foster Wallace) &dagger; | | -->
 | The First Law Trilogy\* \[The Blade Itself, ...\] (Joe Abercrombie) | An amazing series with great characters and some cool lore. I hope the second trilogy is as good! |
 | The Lies of Locke Lamora\*, Red Seas Under Red Skies (Scott Lynch) | Very good heist books. I thought the first one was far better than the second. |
 | The Things They Carried (Tim O'Brien) | |
