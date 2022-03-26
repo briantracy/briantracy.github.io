@@ -24,7 +24,7 @@ as "related to school").
 
 | Day | Notes |
 |:----|:------|
-| Fri Mar 24 (2022) | |
+| Fri Mar 24 (2022) | I downloaded a bunch of books to read for the next week. I found myself reaching for my phone often, but have managed to stay away. |
 | Sat Mar 25 | |
 | Sun Mar 26 | |
 | Mon Mar 27 | |

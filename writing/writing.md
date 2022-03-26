@@ -38,7 +38,7 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 
 2. [Density of Coins](currency-density.html)
 
-3. [Things that bother me](bother-me.html)
-
-4. [Donating to charity?](young-charity.html)
+<!-- 3. [Things that bother me](bother-me.html)
+ -->
+3. [Donating to charity?](young-charity.html)
 
