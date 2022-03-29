@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| The Enchiridion (Epictetus) | |
 | Animal Farm (George Orwell) | |
 | The Stranger\* (Albert Camus) | |
 | The Gap Cycle \[The Real Story, Forbidden Knowledge\] (Stephen R. Donaldson) | Brutal. |
