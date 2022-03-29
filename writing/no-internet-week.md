@@ -27,7 +27,7 @@ as "related to school").
 | Fri Mar 24 (2022) | I downloaded a bunch of books to read for the next week. I found myself reaching for my phone often, but have managed to stay away. |
 | Sat Mar 25 | I kept myself busy with reading today, but was definitely feeling the desire to get online. I had trouble sleeping, this might have been a result of my cravings. |
 | Sun Mar 26 | I have gotten bored of reading because it feels like I have to do it to keep me distracted. |
-| Mon Mar 27 | |
+| Mon Mar 27 | I finished another book today, and am getting more used to the task at hand. |
 | Tue Mar 28 | |
 | Wed Mar 29 | |
 | Thu Mar 30 | |
