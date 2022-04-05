@@ -34,11 +34,7 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 
 ### Musings
 
-1. [No Internet Week](no-internet-week.html)
+1. [Density of Coins](currency-density.html)
 
-2. [Density of Coins](currency-density.html)
-
-<!-- 3. [Things that bother me](bother-me.html)
- -->
-3. [Donating to charity?](young-charity.html)
+2. [Donating to charity?](young-charity.html)
 
