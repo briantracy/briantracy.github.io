@@ -6,7 +6,7 @@ Hello,
 
 I am a computer programmer (at [Onshape](https://www.onshape.com/en/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security.
 
-I was born in Palo Alto CA in 1998, and I currently live there (I will soon be moving to Boston, MA).
+I was born in Palo Alto CA in 1998, and I currently live in Boston MA.
 
 I like playing guitar and woodworking. In college, I worked for my school as a systems administrator and a teaching assistant.
 
@@ -29,6 +29,8 @@ My public GPG key [is here](/resources/briantracy_gpg.txt)
 
 ---
 
+Some assorted favorites of mine:
+
 | Category | Favorite |
 |----------|----------|
 | Browser | Firefox |
@@ -40,7 +42,7 @@ My public GPG key [is here](/resources/briantracy_gpg.txt)
 | Music Genre | Blues |
 | Text Editor | vim |
 | Character Encoding | `us_ascii` |
-| Programming Language | C |
+| Programming Language | C++ |
 | Unix Program | `man` |
 | Font | Computer Modern Roman |
 | IETF RFC | RFC 1945 |
