@@ -8,6 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Emma&dagger;(Jane Austen) | |
+| Confessions of an English Opium-Eater&dagger; (Thomas De Quincey) | |
 | The Enchiridion (Epictetus) | |
 | Animal Farm (George Orwell) | |
 | The Stranger\* (Albert Camus) | |
