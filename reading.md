@@ -10,7 +10,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 |-------|----------|
 | Emma&dagger;(Jane Austen) | |
 | Confessions of an English Opium-Eater&dagger; (Thomas De Quincey) | |
-| The Enchiridion (Epictetus) | |
+| The Enchiridion (Epictetus) | Chapter 50: "Whatever moral rules you have deliberately proposed to yourself, abide by them as they were laws, and as if you would be guilty of impiety by violating any of them. Don't regard what anyone says of you, for this, after all, is no concern of yours. How long, then, will you put off thinking yourself worthy of the highest improvements and follow the distinctions of reason? You have received the philosophical theorems, with which you ought to be familiar, and you have been familiar with them. What other master, then, do you wait for, to throw upon that the delay of reforming yourself? You are no longer a boy, but a grown man. If, therefore, you will be negligent and slothful, and always add procrastination to procrastination, purpose to purpose, and fix day after day in which you will attend to yourself, you will insensibly continue without proficiency, and, living and dying, persevere in being one of the vulgar. This instant, then, think yourself worthy of living as a man grown up, and a proficient. Let whatever appears to be the best be to you an inviolable law. And if any instance of pain or pleasure, or glory or disgrace, is set before you, remember that now is the combat, now the Olympiad comes on, nor can it be put off. By once being defeated and giving way, proficiency is lost, or by the contrary preserved. Thus Socrates became perfect, improving himself by everything, attending to nothing but reason. And though you are not yet a Socrates, you ought, however, to live as one desirous of becoming a Socrates." |
 | Animal Farm (George Orwell) | |
 | The Stranger\* (Albert Camus) | |
 | The Gap Cycle \[The Real Story, Forbidden Knowledge\] (Stephen R. Donaldson) | Brutal. |
@@ -129,8 +129,6 @@ I use the free and open source application [Calibre](https://calibre-ebook.com/)
 2. ZLibrary (<https://z-lib.org/>)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
 4. Library Genesis (<https://libgen.is/>)
-
-I have never listened to an audiobook, and for now, I don't plan on doing so.
 
 
 <!-- | The Pentateuch&#8224; (King James Translation) | Also known as the "Five Books of Moses" or the "Torah", the Pentateuch consists of the following books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. These books contain the classic stories that are referenced across all Abrahamic religions (Judaism, Christianity, Islam, ...) and are still featured heavily in secular pop culture today. Here are some quotations that you have probably heard before, regardless of your religious background: "Let there be light", "Thou shalt not kill", "land of milk and honey", "40 days and 40 nights", "am I my brother's keeper?", "stranger in a strange land". | -->
