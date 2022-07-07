@@ -114,6 +114,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Percy Jackson Series (Rick Riordan) | First book that I really got into reading. I remember being caught in class in 5th grade reading this book when I should have been following along with a lesson. |
 | The Reluctant Pitcher (Matt Christopher) | Probably other MC books as well, they are all sports books for kids |
 | Spy X: The Code (Peter Lerangis) | I learned about the concept of a "skeleton key" from this book, I think the main character has one. |
+| By The Great Horn Spoon (Sid Fleischman) | |
 | Island of the Blue Dolphins (Scott O'Dell) | I believe I read this in 4th grade. Pretty bloody for a kids book! |
 | Top Secret (John Reynolds Gardiner) | 2nd grade maybe? |
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
