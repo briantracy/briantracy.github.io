@@ -43,6 +43,10 @@ great! [pic1](/images/stamp_final.jpg) [pic2](/images/stamp_wax.jpg)
 [pic3](/images/stamp_whittle.jpg) [pic4](/images/stamp_3dmodel.jpg)
 
 
+For my second stamp iteration, I decided to use Onshape for the modeling. You can
+[view the model in your browser](https://cad.onshape.com/documents/27dc20a77ff76f7439b27c50/w/6bcfa842e4b539c0890976ce/e/4e60f600488e6bfdee9a47f6).
+I used a silhouette of a stag and my initials to mimic a personal crest. [pic1](/images/stamp_stag_wax.png)
+
 ### Wooden Trinkets
 
 Here are some flags I made as christmas gifts. [pic1](/images/all_flags.jpg)
