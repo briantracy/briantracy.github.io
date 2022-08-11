@@ -9,6 +9,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Title | Comments |
 |-------|----------|
 | Emma&dagger;(Jane Austen) | |
+| Steppenwolf&dagger; (Hermann Hesse) | |
+| Blood Meridian\* (Cormac McCarthy) | |
 | The Poppy War Series \[The Poppy War, The Dragon Republic, The Burning God\] (R. F. Kuang) | The first book is really strong, but it feels like there was not enough material for a trilogy. There seems to be a push for trilogies in the fantasy publishing world (lots of trilogies on this list). Also, "yet another story while children end up becoming generals and the entire population > 22 years old seems to disappear" clich&eacute;. |
 | Confessions of an English Opium-Eater (Thomas De Quincey) | |
 | Murderbot Diaries 1-3 (Martha Wells) | Short, exciting, fun! |
