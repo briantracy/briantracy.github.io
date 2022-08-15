@@ -10,7 +10,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 |-------|----------|
 | Emma&dagger;(Jane Austen) | |
 | Steppenwolf&dagger; (Hermann Hesse) | |
-| Blood Meridian\* (Cormac McCarthy) | |
+| Blood Meridian\* (Cormac McCarthy) | "the judge" is a wonderful character, so rich and interesting. My favorite passage is the one where the judge has one of his philosophical sermons with the gang: "Whatever exists, he said. Whatever in creation exists without my knowledge exists without my consent ... The freedom of birds is an insult to me. I'd have them all in zoos." |
 | The Poppy War Series \[The Poppy War, The Dragon Republic, The Burning God\] (R. F. Kuang) | The first book is really strong, but it feels like there was not enough material for a trilogy. There seems to be a push for trilogies in the fantasy publishing world (lots of trilogies on this list). Also, "yet another story while children end up becoming generals and the entire population > 22 years old seems to disappear" clich&eacute;. |
 | Confessions of an English Opium-Eater (Thomas De Quincey) | |
 | Murderbot Diaries 1-3 (Martha Wells) | Short, exciting, fun! |
