@@ -6,7 +6,7 @@ This writeup will walk through the implementation of a basic performance profile
 
 ### Motivation
 
-One of the more interesting topics I learned about in school is Linux's dynamic loader (`ld.so`). Symbol resolution (the act of converting a symbols textual name to its address) seemed especially fascinating and I wanted to make use of it in a project. By combining the dynamic loader with frequent interrupts, I thought I could gauge the performance of a program by periodically determining which function was currently executing.
+One of the more interesting topics I learned about in school is Linux's dynamic loader (`ld.so`). Symbol resolution (the act of converting a symbol's textual name to its address) seemed especially fascinating and I wanted to make use of it in a project. By combining the dynamic loader with frequent interrupts, I thought I could gauge the performance of a program by periodically determining which function was currently executing.
 
 ### Goals
 
