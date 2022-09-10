@@ -9,7 +9,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Title | Comments |
 |-------|----------|
 | Steppenwolf&dagger; (Hermann Hesse) | |
-| The Martian Chronicles&dagger; (Ray Bradbury) | |
+| The Shadow of the Torturer (Gene Wolfe) | |
+| The Martian Chronicles\* (Ray Bradbury) | Really fantastic and thought provoking. |
 | Frankenstein (Mary Shelley) | Before reading, I thought the monster was named Frankenstein, it was green, had something sticking out of its head, and was a brute (I think I got the appearance ideas from various Halloween costumes). I was very shocked by the monster's eloquence, this is something I had never seen in modern tropes / renditions of the character. |
 | Blood Meridian\* (Cormac McCarthy) | "the judge" is a wonderful character, so rich and interesting. My favorite passage is the one where the judge has one of his philosophical sermons with the gang: "Whatever exists, he said. Whatever in creation exists without my knowledge exists without my consent ... The freedom of birds is an insult to me. I'd have them all in zoos." |
 | The Poppy War Series \[The Poppy War, The Dragon Republic, The Burning God\] (R. F. Kuang) | The first book is really strong, but it feels like there was not enough material for a trilogy. There seems to be a push for trilogies in the fantasy publishing world (lots of trilogies on this list). Also, yet another "story where the children end up becoming generals and the entire population > 22 years old seems to disappear" clich&eacute;. |
