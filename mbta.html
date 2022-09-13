@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+li { font-size: 15pt; }
+</style>
+<script>
+
+function convertDateString(input) {
+    const time = input.split('T')[1];
+    return time.substring(0, time.indexOf('-'));
+}
+
+addEventListener('DOMContentLoaded', () => {
+    const predictions = document.getElementById('predictions');
+
+    fetch('https://api-v3.mbta.com/predictions?page[limit]=4&sort=arrival_time&filter[stop]=place-cntsq&filter[direction_id]=0')
+    .then(r => r.json())
+    .then(data => {
+        console.log(data);
+        for (const pred of data.data) {
+            const time = pred.attributes['arrival_time'];
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(convertDateString(time)));
+            predictions.appendChild(li);
+        }
+    })
+    .catch(e => document.write(e));
+});
+</script>
+</head>
+<body>
+    <h1>Cambridge Inbound</h1>
+    <ul id="predictions"></ul>
+</body>
+</html>
