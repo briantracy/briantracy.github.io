@@ -10,6 +10,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 |-------|----------|
 | Steppenwolf&dagger; (Hermann Hesse) | |
 | The Shadow of the Torturer (Gene Wolfe) | |
+| Tao Te Ching (Lao Tzu) | |
 | The Martian Chronicles\* (Ray Bradbury) | Really fantastic and thought provoking. |
 | Frankenstein (Mary Shelley) | Before reading, I thought the monster was named Frankenstein, it was green, had something sticking out of its head, and was a brute (I think I got the appearance ideas from various Halloween costumes). I was very shocked by the monster's eloquence, this is something I had never seen in modern tropes / renditions of the character. |
 | Blood Meridian\* (Cormac McCarthy) | "the judge" is a wonderful character, so rich and interesting. My favorite passage is the one where the judge has one of his philosophical sermons with the gang: "Whatever exists, he said. Whatever in creation exists without my knowledge exists without my consent ... The freedom of birds is an insult to me. I'd have them all in zoos." |
