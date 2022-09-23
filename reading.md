@@ -9,6 +9,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Title | Comments |
 |-------|----------|
 | Steppenwolf&dagger; (Hermann Hesse) | |
+| Childhood's End (Arthur C. Clarke) | This was a work sci-fi book club book. Really amazing story, I like the 3 part aspect. |
 | The Shadow of the Torturer, The Claw of the Conciliator (Gene Wolfe) | |
 | Tao Te Ching (Lao Tzu) | |
 | The Martian Chronicles\* (Ray Bradbury) | Really fantastic and thought provoking. Bradbury makes super bold plot decisions that you second guess as being fake (or incomplete), and this makes reading him almost seem not real. We are very accustomed to "fake out deaths" in modern movies/TV, so things like the death of all Martians, the destruction of Earth, and the humans leaving Mars all come as a real surprise. |
