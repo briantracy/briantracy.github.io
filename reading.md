@@ -9,6 +9,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Title | Comments |
 |-------|----------|
 | Steppenwolf&dagger; (Hermann Hesse) | |
+| Flatland (Edwin Abbott Abbott) | |
 | Childhood's End (Arthur C. Clarke) | This was a work sci-fi book club book. Really amazing story, I like the 3 part aspect. |
 | The Shadow of the Torturer, The Claw of the Conciliator (Gene Wolfe) | |
 | Tao Te Ching (Lao Tzu) | |
