@@ -12,7 +12,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Flatland (Edwin Abbott Abbott) | |
 | Childhood's End (Arthur C. Clarke) | This was a work sci-fi book club book. Really amazing story, I like the 3 part aspect. |
 | The Shadow of the Torturer, The Claw of the Conciliator (Gene Wolfe) | |
-| Tao Te Ching (Lao Tzu) | |
+| Tao Te Ching (Lao Tzu) | The religion of the "Adem" people from *Name of the Wind* is extremely reminiscent of Taoism. |
 | The Martian Chronicles\* (Ray Bradbury) | Really fantastic and thought provoking. Bradbury makes super bold plot decisions that you second guess as being fake (or incomplete), and this makes reading him almost seem not real. We are very accustomed to "fake out deaths" in modern movies/TV, so things like the death of all Martians, the destruction of Earth, and the humans leaving Mars all come as a real surprise. |
 | Frankenstein (Mary Shelley) | Before reading, I thought the monster was named Frankenstein, it was green, had something sticking out of its head, and was a brute (I think I got the appearance ideas from various Halloween costumes). I was very shocked by the monster's eloquence, this is something I had never seen in modern tropes / renditions of the character. |
 | Blood Meridian\* (Cormac McCarthy) | "the judge" is a wonderful character, so rich and interesting. My favorite passage is the one where the judge has one of his philosophical sermons with the gang: "Whatever exists, he said. Whatever in creation exists without my knowledge exists without my consent ... The freedom of birds is an insult to me. I'd have them all in zoos." |
@@ -25,7 +25,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | The Gap Cycle \[The Real Story, Forbidden Knowledge\] (Stephen R. Donaldson) | Brutal. |
 | Butcher's Crossing (John Williams) | Supremely depressing, but a good story. |
 | One Piece (Eiichiro Oda) | Second comic I've read, pretty good. A thousand chapters is nothing to sneeze at, I can't believe the author has been working for over 20 years. |
-| The First Law Trilogy\* \[The Blade Itself, ...\] (Joe Abercrombie) | An amazing series with great characters and some cool lore. I hope the second trilogy is as good! |
+| The First Law Trilogy\* \[The Blade Itself, ...\], Best Served Cold (Joe Abercrombie) | An amazing series with great characters and some cool lore. I hope the second trilogy is as good! |
 | The Lies of Locke Lamora\*, Red Seas Under Red Skies (Scott Lynch) | Very good heist books. I thought the first one was far better than the second. |
 | The Things They Carried (Tim O'Brien) | |
 | Sula (Toni Morrison) | |
