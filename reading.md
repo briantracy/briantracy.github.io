@@ -9,9 +9,9 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Title | Comments |
 |-------|----------|
 | Steppenwolf&dagger; (Hermann Hesse) | |
+| The Book of the New Sun \* (Gene Wolfe) | This is a rare book. While reading, I repeatedly thought "wow, this author is genius". The vocabulary is astounding, the meandering of the plot is intriguing, and the worldbuilding leaves you always wanting to know more. |
 | Flatland (Edwin Abbott Abbott) | |
 | Childhood's End (Arthur C. Clarke) | This was a work sci-fi book club book. Really amazing story, I like the 3 part aspect. |
-| The Shadow of the Torturer, The Claw of the Conciliator (Gene Wolfe) | |
 | Tao Te Ching (Lao Tzu) | The religion of the "Adem" people from *Name of the Wind* is extremely reminiscent of Taoism. |
 | The Martian Chronicles\* (Ray Bradbury) | Really fantastic and thought provoking. Bradbury makes super bold plot decisions that you second guess as being fake (or incomplete), and this makes reading him almost seem not real. We are very accustomed to "fake out deaths" in modern movies/TV, so things like the death of all Martians, the destruction of Earth, and the humans leaving Mars all come as a real surprise. |
 | Frankenstein (Mary Shelley) | Before reading, I thought the monster was named Frankenstein, it was green, had something sticking out of its head, and was a brute (I think I got the appearance ideas from various Halloween costumes). I was very shocked by the monster's eloquence, this is something I had never seen in modern tropes / renditions of the character. |
