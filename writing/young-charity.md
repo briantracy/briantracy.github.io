@@ -12,5 +12,11 @@ Here are some statements that might be true:
 5. Much like how there is a continuous stream of people needing help, there is a continuous stream of people reaching the end of their lifetimes who are willing to help.
 
 
-
 If these statements are all true, then it seems like it would be a good idea to invest any money you were planning on giving to charity and then give the returns away before you die.
+
+However, there is a slight wrinkle hiding in statement 4. While the immediate utility of helping an individual now is identical to that of helping a different individual in the future, the situation is different if you consider that human beings have a tendency to create more human beings.
+
+So called "generational poverty" can result in entire family trees being poor (the core mechanism being that if you are poor, it is more likely that your children will not have the resources to escape poverty, *ad infinitum*). If a person can be helped **now**, we could prune a theoretical tree of poor descendants and prevent them from ever coming into existence.
+
+To what extent do the benefits of "pruning", as achieved by donating now, balance against the benefits of saving and compounding your charity? I am not sure, but it does feel like that while the stock market waxes and wanes, the population keeps growing ...
+
