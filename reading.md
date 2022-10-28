@@ -8,8 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Steppenwolf&dagger; (Hermann Hesse) | |
-| The Book of the New Sun \* (Gene Wolfe) | This is a rare book. While reading, I repeatedly thought "wow, this author is genius". The vocabulary is astounding, the meandering of the plot is intriguing, and the worldbuilding leaves you always wanting to know more. |
+| Engine Summer&dagger; (John Crowley) | |
+| The Book of the New Sun\*, The Urth of the New Sun (Gene Wolfe) | This is an absolutely astounding book. The two best parts for me were the archaic vocabulary used, and the meandering nature of the plot. |
 | Flatland (Edwin Abbott Abbott) | |
 | Childhood's End (Arthur C. Clarke) | This was a work sci-fi book club book. Really amazing story, I like the 3 part aspect. |
 | Tao Te Ching (Lao Tzu) | The religion of the "Adem" people from *Name of the Wind* is extremely reminiscent of Taoism. |
