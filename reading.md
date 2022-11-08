@@ -8,7 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Engine Summer&dagger; (John Crowley) | |
+| Engine Summer (John Crowley) | |
 | The Book of the New Sun\*, The Urth of the New Sun (Gene Wolfe) | This is an absolutely astounding book. The two best parts for me were the archaic vocabulary used, and the meandering nature of the plot. |
 | Flatland (Edwin Abbott Abbott) | |
 | Childhood's End (Arthur C. Clarke) | This was a work sci-fi book club book. Really amazing story, I like the 3 part aspect. |
