@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Effective Modern C++ (Scott Meyers) | |
 | Engine Summer (John Crowley) | |
 | The Book of the New Sun\*, The Urth of the New Sun (Gene Wolfe) | This is an absolutely astounding book. The two best parts for me were the archaic vocabulary used, and the meandering nature of the plot. |
 | Flatland (Edwin Abbott Abbott) | |
