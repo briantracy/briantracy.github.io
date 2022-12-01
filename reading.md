@@ -8,10 +8,11 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Consider Phlebas&dagger; (Iain M. Banks) | |
+| Lolita&dagger; (Vladimir Nabokov) | |
+| Consider Phlebas (Iain M. Banks) | The Culture is a really cool civilization and the worldbuilding is great, but I think this book is held back by its "overly cinematic" nature. There are too many long action scenes that could really be summarized in a few sentences, but are drawn out over tens of pages. |
 | Effective Modern C++ (Scott Meyers) | |
 | Engine Summer (John Crowley) | |
-| The Book of the New Sun\*, The Urth of the New Sun (Gene Wolfe) | This is an absolutely astounding book. The two best parts for me were the archaic vocabulary used, and the meandering nature of the plot. |
+| The Book of the New Sun\*, The Urth of the New Sun (Gene Wolfe) | This is an absolutely astounding book. The two best parts for me were the archaic vocabulary used, and the meandering nature of the plot. Thinking about *Urth of the New Sun* fills me with a deep sense of melancholy. It is painfully nostalgic towards the first book, but in a hopeless way, as if Severian is chasing himself, but will never catch up. |
 | Flatland (Edwin Abbott Abbott) | |
 | Childhood's End (Arthur C. Clarke) | This was a work sci-fi book club book. Really amazing story, I like the 3 part aspect. |
 | Tao Te Ching (Lao Tzu) | The religion of the "Adem" people from *Name of the Wind* is extremely reminiscent of Taoism. |
