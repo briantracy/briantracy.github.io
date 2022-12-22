@@ -140,7 +140,7 @@ As of the end of 2019, I do most of my reading on a e-reader (Kindle) because I 
 I use the free and open source application [Calibre](https://calibre-ebook.com/) to manage my digital library and I download my books from the following websites:
 
 1. Standard EBooks (<https://standardebooks.org/>)
-2. ZLibrary (<https://z-lib.org/>)
+2. ZLibrary (<https://z-lib.org/>) (TOR link after FBI seizure: <http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/>)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
 4. Library Genesis (<https://libgen.is/>)
 
