@@ -10,7 +10,7 @@ I was born in Palo Alto CA in 1998, and I currently live in Boston MA.
 
 I like playing guitar and woodworking. In college, I worked for my school as a systems administrator and a teaching assistant.
 
-I play soccer, tennis, and basketball fairly regularly.
+My main sports are soccer and tennis, but I also like ice skating and basketball.
 
 My email addresses are bri<span style="unicode-bidi:bidi-override;direction:rtl;">iamg@<span style="font-size:0.01px;">web-scrape-prevention</span>33ycart.na</span>l.com and
 brian\_<span style="unicode-bidi:bidi-override;direction:rtl;">rb.inmula@ycart<span style="font-size:0.01px;">web-scrape-prevention</span></span>own.edu
