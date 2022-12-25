@@ -8,7 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| The Left Hand of Darkness&dagger; (Ursula K. Le Guin) | |
+| The Deep&dagger; (John Crowley) | |
+| The Left Hand of Darkness (Ursula K. Le Guin) | |
 | Lolita (Vladimir Nabokov) | |
 | Consider Phlebas (Iain M. Banks) | The Culture is a really cool civilization and the worldbuilding is great, but I think this book is held back by its "overly cinematic" nature. There are too many long action scenes that could really be summarized in a few sentences, but are drawn out over tens of pages. |
 | Effective Modern C++ (Scott Meyers) | |
