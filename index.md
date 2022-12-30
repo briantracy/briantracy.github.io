@@ -5,6 +5,7 @@
 
 * [About](about.html)
 * [Creations](creations.html)
+* [Misc](misc/misc.html)
 * [Reading](reading.html)
 * [Writing](writing/writing.html)
 
