@@ -133,7 +133,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
 
-To read maybe?: The disappearing spoon, Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), Starmaker
+To read maybe?: The disappearing spoon, Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), Starmaker, Canticle for Leibowitz
 
 ---
 
