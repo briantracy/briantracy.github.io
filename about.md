@@ -4,7 +4,7 @@ Hello,
 
 <img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/result.jpg" width="200" height="200" alt="human+dog">
 
-I am a computer programmer (at [Onshape](https://www.onshape.com/en/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security.
+I am a computer programmer (at [Onshape](https://www.onshape.com/en/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security. Specifically, I like learning about and working with compilers, linkers, and the mechanics of program execution.
 
 I was born in Palo Alto CA in 1998, and I currently live in Boston MA.
 
