@@ -8,7 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Moby Dick&dagger; (Herman Melville) | |
+| Red Rising&dagger; (Pierce Brown) | |
+| Moby Dick\* (Herman Melville) | Definitely a top 5 book for me. |
 | The Deep (John Crowley) | First book of 2023. |
 | The Left Hand of Darkness (Ursula K. Le Guin) | |
 | Lolita (Vladimir Nabokov) | |
