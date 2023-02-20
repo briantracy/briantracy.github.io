@@ -19,7 +19,7 @@ or an inappropriate use of a drill press. [pic1](/images/pencil_holder_finished.
 A third project along the same lines was a wooden box I made for storing small
 items in my dorm room. Instead of making a traditional six sized box, I chose
 to create one massive block and to hollow out the inner space. This gives it
-a very rugged and handmade look that I love. [pic1](/images/box1_closed.jpg) [pic2](/images/box1_scooped.jpg) [pic3](/images/box1_forstner.jpg) [pic3](/images/box1_block.jpg) 
+a very rugged and handmade look that I love. [pic1](/images/box1_closed.jpg) [pic2](/images/box1_scooped.jpg) [pic3](/images/box1_forstner.jpg) [pic3](/images/box1_block.jpg)
 
 
 ### Flagstone Patio
@@ -60,9 +60,14 @@ for a friend that goes to UCLA. [pic1](/images/desk_maps.jpg)
 ### Cutting Boards
 
 All woodworkers go through the rite of passage that is making cutting boards
-for their friends/family/friends-of-family-at-request-of-their-mother. [pic1](/images/cuttingboard1.jpg) [pic2](/images/cuttingboard2.jpg) [pic3](/images/cuttingboard3.jpg) 
+for their friends/family/friends-of-family-at-request-of-their-mother. [pic1](/images/cuttingboard1.jpg) [pic2](/images/cuttingboard2.jpg) [pic3](/images/cuttingboard3.jpg)
 
 This one is special as it is an end-grain board, sometimes referred to as a "butchers block". I saw someone in the woodshop discard some great maple
 offcuts, and I asked if I could use them. I created a basic pattern by injecting
-some walnut between the maple pieces. 
+some walnut between the maple pieces.
 [pic1](/images/cuttingboard4-1.jpg) [pic2](/images/cuttingboard4-2.jpg) [pic3](/images/cuttingboard4-3.jpg) [pic4](/images/cuttingboard4-4.jpg)
+
+### Art
+
+An [oil painting](/images/oil_painting_woods.png) I made as part of an instructional class.
+
