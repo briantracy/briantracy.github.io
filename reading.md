@@ -8,8 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Hiroshima&dagger; (John Hersey) | |
-| Red Rising (Pierce Brown) | |
+| Hiroshima (John Hersey) | |
+| Red Rising, Golden Son (Pierce Brown) | |
 | Moby Dick\* (Herman Melville) | Definitely a top 5 book for me. |
 | The Deep (John Crowley) | First book of 2023. |
 | The Left Hand of Darkness (Ursula K. Le Guin) | |
