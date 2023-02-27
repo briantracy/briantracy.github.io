@@ -1,16 +1,1 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - minute-duration-test"><title>Brian Tracy - minute-duration-test</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Do I Know How Long a Minute Is?</h1><p>How accurate is my intuition for the duration of a minute? I am not sure, so I ran an experiment to find out.</p><p>For each data point, I would start a stopwatch, wait for what I thought was a minute, then stop the clock and record the results. I did not want my knowledge of the result to allow me to tune my perception, so I wrote a program that recorded my results without ever showing them to me (code included at end).</p><p>For the first batch of tests, I counted the minute in my head.</p><p>For the second batch of tests, I did not count the time and instead went purely on feel.</p><pre><code>from datetime import datetime, timedelta
-from math import floor
-
-LOG_FILE = &#39;/Users/briantracy/Desktop/minute_data.txt&#39;
-
-input(&#39;Press &lt;enter&gt; to start the test. 1 minute later, press &lt;enter&gt; again&#39;)
-start = datetime.now()
-input(&#39;Press &lt;enter&gt; at 1 minute&#39;)
-stop = datetime.now()
-
-unix_epoch_start = int(start.timestamp())
-elapsed_millis = floor((stop - start) / timedelta(milliseconds=1))
-
-with open(LOG_FILE, &#39;a&#39;) as f:
-    f.write(f&#39;{unix_epoch_start}:{elapsed_millis}\n&#39;)
-</code></pre></main><footer>Last modified Feb 23 20:22:59 2023</footer></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - minute-duration-test"><title>Brian Tracy - minute-duration-test</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Do I Know How Long a Minute Is?</h1><p>How accurate is my intuition for the duration of a minute? I am not sure, so I ran an experiment to find out.</p><p>For each data point, I would start a stopwatch, wait for what I thought was a minute, then stop the clock and record the results. I did not want my knowledge of the result to allow me to tune my perception, so I wrote a program that recorded my results without ever showing them to me (code included at end).</p><p>For the first batch of tests, I counted the minute in my head and got the following times (in milliseconds): <code>60251, 55950, 54061, 53716, 54807, 50151, 50322, 49383, 49992, 46967</code>.</p><p>For the second batch of tests, I did not count the time and instead went purely on feel.</p></main><footer>Last modified Feb 26 15:12:21 2023</footer></body></html>

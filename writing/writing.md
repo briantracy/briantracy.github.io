@@ -38,5 +38,5 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 
 2. [Donating to charity?](young-charity.html)
 
-3. [Do I Know How Long a Minute Is?](minute-duration-test.html)
+<!-- 3. [Do I Know How Long a Minute Is?](minute-duration-test.html) -->
 
