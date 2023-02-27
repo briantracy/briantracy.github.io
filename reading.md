@@ -8,6 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Bagombo Snuff Box&dagger; (Kurt Vonnegut) | |
+| A Journal of the Plague Year&dagger; (Daniel Defoe) | |
 | Hiroshima (John Hersey) | |
 | Red Rising, Golden Son (Pierce Brown) | |
 | Moby Dick\* (Herman Melville) | Definitely a top 5 book for me. |
