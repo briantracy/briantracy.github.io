@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Stoner&dagger; (John Williams) | |
 | Bagombo Snuff Box&dagger; (Kurt Vonnegut) | |
 | A Journal of the Plague Year&dagger; (Daniel Defoe) | |
 | A Wizard of Earthsea (Ursula Le Guin) | |
