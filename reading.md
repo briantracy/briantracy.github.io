@@ -8,9 +8,9 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Stoner&dagger; (John Williams) | |
-| Bagombo Snuff Box&dagger; (Kurt Vonnegut) | |
 | A Journal of the Plague Year&dagger; (Daniel Defoe) | |
+| Stoner (John Williams) | |
+| Bagombo Snuff Box (Kurt Vonnegut) | Vonnegut's voice and style are so strong that this collection of short stories can be read unabridged without ever suffering tonal whiplash. Some favorites of mine in this collection are "2BR02B" and "Lovers Anonymous". |
 | A Wizard of Earthsea (Ursula Le Guin) | |
 | Hiroshima (John Hersey) | |
 | Red Rising, Golden Son (Pierce Brown) | (work scifi book club) |
