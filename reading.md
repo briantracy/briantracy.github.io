@@ -10,6 +10,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 |-------|----------|
 | Iliad&dagger; (Homer) | |
 | Linkers and Loaders&dagger; (John R. Levine) | |
+| Vita Nostra (Maryna and Serhiy Dyachenko) | (work scifi book club) |
 | A Journal of the Plague Year (Daniel Defoe) | |
 | Stoner (John Williams) | |
 | Bagombo Snuff Box (Kurt Vonnegut) | Vonnegut's voice and style are so strong that this collection of short stories can be read unabridged without ever suffering tonal whiplash. Some favorites of mine in this collection are "2BR02B" and "Lovers Anonymous". |
