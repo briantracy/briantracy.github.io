@@ -8,8 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Iliad&dagger; (Homer) | |
 | Linkers and Loaders&dagger; (John R. Levine) | |
+| The Iliad (Homer) | |
 | Vita Nostra (Maryna and Serhiy Dyachenko) | (work scifi book club) |
 | A Journal of the Plague Year (Daniel Defoe) | |
 | Stoner (John Williams) | |
