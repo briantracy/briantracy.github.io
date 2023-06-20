@@ -8,8 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Linkers and Loaders&dagger; (John R. Levine) | |
-| The Iliad (Homer) | |
+| The Iliad\*, The Odyssey&dagger; (Homer) | I read the William Cullen Bryant translation (published 1870s). I came in to this with very little knowledge of what the Iliad was actually about (I assumed it was just the Trojan Horse), so I was surprised by many aspects of the story (the detailed violence, the meddling of the gods, the depth of the human relationships). Many characters have multiple names (Achilles = Pelides = Aeacides), so when we are introduced to Oilean Ajax and Telamonian Ajax, I assumed this was one person (they are distinct people: half brothers). |
 | Vita Nostra (Maryna and Serhiy Dyachenko) | (work scifi book club) |
 | A Journal of the Plague Year (Daniel Defoe) | |
 | Stoner (John Williams) | |
