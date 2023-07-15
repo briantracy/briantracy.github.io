@@ -17,7 +17,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | A Wizard of Earthsea (Ursula Le Guin) | |
 | Hiroshima (John Hersey) | |
 | Red Rising, Golden Son (Pierce Brown) | (work scifi book club) |
-| Moby Dick\* (Herman Melville) | Definitely a top 5 book for me. |
+| Moby Dick\* (Herman Melville) | My favorite chapter is [Chapter 58: Brit](https://etc.usf.edu/lit2go/42/moby-dick/739/chapter-58-brit/). |
 | The Deep (John Crowley) | First book of 2023. |
 | The Left Hand of Darkness (Ursula K. Le Guin) | (work scifi book club) |
 | Lolita (Vladimir Nabokov) | |
