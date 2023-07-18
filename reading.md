@@ -8,7 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Candide&dagger; (Voltaire) | |
+| Collected Fictions&dagger; (Jorge Luis Borges) | I received this book as a gift from an Onshape coworker. |
+| Candide (Voltaire) | |
 | The Iliad\*, The Odyssey (Homer) | I read the William Cullen Bryant translation (published 1870s). I came in to this with very little knowledge of what the Iliad was actually about (I assumed it was just the Trojan Horse), so I was surprised by many aspects of the story (the detailed violence, the meddling of the gods, the depth of the human relationships). Many characters have multiple names (Achilles = Pelides = Aeacides), so when we are introduced to Oilean Ajax and Telamonian Ajax, I assumed this was one person (they are distinct people: half brothers). As to whether or not the two books share an author, from a purely textual perspective, I have my doubts. My evidence would be the huge disparity in the amount of simile used. In the Iliad, nearly every fifth paragraph would start with a simile relating to nature. The Odyssey has relatively few of these. This might be due to the difference in narrator and structure, but it could also be a different author's style showing. |
 | Vita Nostra (Maryna and Serhiy Dyachenko) | (work scifi book club) |
 | A Journal of the Plague Year (Daniel Defoe) | |
