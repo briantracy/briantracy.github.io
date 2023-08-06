@@ -69,5 +69,5 @@ some walnut between the maple pieces.
 
 ### Art
 
-An [oil painting](/images/oil_painting_woods.png) I made as part of an instructional class.
+An [oil painting](/images/oil_painting_woods.png) I made.
 
