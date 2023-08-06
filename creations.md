@@ -17,7 +17,7 @@ challenge that had to be solved with either an extensive amount of hand filing,
 or an inappropriate use of a drill press. [pic1](/images/pencil_holder_finished.jpg) [pic2](/images/pencil_holder_rough.jpg)
 
 A third project along the same lines was a wooden box I made for storing small
-items in my dorm room. Instead of making a traditional six sized box, I chose
+items in my dorm room. Instead of making a traditional six sided box, I chose
 to create one massive block and to hollow out the inner space. This gives it
 a very rugged and handmade look that I love. [pic1](/images/box1_closed.jpg) [pic2](/images/box1_scooped.jpg) [pic3](/images/box1_forstner.jpg) [pic3](/images/box1_block.jpg)
 
