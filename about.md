@@ -4,9 +4,9 @@ Hello,
 
 <img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/gotts_portrait.jpg" width="200" height="200" alt="portrait of man">
 
-I am a computer programmer (at [SpaceX](https://www.starlink.com/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security. Specifically, I like learning about and working with compilers, linkers, and the mechanics of program execution. I am currently focusing on the world of the [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol) and associated technologies.
+I am a computer programmer (at [SpaceX](https://www.starlink.com/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security. Specifically, I like learning about and working with compilers, linkers, and the mechanics of program execution. I am currently focusing on the world of [IP](https://en.wikipedia.org/wiki/Internet_Protocol) and [LTE](https://en.wikipedia.org/wiki/LTE_(telecommunication)).
 
-I was born in Palo Alto CA in 1998. After college, I lived in Boston for 18 months, but I have returned to the Bay Area.
+I was born in Palo Alto CA in 1998. After college, I lived in Boston for 14 months, but I have returned to the Bay Area.
 
 I like playing guitar and woodworking. In college, I worked for my school as a systems administrator and a teaching assistant.
 
