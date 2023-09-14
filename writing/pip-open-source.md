@@ -35,3 +35,6 @@ Consider using the '-r' flag to install the packages listed in requirements.txt
 ```
 
 [My patch has been approved](https://github.com/pypa/pip/pull/9915) and is now live for confused students around the world!
+
+<!-- https://github.com/docker/cli/pull/4555 -->
+<!-- llvm as well -->
