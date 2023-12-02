@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| The Bell Jar (Sylvia Plath) | |
 | Erewhon (Samuel Butler) | I think a lot of the satire in this book goes over my head because I do not know much about Victorian England. The later parts of the book about the Erewhonian's rejection of all machines was very interesting though. |
 | Heart of Darkness (Joseph Conrad) | |
 | Candide (Voltaire) | |
