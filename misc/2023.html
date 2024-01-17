@@ -7,4 +7,23 @@ for (let i = 0; i < cells.length; ++i) {
     if (!isCommentColumn(i) && td.innerHTML == '') {
         td.style.backgroundColor = '#fff1ef';
     }
-}</script></main><footer>Last modified Jan 11 22:56:05 2024</footer></body></html>
+}
+
+/*
+const results = {};
+for (let i = 0; i < cells.length; ++i) {
+    if ((i + 1) % CELLS_PER_ROW != 0 && (i) % CELLS_PER_ROW != 0) {
+        cells[i].style.backgroundColor = '#ababab'
+        if (cells[i].innerHTML == '') {
+            if (results[i % CELLS_PER_ROW] == undefined) {
+                results[i % CELLS_PER_ROW] = 1;
+            } else {
+                results[i % CELLS_PER_ROW]++;
+            }
+            cells[i].style.backgroundColor = '#aa44bb'
+            cells[i].innerHTML = results[i % CELLS_PER_ROW];
+        }
+    }
+}
+console.log(results)
+*/</script></main><footer>Last modified Jan 16 22:05:05 2024</footer></body></html>
