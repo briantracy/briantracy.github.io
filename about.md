@@ -2,7 +2,7 @@
 
 Hello,
 
-<img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/gotts_portrait.jpg" width="200" height="200" alt="portrait of man">
+<img style="float:right;display:block;margin-top:-50px;margin-left:2em;" src="/images/angel_island.jpg" width="200" height="200" alt="portrait of man">
 
 I am a computer programmer (at [SpaceX](https://www.starlink.com/)) who studied computer science at Brown University. My main areas of interest are computer systems and computer security. Specifically, I like learning about and working with compilers, linkers, and the mechanics of program execution. I am currently focusing on the world of [IP](https://en.wikipedia.org/wiki/Internet_Protocol) and [LTE](https://en.wikipedia.org/wiki/LTE_(telecommunication)).
 
