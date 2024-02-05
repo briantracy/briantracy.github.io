@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| A Borrowed Man&dagger; (Gene Wolfe) | |
 | Invisible Planets (Trans. Ken Liu) | A collection of contemporary Chinese science fiction stories. "Taking Care of Gods" was my favorite. |
 | The Island of Doctor Moreau&dagger; (H. G. Wells) | First book of 2024 and a suggestion from a dear friend. |
 | The Fifth Head of Cerberus (Gene Wolfe) | Another head scratcher from Gene Wolfe, complete with the classic Wolfisms of wonky timelines, absurdly delayed payoffs, an ambiguous ending, and starkly naked violence. |

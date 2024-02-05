@@ -46,7 +46,7 @@ Some assorted favorites of mine:
 | Unix Program | `man` |
 | Font | Computer Modern Roman |
 | IETF RFC | RFC 1945 |
-| Standards Body | ANSI |
+| Standards Body | IETF |
 | Free Service | Wikipedia |
 | Substance | Benzene |
 | Dark Wood | Walnut |
