@@ -8,9 +8,10 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| A Borrowed Man&dagger; (Gene Wolfe) | |
+| The Disposessed&dagger; (Ursula Le Guin) | |
+| A Borrowed Man (Gene Wolfe) | |
 | Invisible Planets (Trans. Ken Liu) | A collection of contemporary Chinese science fiction stories. "Taking Care of Gods" was my favorite. |
-| The Island of Doctor Moreau&dagger; (H. G. Wells) | First book of 2024 and a suggestion from a dear friend. |
+| The Island of Doctor Moreau (H. G. Wells) | First book of 2024 and a suggestion from a dear friend. |
 | The Fifth Head of Cerberus (Gene Wolfe) | Another head scratcher from Gene Wolfe, complete with the classic Wolfisms of wonky timelines, absurdly delayed payoffs, an ambiguous ending, and starkly naked violence. |
 | The Bell Jar (Sylvia Plath) | A powerful book that I think will continue to lose its edge as society becomes more progressive, but will always remain relevant. Many of "shocking" plot points (suicide attempts, pre-marital sex, women's liberation) fall on less excitable ears in the 21st century as the taboo nature of these issues has decreased. What I think remains relevant is narrator's experience dealing with mental illness. As awareness of these issues becomes more mainstream, this book will become more appealing in its honesty. |
 | Erewhon (Samuel Butler) | I think a lot of the satire in this book goes over my head because I do not know much about Victorian England. The later parts of the book about the Erewhonian's rejection of all machines was very interesting though. |
