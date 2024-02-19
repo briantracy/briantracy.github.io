@@ -10,7 +10,11 @@ some of the technical aspects involved.
 2. I wrote a paper about [syscall filtering](/resources/syscall_paper.pdf) for a software exploitation course.
 
 
-### Systems Programming Series
+### Programming Blog
+
+Every programmer has a blog these days. The theme of mine is *avoiding dilettantism with every entry!*
+
+#### Systems Programming Series
 
 In this series, I re-implement classic systems programming concepts. It is an educational series aimed towards people who want to learn more about the core concepts behind their favorite programs.
 
@@ -22,7 +26,7 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 3. [bperf](bperf.html) is a profiler for C programs.
 
 
-### Technical Shorts
+#### Technical Shorts
 
 1. A short opinion about the dangers of using [a new JavaScript language feature](object-literals.html).
 
