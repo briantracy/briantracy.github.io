@@ -34,7 +34,7 @@ Some assorted favorites of mine:
 | Category | Favorite |
 |----------|----------|
 | Browser | Firefox |
-| Corporation | Dow Chemical |
+| Corporation | DuPont |
 | Historical Figure | Socrates |
 | Animal | Dog (or deer) |
 | Timepiece | Casio F91-W |
