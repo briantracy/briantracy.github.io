@@ -8,8 +8,9 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Things Fall Apart&dagger; (Chinua Achebe) | |
 | Father, Son, and Soldering Gun&dagger; (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
-| The Dispossessed&dagger; (Ursula Le Guin) | |
+| The Dispossessed (Ursula Le Guin) | |
 | A Borrowed Man (Gene Wolfe) | |
 | Invisible Planets (Trans. Ken Liu) | A collection of contemporary Chinese science fiction stories. "Taking Care of Gods" was my favorite. |
 | The Island of Doctor Moreau (H. G. Wells) | First book of 2024 and a suggestion from a dear friend. |
