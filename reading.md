@@ -8,7 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Things Fall Apart&dagger; (Chinua Achebe) | |
+| Things Fall Apart (Chinua Achebe) | |
 | Father, Son, and Soldering Gun&dagger; (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
 | The Dispossessed (Ursula Le Guin) | |
 | A Borrowed Man (Gene Wolfe) | |
