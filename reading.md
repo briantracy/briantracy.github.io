@@ -8,8 +8,9 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| A Canticle for Leibowitz&dagger; (Walter M. Miller Jr.) | |
+| Father, Son, and Soldering Gun (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
 | Things Fall Apart (Chinua Achebe) | |
-| Father, Son, and Soldering Gun&dagger; (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
 | The Dispossessed (Ursula Le Guin) | |
 | A Borrowed Man (Gene Wolfe) | |
 | Invisible Planets (Trans. Ken Liu) | A collection of contemporary Chinese science fiction stories. "Taking Care of Gods" was my favorite. |
