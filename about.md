@@ -34,7 +34,6 @@ Some assorted favorites of mine:
 | Category | Favorite |
 |----------|----------|
 | Browser | Firefox |
-| Corporation | DuPont |
 | Historical Figure | Socrates |
 | Animal | Dog (or deer) |
 | Timepiece | Casio F91-W |
@@ -44,6 +43,7 @@ Some assorted favorites of mine:
 | Character Encoding | `us_ascii` |
 | Programming Language | C++ |
 | Unix Program | `man` |
+| Corporation | Trader Joes Comany, Corning Inc. |
 | Font | Computer Modern Roman |
 | IETF RFC | RFC 1945 |
 | Standards Body | IETF |
