@@ -43,7 +43,7 @@ Some assorted favorites of mine:
 | Character Encoding | `us_ascii` |
 | Programming Language | C++ |
 | Unix Program | `man` |
-| Corporation | Trader Joes Comany, Corning Inc. |
+| Corporation | Trader Joes Company, Corning Inc. |
 | Font | Computer Modern Roman |
 | IETF RFC | RFC 1945 |
 | Standards Body | IETF |
