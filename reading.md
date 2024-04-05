@@ -153,7 +153,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
 
-To read maybe?: The disappearing spoon, Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), Starmaker, Canticle for Leibowitz, John Crowley (Ka, Little Big)
+To read maybe?: The disappearing spoon, Just for Fun (book about linus torvalds), On death and dying, Crime and Punishment, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), Starmaker, Canticle for Leibowitz, John Crowley (Ka, Little Big), Lord of Light
 
 ---
 
@@ -162,7 +162,7 @@ As of the end of 2019, I do most of my reading on a e-reader (Kindle) because I 
 I use the free and open source application [Calibre](https://calibre-ebook.com/) to manage my digital library and I download my books from the following websites:
 
 1. Standard EBooks (<https://standardebooks.org/>)
-2. ZLibrary (<https://z-lib.org/>) (TOR link after FBI seizure: <http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/>)
+2. Z-Library (<https://z-library.se/>)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
 4. Library Genesis (<https://libgen.is/>)
 
