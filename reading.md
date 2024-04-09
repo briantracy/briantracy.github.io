@@ -8,7 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| A Canticle for Leibowitz&dagger; (Walter M. Miller Jr.) | |
+| A Canticle for Leibowitz (Walter M. Miller Jr.) | |
 | Father, Son, and Soldering Gun (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
 | Things Fall Apart (Chinua Achebe) | |
 | The Dispossessed (Ursula Le Guin) | |
