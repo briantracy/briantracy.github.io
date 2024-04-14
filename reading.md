@@ -8,7 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Roadside Picnic&dagger; (Arkady and Boris Strugatsky) | |
+| Roadside Picnic (Arkady and Boris Strugatsky) | |
 | A Canticle for Leibowitz (Walter M. Miller Jr.) | Read while sick with "The Great Sore Throat" of 2024. |
 | Father, Son, and Soldering Gun (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
 | Things Fall Apart (Chinua Achebe) | |
