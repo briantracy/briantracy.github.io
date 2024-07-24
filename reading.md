@@ -8,7 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| The Sirens of Titan&dagger; (Kurt Vonnegut) | *(July 2024)* |
+| Lord of Light&dagger; (Roger Zelazny) | *(July 2024)* |
+| The Sirens of Titan (Kurt Vonnegut) | *(July 2024)* |
 | Infinite Jest\* (David Foster Wallace) | *(July 2024)* |
 | Roadside Picnic (Arkady and Boris Strugatsky) | |
 | A Canticle for Leibowitz (Walter M. Miller Jr.) | Read while sick with "The Great Sore Throat" of 2024. |
