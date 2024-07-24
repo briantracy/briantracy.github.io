@@ -3,7 +3,7 @@
 
 I like discussing books with people, but I always forget which ones I have
 read. Below is a list of all the books I can remember reading (most
-recent appearing first). &dagger; = in progress, \* = favorite
+recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)*
 
 
 | Title | Comments |
