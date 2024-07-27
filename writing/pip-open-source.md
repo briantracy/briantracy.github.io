@@ -38,3 +38,6 @@ Consider using the '-r' flag to install the packages listed in requirements.txt
 
 <!-- https://github.com/docker/cli/pull/4555 -->
 <!-- llvm as well -->
+<!-- git and wireshark -->
+<!-- https://github.com/git/git/blob/master/oss-fuzz/fuzz-config.c -->
+<!-- https://gitlab.com/wireshark/wireshark/-/commit/4bc1d198b850e0d76a02b24010701055a49cbf63 -->
