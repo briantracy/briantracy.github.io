@@ -8,7 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 
 | Title | Comments |
 |-------|----------|
-| Just for Fun&dagger; (Linus Torvalds) | |
+| Crime and Punishment&dagger; (Fyodor Dostoevsky) | *(August 2024)* |
+| Just for Fun (Linus Torvalds) | *(August 2024)* |
 | Lord of Light (Roger Zelazny) | *(July 2024)* |
 | The Sirens of Titan (Kurt Vonnegut) | *(July 2024)* |
 | Infinite Jest\* (David Foster Wallace) | *(July 2024)* |
