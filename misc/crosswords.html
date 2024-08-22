@@ -1,4 +1,37 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><script>const crossword = [
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><script>/*
+Algorithm for assigning numbers to squares
+
+Start in top left, proceed across each row.
+If the square is not part of an existing across, it becomes the start of an across
+If the square is not part of an existing down, it becomes the start of a down.
+
+1(a,d) 2(d) 3(d)
+4(a)  
+5(a)
+
+"part of an existing across" == there exists a white space immediately left
+"part of an existing down" == there exists a white space immediately above
+
+add_numbers(grid: bool[][]) -> {
+    across: {
+        1: [0, 0],
+        4: [0, 1],
+        5: [0, 2],
+    },
+    down: {
+        1: [0, 0],
+        2: [1, 0],
+        3: [2, 0],
+    }
+}
+
+"Please highlight 2 down" -> "starts at [1,0]"
+
+Maybe we want to compute full bounds for each clue.
+
+*/
+
+const crossword = [
     '*', 'a', 'b',
     'c', '*', 'd',
     'e', 'f', '*',
@@ -6,4 +39,4 @@
 const clues = {
     across: ["some clue"],
     down: ["another clue down"],
-};</script><table></table></main><footer>Last modified Aug 14 23:36:03 2024</footer></body></html>
+};</script><table></table></main><footer>Last modified Aug 21 23:38:39 2024</footer></body></html>
