@@ -1,6 +1,9 @@
 
 # Crosswords
 
+<table id="crossword" style="border: 0.5em solid black">
+</table>
+
 <script>
 
 /*
@@ -34,18 +37,39 @@ add_numbers(grid: bool[][]) -> {
 
 Maybe we want to compute full bounds for each clue.
 
+How do I want to encode a crossword in the densest way possible?
+
 */
 
-const crossword = [
-    '*', 'a', 'b',
-    'c', '*', 'd',
-    'e', 'f', '*',
-];
-const clues = {
-    across: ["some clue"],
-    down: ["another clue down"],
-};
-</script>
 
-<table>
-</table>
+
+const crossword = { 
+    board: [
+        ['*', 'a', 'b'],
+        ['c', '*', 'd'],
+        ['e', 'f', '*'],
+    ],
+    clues: {
+        across: {
+            1: 'First two letters',
+            2: 'Third letter',
+            3: 'Fourth letter',
+            4: 'E and F'
+        },
+        down: {
+            1: 'First letter',
+            2: 'B for brian',
+            3: 'hol up',
+        }
+    }
+};
+
+const table = document.getElementById('crossword');
+
+for (let rowIdx = 0; rowIdx < crossword.board.length; rowIdx++) {
+    const rowElement = table.insertRow(rowIdx);
+    for (let colIdx = 0; colIdx < crossword.board[rowIdx].length; colIdx++) {
+        rowElement.insertCell(colIdx).innerHTML = crossword.board[rowIdx][colIdx];
+    }
+}
+</script>
