@@ -4,6 +4,15 @@
 <table id="crossword" style="border: 0.5em solid black">
 </table>
 
+<style>
+.number {
+    float: left;
+    left: 0;
+    top: 0;
+    color: blue;
+}
+</style>
+
 <script>
 
 /*
@@ -69,7 +78,12 @@ const table = document.getElementById('crossword');
 for (let rowIdx = 0; rowIdx < crossword.board.length; rowIdx++) {
     const rowElement = table.insertRow(rowIdx);
     for (let colIdx = 0; colIdx < crossword.board[rowIdx].length; colIdx++) {
-        rowElement.insertCell(colIdx).innerHTML = crossword.board[rowIdx][colIdx];
+        const square = rowElement.insertCell(colIdx);
+        const number = document.createElement('span');
+        number.innerHTML = rowIdx;
+        number.className = 'number';
+        square.appendChild(number);
+        square.appendChild(document.createTextNode(crossword.board[rowIdx][colIdx]));
     }
 }
 </script>
