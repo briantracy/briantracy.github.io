@@ -4,6 +4,9 @@
 <table id="crossword" style="border: 0.5em solid black">
 </table>
 
+<div id="across"></div>
+<div id="down"></div>
+
 <style>
 .number {
     float: left;
@@ -86,4 +89,13 @@ for (let rowIdx = 0; rowIdx < crossword.board.length; rowIdx++) {
         square.appendChild(document.createTextNode(crossword.board[rowIdx][colIdx]));
     }
 }
+
+const writeClues = (direction) => {
+    for (const [num, phrase] of Object.entries(crossword.clues[direction])) {
+        console.log(`${num}${direction}: ${phrase}`)
+    }
+};
+
+writeClues('down');
+writeClues('across');
 </script>
