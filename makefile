@@ -30,7 +30,7 @@ $(SITE_CSS): $(CSS_TEMPLATE)
 clean:
 	rm -f $(HTML_FILES)
 
-serve:
+serve: render
 	open -a Firefox.app http://localhost:8080
 	python -m http.server 8080
 
