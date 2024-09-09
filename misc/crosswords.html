@@ -1,8 +1,11 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><table id="crossword" style="border: 0.5em solid black"></table><div id="across"></div><div id="down"></div><style>.number {
-    float: left;
-    left: 0;
-    top: 0;
-    color: blue;
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="all-crosswords"></div><table id="crossword" style="border: 0.5em solid black"></table><div id="across"></div><div id="down"></div><style>.crossword {
+    background-color: blue;
+}
+.board {
+    background-color: yellow;
+}
+.clues {
+    background-color: orange;
 }</style><script>/*
 Algorithm for assigning numbers to squares
 
@@ -38,9 +41,33 @@ How do I want to encode a crossword in the densest way possible?
 
 */
 
+// index is [0 .. n]
+function renderCrossword(crossword, index) {
+    const div = document.createElement('div');
+    div.classList.add('crossword');
+    document.getElementById('all-crosswords').appendChild(div);
+    const table = document.createElement('table');
+    table.classList.add('board');
+    div.appendChild(table);
+
+    renderClues(div, crossword.clues, index);
+}
+
+function renderClues(parent, clues, index) {
+    const div = document.createElement('div');
+    div.classList.add('clues');
+    parent.appendChild(div);
+    for (const direction of ['across', 'down']) {
+        for (const [num, phrase] of Object.entries(clues[direction])) {
+            const p = document.createElement('p');
+            p.appendChild(document.createTextNode(`${num}${direction}: ${phrase}`));
+            div.appendChild(p);
+        }
+    }
+}
 
 
-const crossword = { 
+const crosswords = [{
     board: [
         ['*', 'a', 'b'],
         ['c', '*', 'd'],
@@ -59,8 +86,14 @@ const crossword = {
             3: 'hol up',
         }
     }
-};
+}];
 
+for (let i = 0; i < crosswords.length; ++i) {
+    renderCrossword(crosswords[i], i);
+}
+
+
+/*
 const table = document.getElementById('crossword');
 
 for (let rowIdx = 0; rowIdx < crossword.board.length; rowIdx++) {
@@ -82,4 +115,5 @@ const writeClues = (direction) => {
 };
 
 writeClues('down');
-writeClues('across');</script></main><footer>Last modified Sep 4 22:49:13 2024</footer></body></html>
+writeClues('across');
+*/</script></main><footer>Last modified Sep 8 22:48:46 2024</footer></body></html>

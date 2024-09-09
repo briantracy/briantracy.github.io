@@ -1,6 +1,9 @@
 
 # Crosswords
 
+
+<div id="all-crosswords"></div>
+
 <table id="crossword" style="border: 0.5em solid black">
 </table>
 
@@ -8,11 +11,14 @@
 <div id="down"></div>
 
 <style>
-.number {
-    float: left;
-    left: 0;
-    top: 0;
-    color: blue;
+.crossword {
+    background-color: blue;
+}
+.board {
+    background-color: yellow;
+}
+.clues {
+    background-color: orange;
 }
 </style>
 
@@ -53,9 +59,34 @@ How do I want to encode a crossword in the densest way possible?
 
 */
 
+// index is [0 .. n]
+function renderCrossword(crossword, index) {
+    const div = document.createElement('div');
+    div.classList.add('crossword');
+    document.getElementById('all-crosswords').appendChild(div);
+    const table = document.createElement('table');
+    table.classList.add('board');
+    div.appendChild(table);
+
+    renderClues(div, crossword.clues, index);
+}
+
+function renderClues(parent, clues, index) {
+    const div = document.createElement('div');
+    div.classList.add('clues');
+    parent.appendChild(div);
+    for (const direction of ['across', 'down']) {
+
+        for (const [num, phrase] of Object.entries(clues[direction])) {
+            const p = document.createElement('p');
+            p.appendChild(document.createTextNode(`${num}${direction}: ${phrase}`));
+            div.appendChild(p);
+        }
+    }
+}
 
 
-const crossword = { 
+const crosswords = [{
     board: [
         ['*', 'a', 'b'],
         ['c', '*', 'd'],
@@ -74,8 +105,14 @@ const crossword = {
             3: 'hol up',
         }
     }
-};
+}];
 
+for (let i = 0; i < crosswords.length; ++i) {
+    renderCrossword(crosswords[i], i);
+}
+
+
+/*
 const table = document.getElementById('crossword');
 
 for (let rowIdx = 0; rowIdx < crossword.board.length; rowIdx++) {
@@ -98,4 +135,5 @@ const writeClues = (direction) => {
 
 writeClues('down');
 writeClues('across');
+*/
 </script>
