@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="all-crosswords"></div><table id="crossword" style="border: 0.5em solid black"></table><div id="across"></div><div id="down"></div><style>.crossword {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="all-crosswords"></div><style>.crossword {
     background-color: blue;
 }
 .board {
@@ -6,6 +6,20 @@
 }
 .clues {
     background-color: orange;
+}
+td {
+    width: 40px;
+    height: 40px;
+}
+.blocked {
+    background-color: black;
+}
+input {
+    width: inherit;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: none;
 }</style><script>/*
 Algorithm for assigning numbers to squares
 
@@ -45,12 +59,9 @@ How do I want to encode a crossword in the densest way possible?
 function renderCrossword(crossword, index) {
     const div = document.createElement('div');
     div.classList.add('crossword');
-    document.getElementById('all-crosswords').appendChild(div);
-    const table = document.createElement('table');
-    table.classList.add('board');
-    div.appendChild(table);
-
+    renderBoard(div, crossword.board, index)
     renderClues(div, crossword.clues, index);
+    document.getElementById('all-crosswords').appendChild(div);
 }
 
 function renderClues(parent, clues, index) {
@@ -62,6 +73,27 @@ function renderClues(parent, clues, index) {
             const p = document.createElement('p');
             p.appendChild(document.createTextNode(`${num}${direction}: ${phrase}`));
             div.appendChild(p);
+        }
+    }
+}
+
+function renderBoard(parent, board, index) {
+    const table = document.createElement('table');
+    table.classList.add('board');
+    parent.appendChild(table);
+
+    for (let rowIdx = 0; rowIdx < board.length; ++rowIdx) {
+        const rowElement = table.insertRow(rowIdx);
+        for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
+            const td = rowElement.insertCell(colIdx);
+            if (board[rowIdx][colIdx] == '*') {
+                td.className = 'blocked';
+            } else {
+                const input = document.createElement('input');
+                input.setAttribute('type', 'text');
+                input.maxLength = 1;
+                td.appendChild(input);
+            }
         }
     }
 }
@@ -116,4 +148,4 @@ const writeClues = (direction) => {
 
 writeClues('down');
 writeClues('across');
-*/</script></main><footer>Last modified Sep 8 22:48:46 2024</footer></body></html>
+*/</script></main><footer>Last modified Sep 9 21:54:35 2024</footer></body></html>

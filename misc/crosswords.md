@@ -4,12 +4,6 @@
 
 <div id="all-crosswords"></div>
 
-<table id="crossword" style="border: 0.5em solid black">
-</table>
-
-<div id="across"></div>
-<div id="down"></div>
-
 <style>
 .crossword {
     background-color: blue;
@@ -19,6 +13,20 @@
 }
 .clues {
     background-color: orange;
+}
+td {
+    width: 40px;
+    height: 40px;
+}
+.blocked {
+    background-color: black;
+}
+input {
+    width: inherit;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: none;
 }
 </style>
 
@@ -63,12 +71,9 @@ How do I want to encode a crossword in the densest way possible?
 function renderCrossword(crossword, index) {
     const div = document.createElement('div');
     div.classList.add('crossword');
-    document.getElementById('all-crosswords').appendChild(div);
-    const table = document.createElement('table');
-    table.classList.add('board');
-    div.appendChild(table);
-
+    renderBoard(div, crossword.board, index)
     renderClues(div, crossword.clues, index);
+    document.getElementById('all-crosswords').appendChild(div);
 }
 
 function renderClues(parent, clues, index) {
@@ -76,11 +81,31 @@ function renderClues(parent, clues, index) {
     div.classList.add('clues');
     parent.appendChild(div);
     for (const direction of ['across', 'down']) {
-
         for (const [num, phrase] of Object.entries(clues[direction])) {
             const p = document.createElement('p');
             p.appendChild(document.createTextNode(`${num}${direction}: ${phrase}`));
             div.appendChild(p);
+        }
+    }
+}
+
+function renderBoard(parent, board, index) {
+    const table = document.createElement('table');
+    table.classList.add('board');
+    parent.appendChild(table);
+
+    for (let rowIdx = 0; rowIdx < board.length; ++rowIdx) {
+        const rowElement = table.insertRow(rowIdx);
+        for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
+            const td = rowElement.insertCell(colIdx);
+            if (board[rowIdx][colIdx] == '*') {
+                td.className = 'blocked';
+            } else {
+                const input = document.createElement('input');
+                input.setAttribute('type', 'text');
+                input.maxLength = 1;
+                td.appendChild(input);
+            }
         }
     }
 }
