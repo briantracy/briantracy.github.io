@@ -71,9 +71,17 @@ How do I want to encode a crossword in the densest way possible?
 function renderCrossword(crossword, index) {
     const div = document.createElement('div');
     div.classList.add('crossword');
-    renderBoard(div, crossword.board, index)
+    renderBoard(div, crossword.board, index);
+    addCheckerButton(div, crossword.board, index);
     renderClues(div, crossword.clues, index);
     document.getElementById('all-crosswords').appendChild(div);
+}
+
+function addCheckerButton(parent, board, index) {
+    const button = document.createElement('button');
+    button.textContent = 'Check';
+    button.onclick = () => { checkCrossword(board, index); };
+    parent.appendChild(button);
 }
 
 function renderClues(parent, clues, index) {
@@ -88,6 +96,8 @@ function renderClues(parent, clues, index) {
         }
     }
 }
+
+const inputId = (index, row, col) => `input_${index}_${row}_${col}`;
 
 function renderBoard(parent, board, index) {
     const table = document.createElement('table');
@@ -104,7 +114,24 @@ function renderBoard(parent, board, index) {
                 const input = document.createElement('input');
                 input.setAttribute('type', 'text');
                 input.maxLength = 1;
+                input.id = inputId(index, rowIdx, colIdx);
                 td.appendChild(input);
+            }
+        }
+    }
+}
+
+function checkCrossword(board, index) {
+    console.log(`checking board ${board} idx ${index}`);
+    for (let rowIdx = 0; rowIdx < board.length; ++rowIdx) {
+        for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
+            if (board[rowIdx][colIdx] != '*') {
+                const input = document.getElementById(inputId(index, rowIdx, colIdx));
+                if (input.value == board[rowIdx][colIdx]) {
+                    input.parentElement.style.backgroundColor = 'green';
+                } else {
+                    input.parentElement.style.backgroundColor = 'red';
+                }
             }
         }
     }
