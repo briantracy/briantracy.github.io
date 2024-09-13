@@ -11,8 +11,11 @@
 .board {
     background-color: yellow;
 }
-.clues {
+.all-clues {
     background-color: orange;
+}
+.clue-box {
+
 }
 td {
     width: 40px;
@@ -22,11 +25,14 @@ td {
     background-color: black;
 }
 input {
-    width: inherit;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     border: none;
     padding: none;
+
 }
 </style>
 
@@ -86,13 +92,21 @@ function addCheckerButton(parent, board, index) {
 
 function renderClues(parent, clues, index) {
     const div = document.createElement('div');
-    div.classList.add('clues');
+    div.classList.add('all-clues');
     parent.appendChild(div);
     for (const direction of ['across', 'down']) {
+        const clueBox = document.createElement('div');
+        clueBox.classList.add('clue-box');
+        div.appendChild(clueBox);
+        const clueTitle = document.createElement('span');
+        clueTitle.appendChild(document.createTextNode(
+            `${direction[0].toUpperCase()}${direction.substring(1)}`)
+        );
+        clueBox.appendChild(clueTitle);
         for (const [num, phrase] of Object.entries(clues[direction])) {
             const p = document.createElement('p');
-            p.appendChild(document.createTextNode(`${num}${direction}: ${phrase}`));
-            div.appendChild(p);
+            p.appendChild(document.createTextNode(`${num}) ${phrase}`));
+            clueBox.appendChild(p);
         }
     }
 }
