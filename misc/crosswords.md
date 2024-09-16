@@ -2,9 +2,52 @@
 # Crosswords
 
 
-<div id="all-crosswords"></div>
+<!-- <div id="all-crosswords"></div> -->
+<div id="container">
 
+<div id="puzzle">
+
+</div>
+<h2>Across</h2>
+<ol>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+</ol>
+
+<h2>Down</h2>
+<ol>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+</ol>
+</div>
 <style>
+
+#puzzle {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+#container {
+    column-count: 2;
+}
 .crossword {
     background-color: blue;
 }
@@ -78,16 +121,21 @@ function renderCrossword(crossword, index) {
     const div = document.createElement('div');
     div.classList.add('crossword');
     renderBoard(div, crossword.board, index);
-    addCheckerButton(div, crossword.board, index);
+    addCheckRevealButtons(div, crossword.board, index);
     renderClues(div, crossword.clues, index);
     document.getElementById('all-crosswords').appendChild(div);
 }
 
-function addCheckerButton(parent, board, index) {
-    const button = document.createElement('button');
-    button.textContent = 'Check';
-    button.onclick = () => { checkCrossword(board, index); };
-    parent.appendChild(button);
+function addCheckRevealButtons(parent, board, index) {
+    const check = document.createElement('button');
+    check.textContent = 'Check';
+    check.onclick = () => { checkCrossword(board, index); };
+    parent.appendChild(check);
+
+    const reveal = document.createElement('button');
+    reveal.textContent = 'Reveal';
+    reveal.onclick = () => { revealCrossword(board, index); };
+    parent.appendChild(reveal);
 }
 
 function renderClues(parent, clues, index) {
@@ -129,6 +177,9 @@ function renderBoard(parent, board, index) {
                 input.setAttribute('type', 'text');
                 input.maxLength = 1;
                 input.id = inputId(index, rowIdx, colIdx);
+                input.onchange = (e) => {
+                    input.parentElement.style.backgroundColor = 'white';
+                };
                 td.appendChild(input);
             }
         }
@@ -146,6 +197,19 @@ function checkCrossword(board, index) {
                 } else {
                     input.parentElement.style.backgroundColor = 'red';
                 }
+            }
+        }
+    }
+}
+
+function revealCrossword(board, index) {
+    console.log(`checking board ${board} idx ${index}`);
+    for (let rowIdx = 0; rowIdx < board.length; ++rowIdx) {
+        for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
+            if (board[rowIdx][colIdx] != '*') {
+                const input = document.getElementById(inputId(index, rowIdx, colIdx));
+                input.value = board[rowIdx][colIdx];
+                input.parentElement.style.backgroundColor = 'brown';
             }
         }
     }

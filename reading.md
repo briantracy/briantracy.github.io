@@ -8,7 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 
 | Title | Comments |
 |-------|----------|
-| Crime and Punishment&dagger; (Fyodor Dostoevsky) | *(August 2024)* |
+| Crime and Punishment (Fyodor Dostoevsky) | *(September 2024)* |
 | Just for Fun (Linus Torvalds) | *(August 2024)* |
 | Lord of Light (Roger Zelazny) | *(July 2024)* |
 | The Sirens of Titan (Kurt Vonnegut) | *(July 2024)* |

@@ -1,4 +1,12 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="all-crosswords"></div><style>.crossword {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="container"><div id="puzzle"></div><h2>Across</h2><ol><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li></ol><h2>Down</h2><ol><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li></ol></div><style>#puzzle {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+#container {
+    column-count: 2;
+}
+.crossword {
     background-color: blue;
 }
 .board {
@@ -66,16 +74,21 @@ function renderCrossword(crossword, index) {
     const div = document.createElement('div');
     div.classList.add('crossword');
     renderBoard(div, crossword.board, index);
-    addCheckerButton(div, crossword.board, index);
+    addCheckRevealButtons(div, crossword.board, index);
     renderClues(div, crossword.clues, index);
     document.getElementById('all-crosswords').appendChild(div);
 }
 
-function addCheckerButton(parent, board, index) {
-    const button = document.createElement('button');
-    button.textContent = 'Check';
-    button.onclick = () => { checkCrossword(board, index); };
-    parent.appendChild(button);
+function addCheckRevealButtons(parent, board, index) {
+    const check = document.createElement('button');
+    check.textContent = 'Check';
+    check.onclick = () => { checkCrossword(board, index); };
+    parent.appendChild(check);
+
+    const reveal = document.createElement('button');
+    reveal.textContent = 'Reveal';
+    reveal.onclick = () => { revealCrossword(board, index); };
+    parent.appendChild(reveal);
 }
 
 function renderClues(parent, clues, index) {
@@ -117,6 +130,9 @@ function renderBoard(parent, board, index) {
                 input.setAttribute('type', 'text');
                 input.maxLength = 1;
                 input.id = inputId(index, rowIdx, colIdx);
+                input.onchange = (e) => {
+                    input.parentElement.style.backgroundColor = 'white';
+                };
                 td.appendChild(input);
             }
         }
@@ -134,6 +150,19 @@ function checkCrossword(board, index) {
                 } else {
                     input.parentElement.style.backgroundColor = 'red';
                 }
+            }
+        }
+    }
+}
+
+function revealCrossword(board, index) {
+    console.log(`checking board ${board} idx ${index}`);
+    for (let rowIdx = 0; rowIdx < board.length; ++rowIdx) {
+        for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
+            if (board[rowIdx][colIdx] != '*') {
+                const input = document.getElementById(inputId(index, rowIdx, colIdx));
+                input.value = board[rowIdx][colIdx];
+                input.parentElement.style.backgroundColor = 'brown';
             }
         }
     }
@@ -189,4 +218,4 @@ const writeClues = (direction) => {
 
 writeClues('down');
 writeClues('across');
-*/</script></main><footer>Last modified Sep 12 23:36:13 2024</footer></body></html>
+*/</script></main><footer>Last modified Sep 15 17:51:57 2024</footer></body></html>
