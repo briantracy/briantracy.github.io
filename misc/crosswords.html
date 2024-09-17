@@ -1,13 +1,16 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="container"><div id="puzzle"></div><h2>Across</h2><ol><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li><li>Across ere that has something to do with clues.</li></ol><h2>Down</h2><ol><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li><li>Down that has something to do with clues.</li></ol></div><style>#puzzle {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="all-crosswords"></div><style>.puzzle {
     width: 300px;
     height: 300px;
     background-color: black;
 }
-#container {
-    column-count: 2;
+.container {
+    background-color: gray;
+    column-count: 3;
+    padding: 10px;
 }
 .crossword {
-    background-color: blue;
+    background-color: white;
+    column-count: 2;
 }
 .board {
     background-color: yellow;
@@ -92,22 +95,19 @@ function addCheckRevealButtons(parent, board, index) {
 }
 
 function renderClues(parent, clues, index) {
-    const div = document.createElement('div');
-    div.classList.add('all-clues');
-    parent.appendChild(div);
     for (const direction of ['across', 'down']) {
-        const clueBox = document.createElement('div');
-        clueBox.classList.add('clue-box');
-        div.appendChild(clueBox);
-        const clueTitle = document.createElement('span');
+        const clueTitle = document.createElement('h2');
         clueTitle.appendChild(document.createTextNode(
             `${direction[0].toUpperCase()}${direction.substring(1)}`)
         );
-        clueBox.appendChild(clueTitle);
+        parent.appendChild(clueTitle);
+        const ol = document.createElement('ol');
+        parent.appendChild(ol);
         for (const [num, phrase] of Object.entries(clues[direction])) {
-            const p = document.createElement('p');
-            p.appendChild(document.createTextNode(`${num}) ${phrase}`));
-            clueBox.appendChild(p);
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(`${phrase}`));
+            li.value = num;
+            ol.appendChild(li);
         }
     }
 }
@@ -185,7 +185,7 @@ const crosswords = [{
         down: {
             1: 'First letter',
             2: 'B for brian',
-            3: 'hol up',
+            3: 'hol up'
         }
     }
 }];
@@ -218,4 +218,4 @@ const writeClues = (direction) => {
 
 writeClues('down');
 writeClues('across');
-*/</script></main><footer>Last modified Sep 15 17:51:57 2024</footer></body></html>
+*/</script></main><footer>Last modified Sep 16 22:56:05 2024</footer></body></html>

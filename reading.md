@@ -8,6 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 
 | Title | Comments |
 |-------|----------|
+| Wuthering Heights&dagger; (Emily Bront&euml;) | |
 | Crime and Punishment (Fyodor Dostoevsky) | *(September 2024)* |
 | Just for Fun (Linus Torvalds) | *(August 2024)* |
 | Lord of Light (Roger Zelazny) | *(July 2024)* |

@@ -2,10 +2,10 @@
 # Crosswords
 
 
-<!-- <div id="all-crosswords"></div> -->
-<div id="container">
+<div id="all-crosswords"></div>
+<!-- <div class="container">
 
-<div id="puzzle">
+<div class="puzzle">
 
 </div>
 <h2>Across</h2>
@@ -38,18 +38,57 @@
     <li>Down that has something to do with clues.</li>
 </ol>
 </div>
+<br>
+<div class="container">
+
+<div class="puzzle">
+
+</div>
+<h2>Across</h2>
+<ol>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+    <li>Across ere that has something to do with clues.</li>
+</ol>
+
+<h2>Down</h2>
+<ol>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+    <li>Down that has something to do with clues.</li>
+</ol>
+</div> -->
 <style>
 
-#puzzle {
+.puzzle {
     width: 300px;
     height: 300px;
     background-color: black;
 }
-#container {
-    column-count: 2;
+.container {
+    background-color: gray;
+    column-count: 3;
+    padding: 10px;
 }
 .crossword {
-    background-color: blue;
+    background-color: white;
+    column-count: 2;
 }
 .board {
     background-color: yellow;
@@ -139,22 +178,19 @@ function addCheckRevealButtons(parent, board, index) {
 }
 
 function renderClues(parent, clues, index) {
-    const div = document.createElement('div');
-    div.classList.add('all-clues');
-    parent.appendChild(div);
     for (const direction of ['across', 'down']) {
-        const clueBox = document.createElement('div');
-        clueBox.classList.add('clue-box');
-        div.appendChild(clueBox);
-        const clueTitle = document.createElement('span');
+        const clueTitle = document.createElement('h2');
         clueTitle.appendChild(document.createTextNode(
             `${direction[0].toUpperCase()}${direction.substring(1)}`)
         );
-        clueBox.appendChild(clueTitle);
+        parent.appendChild(clueTitle);
+        const ol = document.createElement('ol');
+        parent.appendChild(ol);
         for (const [num, phrase] of Object.entries(clues[direction])) {
-            const p = document.createElement('p');
-            p.appendChild(document.createTextNode(`${num}) ${phrase}`));
-            clueBox.appendChild(p);
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(`${phrase}`));
+            li.value = num;
+            ol.appendChild(li);
         }
     }
 }
@@ -232,7 +268,7 @@ const crosswords = [{
         down: {
             1: 'First letter',
             2: 'B for brian',
-            3: 'hol up',
+            3: 'hol up'
         }
     }
 }];
