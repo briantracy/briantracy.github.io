@@ -89,6 +89,7 @@
 .crossword {
     background-color: white;
     column-count: 2;
+    border: 1px solid black;
 }
 .board {
     background-color: yellow;
@@ -152,6 +153,14 @@ add_numbers(grid: bool[][]) -> {
 Maybe we want to compute full bounds for each clue.
 
 How do I want to encode a crossword in the densest way possible?
+
+For clicking a clue and highlighting the correct squares:
+    We need a mapping from [num][dir] -> [[r,c], [r,c], ...].
+For clicking a square and highlighting the correct clue, this
+ is a one to many relationship where a square can be part of
+ a down and an across. We can encode by [r][c] -> [across#, down#],
+ and then cycle between them on repeated clicks. No state necessary,
+  just swap the order of those elements each click.
 
 */
 
