@@ -155,12 +155,20 @@ Maybe we want to compute full bounds for each clue.
 How do I want to encode a crossword in the densest way possible?
 
 For clicking a clue and highlighting the correct squares:
-    We need a mapping from [num][dir] -> [[r,c], [r,c], ...].
+    We need a mapping from [num][dir] -> [r][c] and then we can
+    run across/down from there.
 For clicking a square and highlighting the correct clue, this
  is a one to many relationship where a square can be part of
  a down and an across. We can encode by [r][c] -> [across#, down#],
  and then cycle between them on repeated clicks. No state necessary,
   just swap the order of those elements each click.
+
+
+
+starts = {}
+For each row r:
+    for each col c:
+
 
 */
 
@@ -224,6 +232,12 @@ function renderBoard(parent, board, index) {
                 input.id = inputId(index, rowIdx, colIdx);
                 input.onchange = (e) => {
                     input.parentElement.style.backgroundColor = 'white';
+                };
+                input.onfocus = (e) => {
+                    console.log('input focus: ' + input.id);
+                };
+                input.onclick = (e) => {
+                    console.log('input onclick: ' + input.id);
                 };
                 td.appendChild(input);
             }
