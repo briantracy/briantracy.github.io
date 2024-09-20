@@ -117,6 +117,10 @@ input {
     padding: none;
 
 }
+.number {
+    position: absolute;
+    color: blue;
+}
 </style>
 
 <script>
@@ -219,6 +223,14 @@ function renderBoard(parent, board, index) {
     table.classList.add('board');
     parent.appendChild(table);
 
+
+    const isStartOfWord = (r, c) => {
+        return  r == 0 || c == 0 ||
+                board[r - 1][c] == '*' ||
+                board[r][c - 1] == '*';
+    };
+
+    let i = 1;
     for (let rowIdx = 0; rowIdx < board.length; ++rowIdx) {
         const rowElement = table.insertRow(rowIdx);
         for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
@@ -226,6 +238,15 @@ function renderBoard(parent, board, index) {
             if (board[rowIdx][colIdx] == '*') {
                 td.className = 'blocked';
             } else {
+
+                if (isStartOfWord(rowIdx, colIdx)) {
+                    const number = document.createElement('span');
+                    number.classList.add('number');
+                    number.appendChild(document.createTextNode(`${i}`));
+                    td.appendChild(number);
+                    ++i;
+                }
+
                 const input = document.createElement('input');
                 input.setAttribute('type', 'text');
                 input.maxLength = 1;
@@ -240,6 +261,8 @@ function renderBoard(parent, board, index) {
                     console.log('input onclick: ' + input.id);
                 };
                 td.appendChild(input);
+
+
             }
         }
     }
@@ -277,9 +300,9 @@ function revealCrossword(board, index) {
 
 const crosswords = [{
     board: [
-        ['*', 'a', 'b'],
-        ['c', '*', 'd'],
-        ['e', 'f', '*'],
+        ['*', 'a', 'b', 'r'],
+        ['c', 'p', '*', 'q'],
+        ['e', 'f', 'r', '*'],
     ],
     clues: {
         across: {
