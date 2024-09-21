@@ -169,15 +169,64 @@ For clicking a square and highlighting the correct clue, this
 
 
 
-starts = {}
+squareToClues = { "r_c": ["4a", "1d"] }
+answerStarts = ["r_c", "r_c"]
 For each row r:
     for each col c:
+        if isStartOfAnswer(r, c):
+            clueNum++
+            if isDown:
+                starts[clueNum][down] = [(r, c)
 
 
 */
 
+function computeClueAssociations(crossword) {
+    const board = crossword.board;
+    const squareToClues = {};
+    const answerStarts = [];
+
+    const isStartOfAcross = (r, c) => c == 0 || board[r][c - 1] == '*';
+    const isStartOfDown   = (r, c) => r == 0 || board[r - 1][c] == '*';
+    const isStartOfAnswer = (r, c) => {
+        return isStartOfAcross(r, c) || isStartOfDown(r, c);
+    };
+
+    const addClue = (r, c, clue) => {
+        const key = `${r}_${c}`;
+        if (key in squareToClues) {
+            squareToClues[key].push(clue);
+        } else {
+            squareToClues[key] = [clue];
+        }
+    };
+
+    let answerNum = 0;
+    for (let r = 0; r < board.length; ++r) {
+        for (let c = 0; c < board[r].length; ++c) {
+            if (board[r][c] == '*' || !isStartOfAnswer(r, c)) { continue; }
+            ++answerNum;
+            answerStarts.push(`${r}_${c}`);
+            if (isStartOfAcross(r, c)) {
+                for (let i = 0; c + i < board[r].length && board[r][c + i] != '*'; ++i) {
+                    addClue(r, c + i, `${answerNum}_a`);
+                }
+            }
+            if (isStartOfDown(r, c)) {
+                for (let i = 0; r + i < board.length && board[r + i][c] != '*'; ++i) {
+                    addClue(r + i, c, `${answerNum}_d`);
+                }
+            }
+        }
+    }
+    crossword.squareToClues = squareToClues;
+    crossword.answerStarts = answerStarts;
+}
+
 // index is [0 .. n]
 function renderCrossword(crossword, index) {
+    computeClueAssociations(crossword);
+    console.log(crossword);
     const div = document.createElement('div');
     div.classList.add('crossword');
     renderBoard(div, crossword.board, index);
@@ -209,6 +258,7 @@ function renderClues(parent, clues, index) {
         parent.appendChild(ol);
         for (const [num, phrase] of Object.entries(clues[direction])) {
             const li = document.createElement('li');
+            li.id = `clue_${index}_${num}${direction[0]}`;
             li.appendChild(document.createTextNode(`${phrase}`));
             li.value = num;
             ol.appendChild(li);
@@ -268,6 +318,7 @@ function renderBoard(parent, board, index) {
     }
 }
 
+
 function checkCrossword(board, index) {
     console.log(`checking board ${board} idx ${index}`);
     for (let rowIdx = 0; rowIdx < board.length; ++rowIdx) {
@@ -307,14 +358,16 @@ const crosswords = [{
     clues: {
         across: {
             1: 'First two letters',
-            2: 'Third letter',
-            3: 'Fourth letter',
-            4: 'E and F'
+            4: 'Third letter',
+            5: 'Fourth letter',
+            6: 'E and F'
         },
         down: {
             1: 'First letter',
             2: 'B for brian',
-            3: 'hol up'
+            3: 'hol up',
+            4: 'another one',
+            7: 'final one'
         }
     }
 }];
