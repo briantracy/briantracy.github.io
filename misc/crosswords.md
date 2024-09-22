@@ -81,14 +81,9 @@
     height: 300px;
     background-color: black;
 }
-.container {
-    background-color: gray;
-    column-count: 3;
-    padding: 10px;
-}
 .crossword {
     background-color: white;
-    column-count: 2;
+/*    column-count: 2;*/
     border: 1px solid black;
 }
 .board {
@@ -343,7 +338,7 @@ function checkCrossword(board, index) {
         for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
             if (board[rowIdx][colIdx] != '*') {
                 const input = document.getElementById(inputId(index, rowIdx, colIdx));
-                if (input.value == board[rowIdx][colIdx]) {
+                if (input.value.toUpperCase() == board[rowIdx][colIdx].toUpperCase()) {
                     input.parentElement.style.backgroundColor = 'green';
                 } else {
                     input.parentElement.style.backgroundColor = 'red';
