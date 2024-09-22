@@ -9,11 +9,11 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 | Title | Comments |
 |-------|----------|
 | Wuthering Heights&dagger; (Emily Bront&euml;) | |
-| Crime and Punishment (Fyodor Dostoevsky) | *(September 2024)* |
-| Just for Fun (Linus Torvalds) | *(August 2024)* |
-| Lord of Light (Roger Zelazny) | *(July 2024)* |
-| The Sirens of Titan (Kurt Vonnegut) | *(July 2024)* |
-| Infinite Jest\* (David Foster Wallace) | *(July 2024)* |
+| Crime and Punishment (Fyodor Dostoevsky) | |
+| Just for Fun (Linus Torvalds) | |
+| Lord of Light (Roger Zelazny) | |
+| The Sirens of Titan (Kurt Vonnegut) | |
+| Infinite Jest\* (David Foster Wallace) | |
 | Roadside Picnic (Arkady and Boris Strugatsky) | |
 | A Canticle for Leibowitz (Walter M. Miller Jr.) | Read while sick with "The Great Sore Throat" of 2024. |
 | Father, Son, and Soldering Gun (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
