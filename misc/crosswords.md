@@ -366,30 +366,7 @@ function revealCrossword(board, index) {
 }
 
 
-const crosswords = [
-// {
-//     board: [
-//         ['*', 'a', 'b', 'r'],
-//         ['c', 'p', '*', 'q'],
-//         ['e', 'f', 'r', '*'],
-//     ],
-//     clues: {
-//         across: {
-//             1: 'First two letters',
-//             4: 'Third letter',
-//             5: 'Fourth letter',
-//             6: 'E and F'
-//         },
-//         down: {
-//             1: 'First letter',
-//             2: 'B for brian',
-//             3: 'hol up',
-//             4: 'another one',
-//             7: 'final one'
-//         }
-//     }
-// },
-{
+const crosswords = [{
     board: [
         ['a', 's', 'p', '*'],
         ['r', 'o', 'a', 'm'],
@@ -408,6 +385,24 @@ const crosswords = [
             2: 'Bacteria\'s bane',
             3: 'Reduce by slivers',
             5: 'Well __, an archaic greeting',
+        }
+    }
+}, {
+    board: [
+        ['w', 'r', 'y'],
+        ['e', 'n', 'e'],
+        ['s', 'a', 's'],
+    ],
+    clues: {
+        across: {
+            1: 'Smile style',
+            4: 'Double-bond designator',
+            5: 'Cornwall\'s commandos',
+        },
+        down: {
+            1: 'Auteur Anderson',
+            2: 'Protein progenitor',
+            3: 'No\'s negation',
         }
     }
 }];
