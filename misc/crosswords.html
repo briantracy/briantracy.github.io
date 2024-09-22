@@ -14,7 +14,6 @@
     border: 1px solid black;
 }
 .board {
-    background-color: yellow;
 }
 .all-clues {
     background-color: orange;
@@ -42,6 +41,9 @@ input {
 .number {
     position: absolute;
     color: blue;
+}
+.clue-highlight {
+    background-color: lightblue;
 }</style><script>/*
 Algorithm for assigning numbers to squares
 
@@ -126,12 +128,12 @@ function computeClueAssociations(crossword) {
             answerStarts.push(`${r}_${c}`);
             if (isStartOfAcross(r, c)) {
                 for (let i = 0; c + i < board[r].length && board[r][c + i] != '*'; ++i) {
-                    addClue(r, c + i, `${answerNum}_a`);
+                    addClue(r, c + i, `${answerNum}a`);
                 }
             }
             if (isStartOfDown(r, c)) {
                 for (let i = 0; r + i < board.length && board[r + i][c] != '*'; ++i) {
-                    addClue(r + i, c, `${answerNum}_d`);
+                    addClue(r + i, c, `${answerNum}d`);
                 }
             }
         }
@@ -146,7 +148,7 @@ function renderCrossword(crossword, index) {
     console.log(crossword);
     const div = document.createElement('div');
     div.classList.add('crossword');
-    renderBoard(div, crossword.board, index);
+    renderBoard(div, crossword, index);
     addCheckRevealButtons(div, crossword.board, index);
     renderClues(div, crossword.clues, index);
     document.getElementById('all-crosswords').appendChild(div);
@@ -183,9 +185,18 @@ function renderClues(parent, clues, index) {
     }
 }
 
+function clearHighlightFromClues(clues, index) {
+    for (const direction of ['across', 'down']) {
+        for (const num of Object.keys(clues[direction])) {
+            document.getElementById(`clue_${index}_${num}${direction[0]}`).classList.remove('clue-highlight');
+        }
+    }
+}
+
 const inputId = (index, row, col) => `input_${index}_${row}_${col}`;
 
-function renderBoard(parent, board, index) {
+function renderBoard(parent, crossword, index) {
+    const board = crossword.board;
     const table = document.createElement('table');
     table.classList.add('board');
     parent.appendChild(table);
@@ -224,12 +235,19 @@ function renderBoard(parent, board, index) {
                 input.onfocus = (e) => {
                     console.log('input focus: ' + input.id);
                 };
+                input.addEventListener('focusout', (e) => {
+                    console.log('focus out');
+                    clearHighlightFromClues(crossword.clues, index);
+                });
                 input.onclick = (e) => {
+                    clearHighlightFromClues(crossword.clues, index);
                     console.log('input onclick: ' + input.id);
+                    for (const clueName of crossword.squareToClues[`${rowIdx}_${colIdx}`]) {
+                        console.log(`clue_${index}_${clueName}`);
+                        document.getElementById(`clue_${index}_${clueName}`).classList.add('clue-highlight');
+                    }
                 };
                 td.appendChild(input);
-
-
             }
         }
     }
@@ -260,31 +278,55 @@ function revealCrossword(board, index) {
                 const input = document.getElementById(inputId(index, rowIdx, colIdx));
                 input.value = board[rowIdx][colIdx];
                 input.parentElement.style.backgroundColor = 'brown';
+                input.disabled = true;
             }
         }
     }
 }
 
 
-const crosswords = [{
+const crosswords = [
+// {
+//     board: [
+//         ['*', 'a', 'b', 'r'],
+//         ['c', 'p', '*', 'q'],
+//         ['e', 'f', 'r', '*'],
+//     ],
+//     clues: {
+//         across: {
+//             1: 'First two letters',
+//             4: 'Third letter',
+//             5: 'Fourth letter',
+//             6: 'E and F'
+//         },
+//         down: {
+//             1: 'First letter',
+//             2: 'B for brian',
+//             3: 'hol up',
+//             4: 'another one',
+//             7: 'final one'
+//         }
+//     }
+// },
+{
     board: [
-        ['*', 'a', 'b', 'r'],
-        ['c', 'p', '*', 'q'],
-        ['e', 'f', 'r', '*'],
+        ['a', 's', 'p', '*'],
+        ['r', 'o', 'a', 'm'],
+        ['m', 'a', 'r', 'e'],
+        ['*', 'p', 'e', 't'],
     ],
     clues: {
         across: {
-            1: 'First two letters',
-            4: 'Third letter',
-            5: 'Fourth letter',
-            6: 'E and F'
+            1: 'Venomous snake',
+            4: 'Travel freely',
+            6: 'Stallion\'s mate',
+            7: 'You do this to 7 across'
         },
         down: {
-            1: 'First letter',
-            2: 'B for brian',
-            3: 'hol up',
-            4: 'another one',
-            7: 'final one'
+            1: 'To render explosive',
+            2: 'Bacterial bane',
+            3: 'Reduce by slivers',
+            5: 'Well __, an archaic greeting',
         }
     }
 }];
@@ -317,4 +359,4 @@ const writeClues = (direction) => {
 
 writeClues('down');
 writeClues('across');
-*/</script></main><footer>Last modified Sep 21 00:56:45 2024</footer></body></html>
+*/</script></main><footer>Last modified Sep 22 00:06:21 2024</footer></body></html>
