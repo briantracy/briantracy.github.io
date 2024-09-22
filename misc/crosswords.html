@@ -222,6 +222,9 @@ function renderBoard(parent, crossword, index) {
 
                 const input = document.createElement('input');
                 input.setAttribute('type', 'text');
+                input.setAttribute('autocorrect', 'off');
+                input.setAttribute('autocapitalize', 'off');
+                input.setAttribute('spellcheck', 'false');
                 input.maxLength = 1;
                 input.id = inputId(index, rowIdx, colIdx);
                 input.onchange = (e) => {
@@ -354,4 +357,4 @@ const writeClues = (direction) => {
 
 writeClues('down');
 writeClues('across');
-*/</script></main><footer>Last modified Sep 22 00:17:26 2024</footer></body></html>
+*/</script></main><footer>Last modified Sep 22 00:20:18 2024</footer></body></html>

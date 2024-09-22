@@ -305,6 +305,9 @@ function renderBoard(parent, crossword, index) {
 
                 const input = document.createElement('input');
                 input.setAttribute('type', 'text');
+                input.setAttribute('autocorrect', 'off');
+                input.setAttribute('autocapitalize', 'off');
+                input.setAttribute('spellcheck', 'false');
                 input.maxLength = 1;
                 input.id = inputId(index, rowIdx, colIdx);
                 input.onchange = (e) => {
