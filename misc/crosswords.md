@@ -76,17 +76,13 @@
 </div> -->
 <style>
 
-.puzzle {
-    width: 300px;
-    height: 300px;
-    background-color: black;
-}
 .crossword {
     background-color: white;
 /*    column-count: 2;*/
-    border: 1px solid black;
+/*    border: 1px solid black;*/
 }
 .board {
+    border: 2px solid black;
 }
 .all-clues {
     background-color: orange;
@@ -229,6 +225,7 @@ function renderCrossword(crossword, index) {
     renderBoard(div, crossword, index);
     addCheckRevealButtons(div, crossword.board, index);
     renderClues(div, crossword.clues, index);
+    div.appendChild(document.createElement('hr'));
     document.getElementById('all-crosswords').appendChild(div);
 }
 
@@ -357,7 +354,7 @@ function revealCrossword(board, index) {
         for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
             if (board[rowIdx][colIdx] != '*') {
                 const input = document.getElementById(inputId(index, rowIdx, colIdx));
-                input.value = board[rowIdx][colIdx];
+                input.value = board[rowIdx][colIdx].toUpperCase();
                 input.parentElement.style.backgroundColor = 'brown';
                 input.disabled = true;
             }
@@ -403,6 +400,27 @@ const crosswords = [{
             1: 'Auteur Anderson',
             2: 'Protein progenitor',
             3: 'No\'s negation',
+        }
+    }
+}, {
+    board: [
+        ['*', 'r', '*', '*'],
+        ['l', 'i', 'k', 'e'],
+        ['*', 'y', 'e', 'w'],
+        ['*', 'a', 'y', 'e'],
+    ],
+    clues: {
+        across: {
+            1: 'Rating for a movie with sufficient profanity',
+            2: 'Necessary word in a simile',
+            5: 'Tree with poisonous leaves whose wood is used for bows',
+            6: "Sailor's affirmative"
+        },
+        down: {
+            1: "With an optional preceding 'P', an Indian woman's name",
+            2: 'Half of C, five times X, or ten times V',
+            3: "A lock's mate",
+            4: 'Female sheep'
         }
     }
 }];

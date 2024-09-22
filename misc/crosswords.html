@@ -1,14 +1,10 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="all-crosswords"></div><style>.puzzle {
-    width: 300px;
-    height: 300px;
-    background-color: black;
-}
-.crossword {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Brian C Tracy Brown University Palo Alto personal website programmer Brian Tracy - crosswords"><title>Brian Tracy - crosswords</title><link href="data:," rel="icon"><style>main{margin:auto;max-width:48em}pre{background-color:#d3d3d3;padding:1em}code{background-color:#d3d3d3}footer{font-style:italic;margin-top:3em}hr{width:60%}h1,h2,h3,h4,h5{color:#006400}table{border-collapse:collapse;border-spacing:0}th,td{border:2px solid silver;padding:4px}</style></head><body><main><h1>Crosswords</h1><div id="all-crosswords"></div><style>.crossword {
     background-color: white;
 /*    column-count: 2;*/
-    border: 1px solid black;
+/*    border: 1px solid black;*/
 }
 .board {
+    border: 2px solid black;
 }
 .all-clues {
     background-color: orange;
@@ -146,6 +142,7 @@ function renderCrossword(crossword, index) {
     renderBoard(div, crossword, index);
     addCheckRevealButtons(div, crossword.board, index);
     renderClues(div, crossword.clues, index);
+    div.appendChild(document.createElement('hr'));
     document.getElementById('all-crosswords').appendChild(div);
 }
 
@@ -274,7 +271,7 @@ function revealCrossword(board, index) {
         for (let colIdx = 0; colIdx < board[rowIdx].length; ++colIdx) {
             if (board[rowIdx][colIdx] != '*') {
                 const input = document.getElementById(inputId(index, rowIdx, colIdx));
-                input.value = board[rowIdx][colIdx];
+                input.value = board[rowIdx][colIdx].toUpperCase();
                 input.parentElement.style.backgroundColor = 'brown';
                 input.disabled = true;
             }
@@ -322,6 +319,27 @@ const crosswords = [{
             3: 'No\'s negation',
         }
     }
+}, {
+    board: [
+        ['*', 'r', '*', '*'],
+        ['l', 'i', 'k', 'e'],
+        ['*', 'y', 'e', 'w'],
+        ['*', 'a', 'y', 'e'],
+    ],
+    clues: {
+        across: {
+            1: 'Rating for a movie with sufficient profanity',
+            2: 'Necessary word in a simile',
+            5: 'Tree with poisonous leaves whose wood is used for bows',
+            6: "Sailor's affirmative"
+        },
+        down: {
+            1: "With an optional preceding 'P', an Indian woman's name",
+            2: 'Half of C, five times X, or ten times V',
+            3: "A lock's mate",
+            4: 'Female sheep'
+        }
+    }
 }];
 
 for (let i = 0; i < crosswords.length; ++i) {
@@ -352,4 +370,4 @@ const writeClues = (direction) => {
 
 writeClues('down');
 writeClues('across');
-*/</script></main><footer>Last modified Sep 22 12:33:48 2024</footer></body></html>
+*/</script></main><footer>Last modified Sep 22 12:45:22 2024</footer></body></html>
