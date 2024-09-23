@@ -340,34 +340,55 @@ const crosswords = [{
             4: 'Female sheep'
         }
     }
-}];
+}, {
+    board: [
+        ['i', 'c', 'h', 'o', 'r'],
+        ['s', 'h', 'o', 'g', 'i'],
+        ['*', 'e', 'l', 'e', 'c'],
+        ['*', '*', 't', 'e', 'e'],
+        ['*', '*', '*', 's', 'r'],
+    ],
+    clues: {
+        across: {
+            1: 'Blood of the gods',
+            6: 'Japanese chess',
+            7: 'Type of eng.',
+            8: 'Golf accessory',
+            9: "III's grandfather",
+        },
+        down: {
+            1: 'Copula, third person, present',
+            2: 'Iconic Marxist revolutionary',
+            3: 'Archaic word for a wooded hill',
+            4: "Architectural features that have 'S' shapes.",
+            5: 'Something a potato might be put through'
+        }
+    }
+},
+// {
+//     board: [
+//         ['r', 'a', 'm', 'a'],
+//         ['i', 'r', 'a', 'q'],
+//         ['t', 'e', 'm', 'u'],
+//         ['a', 's', 'i', 'a'],
+//     ],
+//     clues: {
+//         across: {
+//             1: '___dan, 9th month of Islamic calendar',
+//             5: 'Turkey toucher',
+//             6: 'Type of eng.',
+//             7: "Gobi's home",
+//         },
+//         down: {
+//             1: "Rowling's yellow journalist",
+//             2: 'Known as Mars by the Romans',
+//             3: 'Spanish slang for a woman',
+//             4: 'Latin root meaning water',
+//         }
+//     }
+// }
+];
 
 for (let i = 0; i < crosswords.length; ++i) {
     renderCrossword(crosswords[i], i);
-}
-
-
-/*
-const table = document.getElementById('crossword');
-
-for (let rowIdx = 0; rowIdx < crossword.board.length; rowIdx++) {
-    const rowElement = table.insertRow(rowIdx);
-    for (let colIdx = 0; colIdx < crossword.board[rowIdx].length; colIdx++) {
-        const square = rowElement.insertCell(colIdx);
-        const number = document.createElement('span');
-        number.innerHTML = rowIdx;
-        number.className = 'number';
-        square.appendChild(number);
-        square.appendChild(document.createTextNode(crossword.board[rowIdx][colIdx]));
-    }
-}
-
-const writeClues = (direction) => {
-    for (const [num, phrase] of Object.entries(crossword.clues[direction])) {
-        console.log(`${num}${direction}: ${phrase}`)
-    }
-};
-
-writeClues('down');
-writeClues('across');
-*/</script></main><footer>Last modified Sep 22 12:45:22 2024</footer></body></html>
+}</script></main><footer>Last modified Sep 22 21:44:15 2024</footer></body></html>
