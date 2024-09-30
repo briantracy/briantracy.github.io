@@ -1,6 +1,7 @@
 
 # Crosswords
 
+I make crosswords for my friends, but sharing them is difficult because the recipient either has to write them down and work them with a pencil, or draw digitally on an image. This inspired me to write a program that takes as input the crosswords I write (encoded as a list of clues and the final board), and produces as output this webpage.
 
 <div id="all-crosswords"></div>
 
@@ -151,11 +152,11 @@ function renderCrossword(crossword, index) {
     computeClueAssociations(crossword);
     console.log(crossword);
     const div = document.createElement('div');
+    div.appendChild(document.createElement('hr'));
     div.classList.add('crossword');
     renderBoard(div, crossword, index);
     addCheckRevealButtons(div, crossword.board, index);
     renderClues(div, crossword.clues, index);
-    div.appendChild(document.createElement('hr'));
     document.getElementById('all-crosswords').appendChild(div);
 }
 
