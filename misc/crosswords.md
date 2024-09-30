@@ -3,77 +3,7 @@
 
 
 <div id="all-crosswords"></div>
-<!-- <div class="container">
 
-<div class="puzzle">
-
-</div>
-<h2>Across</h2>
-<ol>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-</ol>
-
-<h2>Down</h2>
-<ol>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-</ol>
-</div>
-<br>
-<div class="container">
-
-<div class="puzzle">
-
-</div>
-<h2>Across</h2>
-<ol>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-    <li>Across ere that has something to do with clues.</li>
-</ol>
-
-<h2>Down</h2>
-<ol>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-    <li>Down that has something to do with clues.</li>
-</ol>
-</div> -->
 <style>
 
 .crossword {
@@ -317,14 +247,14 @@ function renderBoard(parent, crossword, index) {
                     console.log('focus out');
                     clearHighlightFromClues(crossword.clues, index);
                 });
-                input.onclick = (e) => {
+                input.addEventListener('focusin', (e) => {
                     clearHighlightFromClues(crossword.clues, index);
                     console.log('input onclick: ' + input.id);
                     for (const clueName of crossword.squareToClues[`${rowIdx}_${colIdx}`]) {
                         console.log(`clue_${index}_${clueName}`);
                         document.getElementById(`clue_${index}_${clueName}`).classList.add('clue-highlight');
                     }
-                };
+                });
                 td.appendChild(input);
             }
         }
@@ -448,28 +378,28 @@ const crosswords = [{
         }
     }
 },
-// {
-//     board: [
-//         ['r', 'a', 'm', 'a'],
-//         ['i', 'r', 'a', 'q'],
-//         ['t', 'e', 'm', 'u'],
-//         ['a', 's', 'i', 'a'],
-//     ],
-//     clues: {
-//         across: {
-//             1: '___dan, 9th month of Islamic calendar',
-//             5: 'Turkey toucher',
-//             6: 'Type of eng.',
-//             7: "Gobi's home",
-//         },
-//         down: {
-//             1: "Rowling's yellow journalist",
-//             2: 'Known as Mars by the Romans',
-//             3: 'Spanish slang for a woman',
-//             4: 'Latin root meaning water',
-//         }
-//     }
-// }
+{
+    board: [
+        ['r', 'a', 'm', 'a'],
+        ['i', 'r', 'a', 'q'],
+        ['t', 'e', 'm', 'u'],
+        ['a', 's', 'i', 'a'],
+    ],
+    clues: {
+        across: {
+            1: '___dan, 9th month of Islamic calendar',
+            5: 'Turkey toucher',
+            6: "China's Amazon",
+            7: "Gobi's home",
+        },
+        down: {
+            1: "Rowling's yellow journalist",
+            2: 'Known as Mars by the Romans',
+            3: 'Spanish slang for a woman',
+            4: 'Latin root meaning water',
+        }
+    }
+}
 ];
 
 for (let i = 0; i < crosswords.length; ++i) {
