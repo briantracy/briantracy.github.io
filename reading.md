@@ -8,8 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 
 | Title | Comments |
 |-------|----------|
-| Wuthering Heights&dagger; (Emily Bront&euml;) | |
-| Crime and Punishment (Fyodor Dostoevsky) | |
+| Wuthering Heights (Emily Bront&euml;) | |
+| Crime and Punishment\* (Fyodor Dostoevsky) | |
 | Just for Fun (Linus Torvalds) | |
 | Lord of Light (Roger Zelazny) | |
 | The Sirens of Titan (Kurt Vonnegut) | |
