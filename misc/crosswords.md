@@ -312,7 +312,7 @@ const crosswords = [{
             1: 'To render explosive',
             2: 'Bacteria\'s bane',
             3: 'Reduce by slivers',
-            5: 'Well __, an archaic greeting',
+            5: '"Well __", an archaic greeting',
         }
     }
 }, {
