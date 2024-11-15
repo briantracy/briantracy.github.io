@@ -296,6 +296,25 @@ function revealCrossword(board, index) {
 
 const crosswords = [{
     board: [
+        ['a', 't', 'e'],
+        ['v', 'a', 't'],
+        ['e', 'n', 'd'],
+    ],
+    clues: {
+        across: {
+            1: 'Venomous snake',
+            4: 'Travel freely',
+            5: 'You do this to 7 across'
+        },
+        down: {
+            1: 'Cousin of St and Rd',
+            2: 'Bacteria\'s bane',
+            3: 'Roughly when the plane leaves',
+        }
+    }
+}
+,{
+    board: [
         ['a', 's', 'p', '*'],
         ['r', 'o', 'a', 'm'],
         ['m', 'a', 'r', 'e'],
