@@ -1,7 +1,11 @@
 
 # Crosswords
 
-I make crosswords for my friends, but sharing them is difficult because the recipient either has to write them down and work them with a pencil, or draw digitally on an image. This inspired me to write a program that takes as input the crosswords I write (encoded as a list of clues and the final board), and produces as output this webpage.
+I make crosswords for my friends, but sharing them is difficult because the
+recipient either has to write them down and work them with a pencil,
+or draw digitally on an image. This inspired me to write a program that takes
+as input the crosswords I write (encoded as a list of clues and the final board),
+and produces as output this webpage.
 
 <div id="all-crosswords"></div>
 
@@ -302,13 +306,13 @@ const crosswords = [{
     ],
     clues: {
         across: {
-            1: 'Venomous snake',
-            4: 'Travel freely',
-            5: 'You do this to 7 across'
+            1: 'Suffix for oxygen rich molecules',
+            4: 'What one might use to (2 down)',
+            5: 'This often precedes clapping'
         },
         down: {
             1: 'Cousin of St and Rd',
-            2: 'Bacteria\'s bane',
+            2: 'Turn a skin to leather',
             3: 'Roughly when the plane leaves',
         }
     }
