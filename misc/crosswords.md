@@ -245,8 +245,13 @@ function renderBoard(parent, crossword, index) {
                 input.onchange = (e) => {
                     input.parentElement.style.backgroundColor = 'white';
                 };
-                input.onfocus = (e) => {
-                    console.log('input focus: ' + input.id);
+                input.addEventListener('keyup', (e) => {
+                    // input.parentElement.style.backgroundColor = 'red';
+                    // document.getElementById(inputId(index, 0, 0)).focus();
+                });
+                input.onclick = (e) => {
+                    // console.log('input click: ' + input.id);
+                    // e.preventDefault();
                 };
                 input.addEventListener('focusout', (e) => {
                     console.log('focus out');
@@ -254,7 +259,7 @@ function renderBoard(parent, crossword, index) {
                 });
                 input.addEventListener('focusin', (e) => {
                     clearHighlightFromClues(crossword.clues, index);
-                    console.log('input onclick: ' + input.id);
+                    console.log('input focus: ' + input.id);
                     for (const clueName of crossword.squareToClues[`${rowIdx}_${colIdx}`]) {
                         console.log(`clue_${index}_${clueName}`);
                         document.getElementById(`clue_${index}_${clueName}`).classList.add('clue-highlight');
