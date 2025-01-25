@@ -7,7 +7,7 @@
 government regulation and legal precedent around the use of strong encryption for communications, as well as an overview of
 some of the technical aspects involved. -->
 
-2. I wrote a paper about [syscall filtering](/resources/syscall_paper.pdf) for a software exploitation course.
+1. I wrote a paper about [syscall filtering](/resources/syscall_paper.pdf) for a software exploitation course.
 
 
 ### Programming Blog
@@ -41,6 +41,8 @@ In this series, I re-implement classic systems programming concepts. It is an ed
 1. [Density of Coins](currency-density.html)
 
 2. [Donating to charity?](young-charity.html)
+
+<!-- 3. [Strength, Weakness, and Invisalign](strength-weakness-invisalign.html) -->
 
 <!-- 3. [Do I Know How Long a Minute Is?](minute-duration-test.html) -->
 
