@@ -7,3 +7,5 @@ It was a complete failure and only 1 shoot surfaced. I think the issue was a lac
 ---
 
 On January 8 2025, I tried again with an entire packet of assorted wildflowers. [Here is a picture of the first watering](/images/garden_planted_alma.png)
+
+Around March 8, I have [some tall sprouts](/images/garden_sprouts.jpg).
