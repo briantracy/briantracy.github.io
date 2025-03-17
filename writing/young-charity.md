@@ -16,7 +16,9 @@ If these statements are all true, then it seems like it would be a good idea to 
 
 However, there is a slight wrinkle hiding in statement 4. While the immediate utility of helping an individual now is identical to that of helping a different individual in the future, the situation is different if you consider that human beings have a tendency to create more human beings.
 
-So called "generational poverty" can result in entire family trees being poor (the core mechanism being that if you are poor, it is more likely that your children will not have the resources to escape poverty, *ad infinitum*). If a person can be helped **now**, we could prune a theoretical tree of poor descendants and prevent them from ever coming into existence.
+[Generational poverty](https://en.wikipedia.org/wiki/Cycle_of_poverty) can result in entire family trees being poor (the core mechanism being that if you are poor, it is more likely that your children will not have the resources to escape poverty, *ad infinitum*). If a person can be helped **now**, we could prune a theoretical tree of poor descendants and prevent them from ever coming into existence.
 
 To what extent do the benefits of "pruning", as achieved by donating now, balance against the benefits of saving and compounding your charity? I am not sure, but it does feel like that while the stock market waxes and wanes, the population keeps growing ...
+
+Unfortunately, my understanding of economics and sociology is too underdeveloped to do anything more than pose the above questions and make a first approximation at the answer. Please contact me if this is a known thought experiment ([related link 1](https://forum.effectivealtruism.org/posts/CfLoq8nJBzRARohtQ/the-case-for-investing-to-give-later), [related link 2](https://80000hours.org/articles/should-you-wait/), [related link 3](https://www.givingwhatwecan.org/blog/donating-vs-investing)).
 
