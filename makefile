@@ -20,12 +20,12 @@ $(SITE_CSS): $(CSS_TEMPLATE)
 			--include-in-header=$(SITE_CSS) \
 			--metadata title="Brian Tracy - $(notdir $(basename $<))" \
 			--metadata date="$(shell stat -f '%Sm' $<)" \
-			--ascii "$<" \
-	| html-minifier \
-			--no-html5 \
-			--collapse-whitespace \
-			--remove-comments \
-			--output "$@"
+			--ascii "$<" --output "$@"
+#	| html-minifier \
+#			--no-html5 \
+#			--collapse-whitespace \
+#			--remove-comments \
+#			--output "$@"
 
 clean:
 	rm -f $(HTML_FILES)
