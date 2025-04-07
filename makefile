@@ -32,7 +32,7 @@ clean:
 
 serve: render
 	open -a Firefox.app http://localhost:8080
-	python -m http.server 8080
+	python3 -m http.server 8080
 
 
 # Submit each *on disk* file to the html validator
