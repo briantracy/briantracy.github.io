@@ -8,6 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 
 | Title | Comments |
 |-------|----------|
+| Cat's Cradle\&dagger; (Kurt Vonnegut) | |
+| The Carpet Makers (Andreas Eschbach) | First new book of 2025 (I was re-reading the Cosmere) |
 | Wuthering Heights (Emily Bront&euml;) | |
 | Crime and Punishment\* (Fyodor Dostoevsky) | |
 | Just for Fun (Linus Torvalds) | |
