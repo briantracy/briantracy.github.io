@@ -3,13 +3,15 @@
 
 I like discussing books with people, but I always forget which ones I have
 read. Below is a list of all the books I can remember reading (most
-recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)*
+recent appearing first). &dagger; = in progress, \* = favorite
 
 
 | Title | Comments |
 |-------|----------|
-| Cat's Cradle\&dagger; (Kurt Vonnegut) | |
-| The Carpet Makers (Andreas Eschbach) | First new book of 2025 (I was re-reading the Cosmere) |
+| Star Maker (Olaf Stapledon) | |
+| The Forever War (Joe Haldeman) | |
+| Cat's Cradle (Kurt Vonnegut) | |
+| The Carpet Makers (Andreas Eschbach) | First new book of 2025 (I was re-reading the Cosmere). Slightly Wolfeian. |
 | Wuthering Heights (Emily Bront&euml;) | |
 | Crime and Punishment\* (Fyodor Dostoevsky) | |
 | Just for Fun (Linus Torvalds) | |
@@ -76,7 +78,7 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 | Cloud Atlas (David Mitchell) | Very good. I am excited to watch the movie. This book's format is similar to the format of "Tsar of Love and Techno" (further down the list), in that the story is broken up into distinct sections that all reference eachother. However, this one has a slight twist where fictional stories within the book reference real events (and the other way around), causing confusion as to what is real and what is fake. |
 | The Picture of Dorian Gray (Oscar Wilde) | I started reading this book in 11th grade for my English class, but never finished it. I picked it up again in late 2020 and restarted. There are so many great quotes in this book from Lord Henry Wotton, I will compile a list of favorites someday. |
 | The Foundation Trilogy (Isaac Asimov) | Huge in scope and payoff. There is no way that Star Wars did not copy the idea of Coruscant from the Galactic Empire's capitol planet of Trantor. They are both (1) planets covered entirely by a city with no natural landscape uncovered (2) the seat of a galaxy wide government (3) the central coordinate for all space navigation. |
-| The Cosmere Universe \[Stormlight Archive (1-5) + Edgedancer + Dawnshard, Mistborn (1-7) + Secret History, Warbreaker, Elantris + The Emperor's Soul, Sixth of the Dusk, Shadows for Silence in the Forests of Hell, Tress of the Emerald Sea, Yumi and the Nightmare Painter, The Sunlit Man\] (Brandon Sanderson)\* | The Cosmere is my favorite fictional universe and I am so excited that the author is regularly writing new books about it. |
+| The Cosmere Universe \[All published books\] (Brandon Sanderson)\* | The Cosmere is my favorite fictional universe and I am so excited that the author is regularly writing new books about it. |
 | Meditations (Marcus Aurelius) | This is a tough, but worthwhile read. Probably the most powerful author on my list so far (an emperor of Rome). |
 | Ender's Shadow (Orson Scott Card) | This book and Ender's Game are connected in a way that I have not come across before. They both tell the same story, but from different character's perspectives. Overall, I liked this one a little less than the original because the reader is expected to know the ending. |
 | The Silmarillion (J. R. R. Tolkien) | Insanely detailed and consistent worldbuilding. The writing style is hard to pick up at first, but by the end, it begins to make sense and the beauty of the phrasing becomes apparent. Now that I have read this and the Hobbit, I am ready for the Lord of the Rings! |
@@ -162,7 +164,7 @@ recent appearing first). &dagger; = in progress, \* = favorite, *(date finished)
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
 
-To read maybe?: The disappearing spoon, On death and dying, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), John Crowley (Ka, Little Big), Use of Weapons (Banks)
+To read maybe?: The disappearing spoon, On death and dying, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), John Crowley (Ka, Little Big), Use of Weapons (Banks), Ubik (PKD)
 
 ---
 
@@ -171,7 +173,7 @@ As of the end of 2019, I do most of my reading on a e-reader (Kindle) because I 
 I use the free and open source application [Calibre](https://calibre-ebook.com/) to manage my digital library and I download my books from the following websites:
 
 1. Standard EBooks (<https://standardebooks.org/>)
-2. Z-Library (<https://z-library.se/>)
+2. Z-Library (<https://z-library.sk/>)
 3. Project Gutenburg (<https://www.gutenberg.org/>)
 4. Library Genesis (<https://libgen.is/>)
 
