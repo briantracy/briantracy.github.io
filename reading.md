@@ -8,10 +8,11 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Adventures of Huckleberry Finn&dagger; (Mark Twain) | |
 | Star Maker (Olaf Stapledon) | |
 | The Forever War (Joe Haldeman) | |
 | Cat's Cradle (Kurt Vonnegut) | |
-| The Carpet Makers (Andreas Eschbach) | First new book of 2025 (I was re-reading the Cosmere). Slightly Wolfeian. |
+| The Carpet Makers\* (Andreas Eschbach) | First new book of 2025 (I was re-reading the Cosmere). Slightly Wolfeian. |
 | Wuthering Heights (Emily Bront&euml;) | |
 | Crime and Punishment\* (Fyodor Dostoevsky) | |
 | Just for Fun (Linus Torvalds) | |
