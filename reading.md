@@ -18,7 +18,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Just for Fun (Linus Torvalds) | |
 | Lord of Light (Roger Zelazny) | |
 | The Sirens of Titan (Kurt Vonnegut) | |
-| Infinite Jest\* (David Foster Wallace) | |
+| Infinite Jest\* (David Foster Wallace) | Fascinating book that I often think about 1 year after reading it. |
 | Roadside Picnic (Arkady and Boris Strugatsky) | |
 | A Canticle for Leibowitz (Walter M. Miller Jr.) | Read while sick with "The Great Sore Throat" of 2024. |
 | Father, Son, and Soldering Gun (Steven V. Mycynek) | An Onshape coworker of mine wrote this about his dad. |
