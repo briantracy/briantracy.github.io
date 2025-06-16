@@ -8,7 +8,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
-| Adventures of Huckleberry Finn&dagger; (Mark Twain) | |
+| Adventures of Huckleberry Finn (Mark Twain) | |
 | Star Maker (Olaf Stapledon) | |
 | The Forever War (Joe Haldeman) | |
 | Cat's Cradle (Kurt Vonnegut) | |
