@@ -165,7 +165,7 @@ recent appearing first). &dagger; = in progress, \* = favorite
 | Magic Tree House (Mary Pope Osborne) | I read a bunch of these throughout 1st-3rd grade. |
 
 
-To read maybe?: The disappearing spoon, On death and dying, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), John Crowley (Ka, Little Big), Use of Weapons (Banks), Ubik (PKD)
+To read maybe?: The disappearing spoon, On death and dying, LoTR, Uncle Tom's Cabin, River Out of Eden, Illium (dan simmons), John Crowley (Ka, Little Big), Use of Weapons (Banks), Ubik (PKD), Sandkings (Martin)
 
 ---
 
