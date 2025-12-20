@@ -8,6 +8,8 @@ recent appearing first). &dagger; = in progress, \* = favorite
 
 | Title | Comments |
 |-------|----------|
+| Book of the Short Sun (Gene Wolfe)&dagger; | |
+| Book of the Long Sun (Gene Wolfe) | |
 | Adventures of Huckleberry Finn (Mark Twain) | |
 | Star Maker (Olaf Stapledon) | |
 | The Forever War (Joe Haldeman) | |
