@@ -21,6 +21,7 @@ $(SITE_CSS): $(CSS_TEMPLATE)
 			--metadata title="Brian Tracy - $(notdir $(basename $<))" \
 			--metadata date="$(shell stat -f '%Sm' $<)" \
 			--ascii "$<" --output "$@"
+# Removed html-minifier when I moved to my new laptop
 #	| html-minifier \
 #			--no-html5 \
 #			--collapse-whitespace \
