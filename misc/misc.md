@@ -7,4 +7,4 @@
 * [2026 goals](2026.html)
 * [Gardening](gardening.html)
 * [Crosswords](crosswords.html)
-
+* [Front yard tree](front_yard_tree.html)

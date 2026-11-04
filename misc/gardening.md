@@ -11,3 +11,7 @@ On January 8 2025, I tried again with an entire packet of assorted wildflowers. 
 Around March 8, I have [some tall sprouts](/images/garden_sprouts.jpg).
 
 On April 6, the [first flower emerged](/images/garden_flower.png)
+
+## Tree
+
+The oak tree in my front yard died, so the city cut it down, removed the stump, and replaced it with a new sapling.
